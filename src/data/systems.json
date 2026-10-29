@@ -1,0 +1,4233 @@
+[
+ {
+  "slug": "appearance",
+  "sheet": "APPEARANCE",
+  "blurb": "Hair, scalp, face, skin, eyes, teeth and grooming - the visible layer, in one sheet.",
+  "sections": [
+   {
+    "title": "Know Your Hair - Walker Types",
+    "intro": [
+     "Type sets the wash cadence. Porosity sets the moisture strategy."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Type 1 - straight",
+      "Flat cuticle lying flat on a straight shaft, and sebum spreads along it without help, so the scalp stays clean on a 2-3 wash/week cadence. Lightweight, volumising formulas do no harm here; heavy oils only flatten the roots.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Type 2 - wavy",
+      "An S-pattern shaft with a cuticle that lifts in humidity, so frizz appears the moment the air gets damp. Wash about twice a week and use a light leave-in film; heavy cream sits on the wave instead of moving with it.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Type 3 - curly",
+      "Sebum cannot travel the curl loop, so the scalp dries while the mid-lengths stay oily - the scalp decides the cadence, not the lengths. Co-wash 1-2x/week and style soaking wet; dry hair resists the curl you are trying to set.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Type 4 - coily",
+      "The tightest coils and the most fragile shaft: short of scalp stretch, the pattern itself concentrates breakage at the bends. Weekly washing at most, deep conditioning, protective styles, and satin at the pillow.",
+      "A",
+      "AAD"
+     ]
+    ]
+   },
+   {
+    "title": "Porosity - the Float Test",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Low porosity - it floats",
+      "A tightly sealed cuticle, so water beads off and products sit on the surface. Apply to damp rather than soaking hair, keep to lighter oils, and skip butters that never melt.",
+      "C",
+      "Curly method"
+     ],
+     [
+      "Normal porosity - it lingers mid-glass",
+      "Products absorb and are retained; the easiest hair to keep. Maintain the routine and resist the urge to add a step every time something feels flat.",
+      "C",
+      "Curly method"
+     ],
+     [
+      "High porosity - it sinks",
+      "An over-processed, open cuticle that takes water instantly and loses it just as fast. Deep condition, use protein treatments to rebuild the cortex, drop the heat, and stop bleaching.",
+      "C",
+      "Curly method"
+     ]
+    ]
+   },
+   {
+    "title": "Androgenetic Alopecia - the Norwood Map",
+    "intro": [
+     "Act early. Follicular miniaturisation is gradual: you lose pigment and shaft diameter before you lose count, so every stage before N3 still carries recoverable hair."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "N1 - no recession",
+      "A normal hairline with no temple recession and nothing to treat. Photograph the hairline and the vertex now, standardised, so you have a baseline to compare against in five years instead of a memory.",
+      "A",
+      "Norwood"
+     ],
+     [
+      "N2 - mild temporal recession",
+      "Roughly 1-3 cm of recession at each temple with the frontal hairline still intact and miniaturised hairs still present at the margin. DHT blockade plus minoxidil can still restore density here.",
+      "A",
+      "Norwood"
+     ],
+     [
+      "N3 - moderate recession",
+      "Frontotemporal recession joins across the frontal hairline so the line forms a shallow M, usually with vertex thinning beginning too. This is the last stage at which minoxidil reliably regrows a visible frontal hairline.",
+      "A",
+      "Norwood"
+     ],
+     [
+      "N4 - advanced frontotemporal loss",
+      "Bald frontotemporal quarters with the vertex still full, giving the inverted-V pattern. The frontal margin is now scarred miniaturised hair, so treat the vertex and stabilise - regrowing a temple from here is not the expectation.",
+      "A",
+      "Norwood"
+     ],
+     [
+      "N5 - vertex and frontotemporal",
+      "A single island of vertex hair left between bald temples and a thinning crown. Vertex responds best to finasteride and minoxidil, so this is the stage where treatment still pays visibly.",
+      "A",
+      "Norwood"
+     ],
+     [
+      "N6 - advanced, crown only",
+      "The vertex is the last hair standing and is now thinning as well. This is where a transplant genuinely changes the reflection in a window - but only once the loss is stabilised, and only if the donor zone still holds terminal hair worth taking, because the crown at N6 is past what finasteride or minoxidil alone can rescue.",
+      "A",
+      "Norwood"
+     ]
+    ]
+   },
+   {
+    "title": "Scalp Disorders - Do Not Confuse Them",
+    "intro": [
+     "An antifungal treats Malassezia. Minoxidil and finasteride treat DHT. Confusing the two costs years."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Dandruff / seborrhoeic dermatitis",
+      "Itchy, flaking scalp driven by Malassezia digesting sebum. Zinc pyrithione or ketoconazole 2% shampoo twice weekly clears it. It is not hair loss, and treating it as hair loss means years of the wrong product.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Androgenetic alopecia",
+      "Patterned thinning at the temples and vertex with miniaturised, still-pigmented hairs, no inflammation and no flaking. Treated with minoxidil and DHT blockade; treating it with an antifungal does nothing at all.",
+      "A",
+      "AGA reviews"
+     ],
+     [
+      "Telogen effluvium - the diffuse shed",
+      "More than about 100 hairs per wash spread across the whole head, with no patterned loss. Onset lags 8-12 weeks behind the trigger and resolution takes 3-6 months after it is removed. No drug fixes a deficiency, a fever or a shock.",
+      "B",
+      "TE review 20"
+     ],
+     [
+      "Iron-deficiency telogen effluvium",
+      "The most common reversible driver of a diffuse shed, and the one no amount of minoxidil will touch. With ferritin already low on your profile, treat the iron - and pair it with the protein and vitamin C that let it get used - rather than escalating a drug.",
+      "B",
+      "HFE guide"
+     ],
+     [
+      "Alopecia areata",
+      "Well-demarcated non-scarring patches with nail pitting and exclamation-mark hairs at the margin - an autoimmune process, not a hygiene problem. Needs systemic consideration, not minoxidil monotherapy.",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Traction alopecia - the permanent one",
+      "Sustained tension from tight styles pulls follicles into scar; the FDA label lists it as a cause of hair loss. Unlike AGA it does not respond to minoxidil or finasteride, because the follicles are gone rather than asleep.",
+      "A",
+      "FDA label"
+     ]
+    ]
+   },
+   {
+    "title": "The Hair Drug Stack",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Topical minoxidil - apply it to the scalp",
+      "The target is the follicle, not the hair: on a shaft it is pharmacologically inert and the vehicle only wicks drug to skin. Part the hair, expose the thinning scalp, drip it on, and do not lather or massage it in. FDA OTC label.",
+      "A",
+      "FDA label"
+     ],
+     [
+      "1 mL is the ceiling, not a floor",
+      "The dose-response plateaus. The label is explicit that using more or more often will not improve results - it only adds scalp irritation, flaking and cost. 5% once daily is equivalent to 2% twice daily, so the twice-daily habit buys no extra hair.",
+      "A",
+      "FDA label"
+     ],
+     [
+      "Allow 2-4 hours of dry time before bed",
+      "Wet product transfers to pillows, hats and partners - transfer causes hypertrichosis on their arms and face and halves your own absorbed dose. Wash your hands, separate towels and pillowcases, and let it dry fully.",
+      "A",
+      "FDA label"
+     ],
+     [
+      "Dread shed is pharmacologic",
+      "Minoxidil shortens telogen from about 20 days to 1-2 in rat data, dumping hairs that would have shed later while prolonging anagen. Shedding starts at 2-4 weeks and lasts 3-6. Recognise it as the drug working, not as progressive loss. JAAD Int 2024.",
+      "A",
+      "JAAD Int 24"
+     ],
+     [
+      "Judge minoxidil at 6 months, not 8 weeks",
+      "The label allows 2 to 4 months for visible results and warns it will not work for everyone. Set a 6-month trial and judge on 12-month photo-trichoscopy. Quitting during the shed window is the single commonest way to lose the benefit you paid for.",
+      "A",
+      "FDA label"
+     ],
+     [
+      "Oral minoxidil - prescription only",
+      "Low-dose oral minoxidil is off-label for hair, so it needs a prescriber and a baseline blood pressure including orthostatics, plus heart rate and an echo or ECG if you are over 40 or have cardiac history. Across 1,404 patients: hypertrichosis ~15%, lightheadedness 1.7%, fluid retention 1.3%, tachycardia 0.9%. In men, 1.25-2.5 mg daily is the usual range.",
+      "Rx",
+      "JAAD 21"
+     ],
+     [
+      "Overlap topical when you start oral",
+      "Starting both from zero doubles the shedding load, and dread shed is the top discontinuation reason. If you are already on topical, keep it going when you start low-dose oral to blunt the shed - do not go in clean.",
+      "B",
+      "JAAD Int 24"
+     ],
+     [
+      "Topical finasteride 0.25%",
+      "Phase 3 delivered +20.2 hairs versus placebo with roughly 100-fold lower plasma levels than the oral tablet. Sexual adverse events were 2.8% topical versus 3.3% placebo versus 4.8% oral - low, but not zero, so it still gets a proper discussion.",
+      "B",
+      "JEADV 25"
+     ],
+     [
+      "Finasteride 1 mg - the studied dose",
+      "Prescribed for male pattern hair loss. Expect 2-6 months, judge at 12, and note that hair counts stay above baseline to 5 years while the placebo arm loses hair. Meta-analysis of 4,495 men puts the risk of sexual dysfunction at 1.55-1.66x.",
+      "Rx",
+      "Propecia lbl"
+     ],
+     [
+      "Online finasteride 5 mg for hair",
+      "5 mg is the benign-prostatic-hyperplasia dose: about five times the systemic exposure and more sexual adverse events - impotence 12.2% in year 1 rising to 22.6% by year 5 in the 1 mg label data. The label also states that efficacy in bitemporal recession has not been established; it works on vertex.",
+      "Rx",
+      "Propecia lbl"
+     ],
+     [
+      "Ketoconazole 2% - the frequency matters",
+      "Twice weekly for four weeks for seborrhoeic dermatitis, then once a week to once every two weeks. Twice weekly is the studied frequency; daily use buys no faster clearance and costs dryness, abnormal hair texture and irritation.",
+      "A",
+      "KCZ label"
+     ],
+     [
+      "Daily ketoconazole costs you your curl",
+      "Chronic daily use of the 2% antifungal produces dryness, abnormal hair texture, curl loss and discolouration, and it does this to types 3 and 4 hardest - the hair least able to tolerate an aggressive wash cadence is the hair most often told to use it daily. Fix the frequency, not the shampoo.",
+      "B",
+      "JEADV 25"
+     ],
+     [
+      "Ketoconazole is an adjunct, not a replacement",
+      "The systematic review found hair-shaft diameter and anagen data only, no strong randomised trial, and concluded RCTs are needed. It treats Malassezia-driven inflammation; it does not block DHT and it will not hold a receded hairline.",
+      "C",
+      "Derm Ther 20"
+     ],
+     [
+      "Microneedling - depth and spacing",
+      "0.5-1.5 mm every 2-4 weeks; controlled trials report gains of +12.5 versus +1.89 hairs per square inch against the same interval of nothing. Going deeper than 1.5-2 mm buys bleeding, infection, keloid in predisposed skin and post-inflammatory pigment. Sun-protect for 48 hours after.",
+      "B",
+      "Derm Rep 24"
+     ],
+     [
+      "Scalp massage - cheap, real, small",
+      "Small uncontrolled trials only: four minutes a day for 24 weeks in nine men moved shaft thickness from 0.085 to 0.092 mm with NOGGIN/BMP4/SMAD4 upregulation. Expect thickness, not regrowth, and do not spend on a device to do it.",
+      "C",
+      "Eplasty 16"
+     ],
+     [
+      "Biotin - stop taking it",
+      "Biotin deficiency is rare and the highest-quality double-blind trial found no difference versus placebo. Worse, it interferes with lab immunoassays - troponin and thyroid - and has produced false cardiac and thyroid results. Test if you are genuinely at risk (bariatric surgery, anticonvulsants, malnutrition), otherwise stop it before your next blood panel.",
+      "A",
+      "JCAD 24"
+     ],
+     [
+      "Transplant timing - stabilise first",
+      "A transplant moves follicles; it does not create them, so the ceiling is donor density and the surgery is worthless if the crown is still miniaturising. Stabilise on finasteride and minoxidil, take the standardised photos, then reassess what the donor zone can actually carry.",
+      "B",
+      "Plast Surg"
+     ]
+    ]
+   },
+   {
+    "title": "Hair Hygiene",
+    "intro": [
+     "The damage driver is mechanical. Everything below is force, heat or chemistry."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Daily washing does not cause hair loss",
+      "Washing removes hairs already in telogen, so the count rises for a few days and then normalises, and it does not damage follicles. Wash to the frequency your type needs; the fear is what makes people shampoo once a week and scratch their scalp instead.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Coily hair - a 2-3 week minimum between washes",
+      "Tight coils trap sebum, so the scalp of type 4 hair gets dirty without being oily at the surface. Washing every 2-3 weeks at minimum protects the scalp; daily washing is not neutral here - it strips what little lipid reaches the roots and tightens the pattern further.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Curl and coil - co-wash, not detergent",
+      "Sulfate detergents strip the cuticle on a curly or coily shaft, which is already lifted at the bend, and the pattern does not spring back. This is the types 3 and 4 rule: co-wash once or twice a week with a conditioner-based cleanse to keep the pattern and the scalp at the same time.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Press and blot - never rub with a towel",
+      "Friction plus compressive force drives cuticle sliding, cuticle-cortex interface failure, intercellular cracks and snap-back breakage - documented by scanning electron microscopy and X-ray tomography. Microfiber or plush towel, press and blot, or air-dry.",
+      "B",
+      "BJD 2015"
+     ],
+     [
+      "Heat at or below 200 degrees",
+      "Hot tools disrupt the disulfide bonds in keratin, and the damage is cumulative on the cuticle rather than obvious at any one session. Lower frequency, heat protectant, air-dry whenever the style allows it.",
+      "B",
+      "Cosmetic chem"
+     ],
+     [
+      "Detangle wet, saturated and sectioned",
+      "Hair is at its most fragile when wet and dry detangling with any tool maximises intercellular crack propagation. Condition or leave-in first, then a wide-tooth comb or your fingers, working in sections rather than from the ends inward at speed.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Traction alopecia is permanent scarring",
+      "Sustained tension from cornrows, tight ponytails and headset use converts follicles to scar, and the FDA label lists it as a cause of hair loss. Loose styles, no prolonged tight tension - this is the one hair-loss cause where prevention is the entire treatment.",
+      "A",
+      "FDA label"
+     ],
+     [
+      "Relaxers, bleach and the follicular burn",
+      "Alkaline and oxidative processing dissolves the cuticle into porosity and breakage, and repeated chemical burn reaches scarring alopecia. Reduce frequency, deep-condition, and never stack a relaxer with a high-tension style in the same period.",
+      "B",
+      "BJD 2015"
+     ],
+     [
+      "Protective styles need a satin finish",
+      "A tight style transfers friction to the scalp all night, and cotton against cotton is the roughest surface available - which is why this matters for types 3 and 4 whose whole protective strategy depends on it. A satin or cotton-lined wrap and a satin pillowcase keep the coil intact instead of grinding it against the cuticle.",
+      "C",
+      "AAD"
+     ],
+     [
+      "Sulfate-free is preference, not mechanism",
+      "The damage driver is mechanical cuticle damage and cleansing frequency, not the surfactant label. Dogmatic avoidance produces over-product buildup and clarifying-shampoo overuse, which is worse than the thing it was avoiding. Target sebum by hair type.",
+      "C",
+      "Curly method"
+     ],
+     [
+      "The scalp is a sun-exposed site",
+      "UV mutates follicles and accelerates the inflammation around the miniaturised follicles of androgenetic alopecia. Hat plus SPF 30+ on the parting and the nape - not optional once the crown has thinned and the skin shows through.",
+      "C",
+      "Derm practice"
+     ],
+     [
+      "Helmets and hats - cover the interface",
+      "Chronic friction plus UV at the hairline is traction plus photo-inflammation at the exact site that recedes first. A helmet liner that covers the hairline, and a hat on the motorcycle in summer, cost nothing against the alternatives.",
+      "C",
+      "Mechanism"
+     ],
+     [
+      "Dandruff shampoo twice a week, not daily",
+      "Zinc pyrithione or ketoconazole 2% twice weekly clears seborrhoeic dermatitis. Daily use adds irritation and flaking without clearing it sooner, and it strips the scalp of the lipids that keep the margin comfortable.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Trichotillomania - treat the pulling, not the fallout",
+      "A DSM-5 impulse- and OCD-related disorder, and untreated it causes permanent follicular damage. Cognitive behavioural therapy with habit reversal beats clomipramine; screen for it instead of escalating minoxidil on a scalp that will never respond.",
+      "B",
+      "DSM-5-TR"
+     ]
+    ]
+   },
+   {
+    "title": "The Workup Before Any Hair Drug",
+    "intro": [
+     "Diffuse shedding is a laboratory question first and a prescription question second."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Ferritin and transferrin saturation",
+      "Iron deficiency is a real and fully reversible driver of diffuse shedding, and no amount of minoxidil fixes it - women carry the higher prevalence, but men are not spared. Test ferritin and transferrin saturation together before touching iron. In men there is no menstrual blood loss to explain a low ferritin, and hereditary haemochromatosis typically presents in mid-life with ferritin above 300.",
+      "B",
+      "HFE guide"
+     ],
+     [
+      "Ferritin in women is confounded by menstrual loss",
+      "Menstrual blood loss lowers ferritin in otherwise healthy women, so a low result is expected and a weak hair signal. Interpret it with menstrual status and CRP - ferritin is an acute-phase reactant and infection or inflammation inflates it - before attributing shed to iron.",
+      "B",
+      "HFE guide"
+     ],
+     [
+      "B12 with methylmalonic acid",
+      "B12 deficiency causes true telogen effluvium and no drug corrects a deficiency. Methylmalonic acid is the marker that separates B12 from folate deficiency, which is why the pair beats a B12 level alone.",
+      "B",
+      "JAAD 14"
+     ],
+     [
+      "TSH - both directions",
+      "Thyroid disease is a classic reversible cause of diffuse shedding, and both hypothyroidism and hyperthyroidism do it. It is a single line on a blood panel that is otherwise being run anyway.",
+      "B",
+      "JAAD 14"
+     ],
+     [
+      "Zinc and vitamin D",
+      "Zinc deficiency disturbs the follicle, as does copper excess and long-term high-dose zinc. For vitamin D, context beats a number: the 2024 Endocrine Society retracted the 'sufficient above 30 ng/mL' category, so treat below 12-20 ng/mL and stop chasing the boundary.",
+      "B",
+      "JAAD 14"
+     ],
+     [
+      "Trichoscopy and the wash test",
+      "More than 60 hairs per wash plus miniaturised hairs separates the three diagnoses that otherwise blur: over 10% vellus is androgenetic alopecia, under 10% is telogen effluvium, under 100 hairs with under 10% vellus is normal.",
+      "B",
+      "TE review 20"
+     ],
+     [
+      "Telogen effluvium lags 8-12 weeks",
+      "Shedding starts 8-12 weeks after the insult and resolves 3-6 months after the trigger is removed. A sudden-looking shed in spring is usually last autumn's crash diet, illness or bereavement - which is also why the intervention only works if you can find the date.",
+      "A",
+      "TE review 20"
+     ],
+     [
+      "Crash dieting triggers the shed",
+      "A fast deficit is an insult like any other, and the shed arrives 8-12 weeks later - which means the hair loss you notice in month two of a cut usually began in month zero of it. Cut at 0.5-1% a week, keep protein high, and expect the timeline to be the mirror image of the timeline you set.",
+      "B",
+      "TE review 20"
+     ],
+     [
+      "A bulk hides the shed the cut reveals",
+      "During a surplus, overall density masks a stress-driven shed rather than stopping it - and the deficit that ends the bulk exposes it 8-12 weeks later, where it gets blamed on the cut. Photograph on a fixed schedule through both phases so the timeline is visible instead of remembered.",
+      "B",
+      "TE review 20"
+     ],
+     [
+      "Trichodynia is a stress red flag",
+      "Painful scalp reported in 29% of hair-loss patients against 3.3% of controls, with psychopathology in 76% of those assessed. Tenderness plus sudden diffuse shed means look for stress, sleep debt and a hard few months - not for a better shampoo.",
+      "B",
+      "Kivancl-Alt"
+     ]
+    ]
+   },
+   {
+    "title": "Jawline Reality",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Fat is the mask, bone is the floor",
+      "The buccal fat pad increases from childhood into adulthood and may not begin to decrease until 60-70, when it descends and pseudo-herniates - while midface fat overall falls about 12% a decade (superficial -11.3%, deep -18.4%). Know which compartment you are actually chasing before you spend anything.",
+      "B",
+      "Bellity 26"
+     ],
+     [
+      "Submental and buccal fat leave last",
+      "In a deficit the jawline is not where the first fat leaves. Cutting harder for definition usually hollows the midface and the eyes first, because those compartments are already declining with age whatever your body fat is doing.",
+      "B",
+      "Bellity 26"
+     ],
+     [
+      "Mewing",
+      "No credible human evidence of jawline remodelling. The AAO explicitly warns against it (January 2024): risks include tooth loosening, bite misalignment, tooth wear and speech impairment. Stop, and get an orthodontic or orthognathic assessment if function bothers you.",
+      "X",
+      "AAO 2024"
+     ],
+     [
+      "Orthodontics moves the smile, not the whole face",
+      "Orthodontic treatment improves facial attractiveness by only about 9% versus untreated controls - a weak effect, which means it is worth doing for the bite and the function, not as a jawline lever.",
+      "A",
+      "Eur J Orth"
+     ],
+     [
+      "Buccal fat removal on a lean face",
+      "Buccal fat is described as maintaining consistent volume through life, and its loss is neither needed nor desirable in thin or gaunt faces - removal there causes premature ageing. Body fat first; surgical consultation only if the lower third is genuinely full.",
+      "C",
+      "ASJOF 23"
+     ],
+     [
+      "Masseter Botox is for hypertrophy, not for the joint",
+      "Chronic clenching thickens the masseter and widens the lower face. The evidence is good for masseter hypertrophy and aesthetic narrowing, equivocal for myogenous TMD and weak for articular joint disorders. Conservative management first: splint, physio, awareness training.",
+      "B",
+      "Delcanho 22"
+     ]
+    ]
+   },
+   {
+    "title": "The Face and Skin Stack - Four Products Do 95% of the Work",
+    "intro": [
+     "Cleanse, retinoid, SPF, moisturise. Everything else on this sheet is supporting cast."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Cleanse once, lukewarm",
+      "Over-cleansing strips lipids and raises transepidermal water loss. A second cleanse only earns its place when the first did not remove sunscreen or heavy sebum, and hot water strips lipids while ice causes vasoconstriction followed by reactive vasodilation.",
+      "B",
+      "Consensus"
+     ],
+     [
+      "Retinoid at night",
+      "The only topical category with repeatable evidence for photoageing texture and for the fine lines retinisation actually reverses. Everything else on this sheet exists to make this one tolerable.",
+      "A",
+      "JAAD"
+     ],
+     [
+      "Daily broad-spectrum SPF",
+      "Cumulative UV exposure is the dominant modulator of how your skin looks at sixty; no serum outruns it. This is the row that compounds while you do nothing else.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Moisturise to hold water",
+      "Barrier lipids plus a humectant keep water in the stratum corneum and hold transepidermal water loss down, which is what makes a retinoid and an acid tolerable enough to keep using.",
+      "B",
+      "Barrier lit"
+     ],
+     [
+      "Fitzpatrick I - the burner is your readout",
+      "Type I skin burns before it tans, so erythema is the cheapest damage signal you will ever get. Daily SPF 30+ from childhood, and treat every burn as a dose of damage rather than a tan.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Fitzpatrick II - actinic damage arrives early",
+      "Light skin tints lightly but burns easily, and with no pigment buffer the cumulative UVA damage reads as lines and dyschromia almost as soon as you stop covering up. Daily SPF 30+, tinted if you pigment, retinoid from your late twenties.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Fitzpatrick III - tans, and still ages",
+      "Tanning is a UVA response, not protection - the damage still arrives on schedule. In this range acne scarring is often a colour problem before it is a texture problem: the marks fade over months, the pits do not. Control acne early and you prevent both.",
+      "B",
+      "Photoageing"
+     ],
+     [
+      "Fitzpatrick IV - pigment is the damage readout",
+      "In this range every inflammation leaves a visible mark, so anything that stings will show. Daily tinted iron-oxide SPF, a slow retinoid ramp, and post-inflammatory hyperpigmentation treated as prevention rather than damage.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Fitzpatrick V - tinted SPF is not optional",
+      "Visible light at 415-530 nm and heat at 33-34 degrees both induce pigmentation in this range. Zinc oxide and titanium dioxide alone block UV and not visible light; only iron-oxide pigments close that door, which is what a tinted product does.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Fitzpatrick VI - the procedure tax is pigment",
+      "Highest risk of post-inflammatory hyperpigmentation and of keloid at any wound. Tinted SPF daily, and no in-office peel, laser or deep microneedling by anyone who does not treat your skin type routinely. Slow is the strategy that keeps you uninjured.",
+      "A",
+      "AAD"
+     ]
+    ]
+   },
+   {
+    "title": "Retinoids",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "The potency ladder is stepwise, not exponential",
+      "retinol -> retinal -> retinoic acid. Retinal is about 1x more potent than retinol, not 10x or 100x; conversion steps are not multiples. Judge by tolerance, adherence and 6-12 months of duration, which is where every retinoid trial is won or lost.",
+      "B",
+      "JCD 24"
+     ],
+     [
+      "Pea-sized, on fully dry skin",
+      "Retinoids thin the stratum corneum and interfere with epidermal lipid synthesis, raising water loss and causing the irritant dermatitis people mistake for purging. Damp skin increases the penetration rate and therefore the irritant load - wait at least 20 minutes after cleansing.",
+      "A",
+      "Narsa 24"
+     ],
+     [
+      "Every third night for two weeks, then build",
+      "Irritation severity is dose-dependent, so climb over 6-8 weeks: third night for a fortnight, then every other night, then nightly. Short-contact therapy - apply, leave five minutes, rinse - is the faster route to tolerance if you want it.",
+      "A",
+      "Narsa 24"
+     ],
+     [
+      "The moisturiser sandwich",
+      "Moisturiser, then retinoid, then moisturiser. It measurably reduces irritation and it does NOT reduce efficacy - the fear that buffering makes the retinoid useless is wrong, and it is the single best change for anyone whose skin flares on a bare application.",
+      "B",
+      "Derm guidance"
+     ],
+     [
+      "Purging versus irritation - the discriminator",
+      "Purging: comedonal lesions ahead of the treated area, resolving in 4-6 weeks, no burning. Irritation: burning and stinging, no comedones, can appear anywhere on the face. If it burns, stop for 3-5 days, restart less often and add barrier support.",
+      "B",
+      "Derm review"
+     ],
+     [
+      "One new active at a time, 6-8 weeks apart",
+      "Retinoid plus AHA plus BHA plus vitamin C plus benzoyl peroxide on a compromised barrier is how you get retinoid dermatitis mislabelled as purging and then abandoned. Introduce one thing, wait 6-8 weeks, then introduce the next.",
+      "B",
+      "Narsa 24"
+     ],
+     [
+      "Never a retinoid without daily SPF",
+      "Retinoids are photosensitive, especially to UVA, and the combination amplifies photodamage - so treating photoageing while unprotected can make it worse. Daily broad-spectrum SPF is not optional and the retinoid belongs at night.",
+      "A",
+      "JCD 24"
+     ],
+     [
+      "Adapalene for acne, tretinoin for texture",
+      "Adapalene 0.1% is better tolerated than tretinoin 0.025% in men and is the acne first line - but it is not licensed for anti-ageing and the photoageing evidence is thinner. Route it: adapalene for acne and oily skin, tretinoin or OTC retinal for texture.",
+      "A",
+      "JAAD 1996"
+     ],
+     [
+      "Tazarotene is not the gentler option",
+      "Tazarotene is more irritant than tretinoin, not less, and it is teratogenic. If a retinoid is going to be avoided on irritation grounds, adapalene or OTC retinal are the retreat, not the strongest prescription in the cupboard.",
+      "A",
+      "JAAD"
+     ],
+     [
+      "Retinoids at night, never in the morning",
+      "They are light-sensitive and unstable in the presence of oxygen and light, so a daytime retinoid is a mistake twice over - less active and more irritated. Night application on dry skin, morning SPF.",
+      "B",
+      "JCD 24"
+     ],
+     [
+      "Retinoids and finasteride in pregnancy",
+      "Topical retinoids are contraindicated in pregnancy, tazarotene carries a boxed pregnancy warning and isotretinoin is teratogenic; finasteride is contraindicated too. If you are pregnant or planning, stop and tell your prescriber rather than pausing for a month.",
+      "A",
+      "Labels"
+     ]
+    ]
+   },
+   {
+    "title": "Sunscreen",
+    "intro": [
+     "The labelled SPF is a lab number. Here is what actually lands on your face."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Two milligrams per square centimetre is the labelled dose",
+      "That is what earns the number on the bottle. Real users apply 25-50% of it, so after one application the effective SPF is about 3.2 - and UV-transmitting products deliver only roughly 59% of label SPF and 42% of label UVA. Schalka 2009; ISO 24443.",
+      "A",
+      "Schalka 09"
+     ],
+     [
+      "Two finger-lengths for the face, one ounce for the body",
+      "The only unit that survives contact with a real bathroom and a real morning. Measure it once with the bottle until you can eyeball it, because a 40 ml dot is a third of what you need.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Reapply every two hours",
+      "Protection decays with time, sweat and bathing, and the film does not even out on its own - it thins where you touched it. A stick for reapplication works in the places a cream never gets reapplied.",
+      "A",
+      "AAD"
+     ],
+     [
+      "UVA walks through car and office glass",
+      "Glass blocks UVB; UVA largely passes. If you sit beside a window or drive in daylight you are exposed on every weekday you believed you were indoors, which is most of them.",
+      "A",
+      "AAD FAQ"
+     ],
+     [
+      "Visible light drives pigment, not just UV",
+      "Blue light at 415-530 nm induces pigmentation in darker skin and so does heat at 33-34 degrees. A plain mineral sunscreen blocks UV and not visible light; only iron-oxide pigments close that route, which is what a tinted product does.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Treat neck, ears, hands, scalp and upper chest",
+      "These are the sun-exposed sites that age, and neck sun damage reads as a tan line that gives your age away from across a room. SPF on all of them daily, and on the parting line once the scalp shows.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Expired and heat-stored sunscreen",
+      "Film-formers and UV filters degrade with heat and oxidation, so a dashboard bottle in July is a decoration. Check the period-after-opening date and store it under 25 degrees; buy the size you will finish before the date.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Mineral versus chemical is a vehicle choice",
+      "Mineral filters leave a white cast and are photostable; modern chemical filters are efficient and well tolerated. Neither is categorically harmful and zinc oxide does not cause hyperpigmentation. Pick on skin type, vehicle and adherence - the best sunscreen is the one you actually reapply.",
+      "B",
+      "Consensus"
+     ],
+     [
+      "Tanning beds",
+      "Deliberate UVA exposure is photoageing by definition, and the IARC classifies it as a Group 1 carcinogen with roughly 1,400-fold higher melanoma risk. There is no safe tanning and no base tan that makes a summer one safer.",
+      "X",
+      "IARC G1"
+     ],
+     [
+      "Dark circles are rarely a cream deficiency",
+      "The commonest causes are post-inflammatory pigment, vascular, dermal thinning, allergic rhinitis, sleep deprivation, iron deficiency and smoking - eye creams do almost nothing for most of them. Evaluate the cause before you buy anything.",
+      "B",
+      "Mechanism"
+     ],
+     [
+      "Retinoids on the eyelid and contact lenses",
+      "Periorbital skin is the thinnest on the face, so retinoid dermatitis there is common and can leave periorbital pigment. Apply to the orbital bone, never the lid margin. Separately, retinoids and isotretinoin dry the eye - cut contact-lens hours and use preservative-free drops.",
+      "B",
+      "Mechanism"
+     ]
+    ]
+   },
+   {
+    "title": "Skin Types and Conditions",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Fitzpatrick I - actives are visible immediately",
+      "You can usually tolerate stronger actives, and the risk profile flips the other way: lasers and deep peels more often leave hypopigmentation than pigment on this range. A pale patch that does not return its colour is your stop signal, not a tan line.",
+      "C",
+      "Laser lit"
+     ],
+     [
+      "Fitzpatrick II - start actinic control before 30",
+      "With no pigment buffer, cumulative damage on this range reads as fine lines and telangiectasia earlier than elsewhere, and there is nothing to hide it with. Daily SPF plus a retinoid from the late twenties is prevention, not correction.",
+      "B",
+      "Photoageing"
+     ],
+     [
+      "Fitzpatrick III - acne scarring is colour before texture",
+      "Post-acne pigment fades over months while the pits do not remodel much at all, so early control of the inflammation prevents the permanent half of the problem. Retinoid and SPF do more for the pigment than any brightening product.",
+      "B",
+      "Acne scarring"
+     ],
+     [
+      "Fitzpatrick IV - assume every procedure will pigment",
+      "In this range any inflammation or wound can leave a visible mark for months, which makes aftercare part of the procedure rather than an optional extra. Daily tinted SPF before and after, and no stacking of actives around a treatment window.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Fitzpatrick V - heat and blue light are the triggers",
+      "Melanosomes are larger and more dispersed in this range, so heat at 33-34 degrees and visible light at 415-530 nm both switch pigmentation on. Tinted iron-oxide SPF daily plus a trigger log beats guessing which product did it.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Fitzpatrick VI - keloid and pigment are the price",
+      "Any wound in this range carries a real chance of a keloid or of post-inflammatory hyperpigmentation, which rules out unsupervised peels, lasers and microneedling beyond 1.5 mm. Treat only with someone who treats your skin type routinely, and expect weeks of aftercare.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Rosacea - never a topical steroid",
+      "Persistent central-face redness with flushing and papules or pustules. The one absolute rule is that no steroid ever touches it: steroids produce steroid-induced rosacea, skin atrophy, striae and a rebound flare on stopping, documented in series averaging 0.25 to 20 years of use.",
+      "A",
+      "NDTF/AAD"
+     ],
+     [
+      "Rosacea and alcohol",
+      "Alcohol is among the most reliable rosacea triggers - vasodilation, histamine and a compromised barrier all at once - and it stacks with hot drinks, spicy food and heat. Triggers act at any dose, so log alcohol against your flare days rather than treating the redness as a skin problem only.",
+      "B",
+      "AAD"
+     ],
+     [
+      "Perioral dermatitis",
+      "Fine papules around the mouth, nose and eyes with a burning rim, and almost always steroid-induced or driven by an over-active combination product. Stop every steroid and every active; the flare runs for weeks after they are gone, which is the price of the cure.",
+      "A",
+      "Derm review"
+     ],
+     [
+      "Malassezia folliculitis",
+      "Monomorphic papules on hairy skin that do not respond to antibiotics, because nothing bacterial is happening. Ketoconazole 2% as a wash treats it - and the diagnosis is the point, since a month of the wrong antibiotic makes it worse.",
+      "B",
+      "Dermatology"
+     ],
+     [
+      "Melasma - heat, hormones and light",
+      "Hormonal and pregnancy-associated melasma is driven by melanocytes carrying larger, more dispersed melanosomes, so heat, hormones and visible light all switch them on. Tinted iron-oxide SPF plus a blue-light blocker is the standard of care; hydroquinone is not a long-term OTC answer, because exogenous ochronosis was documented with a median 5 years of use and cases at only 2% for three months - and it is irreversible.",
+      "B",
+      "Int J Derm"
+     ],
+     [
+      "Post-inflammatory hyperpigmentation is a ledger",
+      "Every spot, burn, wax, friction site and dropped retinoid leaves a mark that takes longer to clear than the cause took to appear. Treat the inflammation and the pigment fades on its own schedule - it is a record of what happened, not a stain you can scrub off.",
+      "B",
+      "PIH lit"
+     ],
+     [
+      "Dark circles with iron deficiency on the profile",
+      "Iron deficiency is one of the most common and most overlooked causes of dark circles, and it is also a cause of shedding. With Anaemia or LowFerritin already flagged, get iron studies and treat the cause before spending on an eye product that cannot reach it.",
+      "B",
+      "Mechanism"
+     ],
+     [
+      "Anhidrosis - no sweat, no evaporative cooling",
+      "Without sweat, core temperature climbs fast in heat and the skin becomes hot, red and painful where friction adds to it. Keep evaporative cooling - light loose layers, wet clothing, a fan - hydrate, and see a clinician before any anticholinergic or supplement marketed as a sweat blocker, because those have their own heat-illness profile.",
+      "C",
+      "Mechanism"
+     ]
+    ]
+   },
+   {
+    "title": "Barrier Damage",
+    "intro": [
+     "Almost all of this is self-inflicted, and all of it is reversible in weeks once you simplify."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Over-exfoliation is the commonest self-inflicted wound",
+      "AHA plus BHA plus a scrub plus a cleansing brush plus a retinoid is barrier disruption: water loss up, stinging, post-inflammatory hyperpigmentation and rebound oiliness. One exfoliant, twice a week at most, and stop the moment it stings.",
+      "B",
+      "Barrier lit"
+     ],
+     [
+      "Retinoid dermatitis is not purging",
+      "Retinoid dermatitis shows as dryness, peeling and burning without comedones, and it can appear away from the treated area; purging produces comedones ahead of the treated area and resolves in 4-6 weeks. If it burns, it is not purging - back off.",
+      "B",
+      "Narsa 24"
+     ],
+     [
+      "Benzoyl peroxide bleaches your towels",
+      "It oxidises fabric - white pillowcases go grey - and it is a common contact allergen at roughly 2-5% patch-test positivity. Use it on acne rather than everywhere, and note that a 2.5% wash is often better tolerated than the 10% gel that everyone buys.",
+      "B",
+      "Patch test"
+     ],
+     [
+      "Vitamin C needs pH below 3.5 and an opaque bottle",
+      "L-ascorbic acid is charged and hydrophilic, so it penetrates the stratum corneum poorly, and it oxidises to dehydroascorbic acid - the yellow in the bottle - unless the formula is acidic with vitamin E and ferulic acid in airless packaging. Derivatives such as SAP, MAP, THDA and AG do not raise skin ascorbic acid at all.",
+      "A",
+      "JCAD SR"
+     ],
+     [
+      "Niacinamide above 5%",
+      "Above 5% it flushes and burns and sensitises you to everything else you add afterwards. At 2-5% it does genuinely improve barrier lipids and reduce sebum, so it is worth using - just not at the 10% that dominates the shelf.",
+      "B",
+      "DRP 24"
+     ],
+     [
+      "Fragrance and essential-oil stacking",
+      "Allergic contact dermatitis is a type IV delayed reaction at 48-72 hours, and it mimics rosacea and seborrhoeic dermatitis perfectly. Fragrance, botanicals, essential oils and benzalkonium stack invisibly across products, so the flare points at the last thing you bought rather than the one causing it.",
+      "B",
+      "Mechanism"
+     ],
+     [
+      "Topical steroids on the face",
+      "Buclomethasone, betamethasone and fairness creams produce steroid-induced rosacea, skin atrophy, striae and a rebound flare on cessation - documented series averaged 0.25 to 20 years of use. Never unsupervised, and super-potent steroids are contraindicated on the face entirely.",
+      "A",
+      "Ind J Derm"
+     ],
+     [
+      "Simplify to three products and rebuild",
+      "Cleanse, one active, moisturise - then reintroduce one product every 6-8 weeks and watch for 72 hours, which is roughly when a type IV allergy shows itself. A routine you cannot debug is not a routine; three products you trust beat nine you have stopped using.",
+      "B",
+      "Mechanism"
+     ]
+    ]
+   },
+   {
+    "title": "Procedures",
+    "intro": [
+     "Conservative first, then the least invasive thing that could work, then only what a clinician supervises."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Chemical peels",
+      "Glycolic and lactic peels work on the stratum corneum and epidermis. They cannot reach fat, muscle or bone, so a deep peel sold as a lift is not one. Expect several days of flaking, a course rather than a single session, and a real pigment risk in the deeper skin types.",
+      "B",
+      "Peel lit"
+     ],
+     [
+      "Microneedling",
+      "A controlled-injury procedure, so it buys texture and density - never the removal of an established scar, and never a new hairline. On the face it is aimed at texture and at shallow, rolling-acne change; on the scalp at density and shaft diameter, which is the dosing and interval row in the drug stack. Either way the effect accrues over a course, so judge it at 3-6 months rather than after one session.",
+      "B",
+      "Derm Rep 24"
+     ],
+     [
+      "Laser and IPL",
+      "Both target melanin or blood, which makes them excellent for pigment, vascular lesions and hair removal and useless for fat and for sagging. In darker skin the risk flips from too little effect to post-inflammatory hyperpigmentation or permanent hypopigmentation, so the operator's experience with your skin type is the whole decision.",
+      "B",
+      "Laser lit"
+     ],
+     [
+      "Fillers",
+      "They restore volume age removed, and then the effect is gone in 6-18 months while the maintenance continues indefinitely. The failure mode is overfilling a face whose midface fat is already falling about 12% a decade, which is what produces the over-filled look people recognise instantly.",
+      "B",
+      "Filler lit"
+     ],
+     [
+      "Masseter Botox",
+      "A muscle-relaxing injection, not a treatment of what is tightening the muscle - whatever is driving the clenching is still there on day one, which is why the result is measured in months rather than years. The dose is titrated in units to the muscle rather than given as a fixed amount, the effect lasts a few months, and the masseter re-hypertrophies as it wears off. So it is a repeat-injection commitment on a schedule you set, with cumulative cost and a diminishing tolerance - not a one-off.",
+      "B",
+      "Delcanho 22"
+     ],
+     [
+      "Hair transplant",
+      "One operation rather than a course, and the decision it forces is when to go to theatre - which is only once medical treatment has stopped changing the picture. A transplant cannot create follicles and cannot recover an area that has scarred; it can only place the ones that exist. Expect nothing to look right at three months: grafted hair often sheds in the first fortnight, regrows visibly from about six months and settles by 12-18, so the verdict is due at 18 and not before. Afterwards there is nothing to top up and nothing to reschedule - but the drugs continue for the surrounding hair, which is where the real maintenance lives.",
+      "B",
+      "Plast Surg"
+     ],
+     [
+      "Procedures in Fitzpatrick VI",
+      "Expect the risk to be keloid and post-inflammatory hyperpigmentation rather than a poor response. Assume anything that opens skin is a decision for a clinician who treats your skin type routinely, and plan weeks of sunscreen aftercare as part of the procedure, not an afterthought.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Conservative first, always",
+      "Every procedure above has a cheaper, reversible first line: sunscreen and a retinoid before any peel or laser, a night guard before Botox, and minoxidil plus finasteride before a transplant. Start there, photograph the result, and only then decide whether an intervention can beat what you already have.",
+      "A",
+      "Guideline"
+     ],
+     [
+      "Unregulated actives",
+      "No randomised trial, no INCI list, no regulator and occasional contamination. Undocumented stem cells, exosomes, snake venom peptides and unnamed acids all fail the same three questions: what is the molecule, at what concentration, and which regulator approved it.",
+      "X",
+      "Standards"
+     ]
+    ]
+   },
+   {
+    "title": "Teeth - Daily Hygiene",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Electric brush, two minutes, twice daily",
+      "Two minutes at feather pressure of about 150-250 g is the effective dose. Cervical abrasion is multifactorial - technique plus abrasive dentifrice plus force - so the fix is all three, not just the brush head you keep replacing.",
+      "A",
+      "JHNS 2013"
+     ],
+     [
+      "The 45-degree Bass angle",
+      "Modified Bass targets the sulcus: bristles at 45 degrees into the gingival margin with gentle vibratory strokes. You are cleaning the gumline, not polishing the crowns, and the difference shows up as bleeding that stops within two weeks.",
+      "A",
+      "Consensus"
+     ],
+     [
+      "Never brush straight after acid",
+      "Acid softens and demineralises enamel, and abrasive brushing then removes it: in-situ enamel loss rose from 45 to 79 micrometres when brushing followed an acidic drink. Wait 30-60 minutes, rinse with water, and use a fluoridated paste - fluoride cut the loss back to 41-51 micrometres.",
+      "A",
+      "Ganss 2007"
+     ],
+     [
+      "Fluoride at 1,350-1,500 ppm - spit, do not rinse",
+      "Fluoride is the single largest proven contributor to the global decline in caries (WHO) and there is no credible toxicity at standard exposure. Rinsing with water after brushing washes the fluoride straight back off the teeth you just protected.",
+      "A",
+      "Cochrane"
+     ],
+     [
+      "Interdental cleaning daily",
+      "Interproximal sites cause most adult in-between-tooth caries, and brushes or floss outperform brushing alone. Size an interdental brush to the embrasure rather than forcing the largest one through, and do it every evening.",
+      "A",
+      "Cochrane"
+     ],
+     [
+      "Cervical abrasion - men carry it at twice the rate",
+      "Males show about twice the prevalence of cervical abrasion, 42.8% versus 23.9% with an odds ratio of 3.80, and combined horizontal plus vertical stroking carries an odds ratio of 2.20. Softer bristles, less force, and a dentifrice relative abrasive dentifrice around 100.",
+      "B",
+      "JHNS 2013"
+     ],
+     [
+      "Bleeding gums are inflammation, not hardness",
+      "Gingivitis is reversible; periodontitis is attachment and bone loss and it is not. Bleeding on brushing or probing that persists beyond two weeks, or any mobility, recession or bone change, is a dentist appointment rather than a harder brush.",
+      "A",
+      "Consensus"
+     ],
+     [
+      "Smoking cessation is the highest-yield oral intervention",
+      "Smoking is the strongest common risk factor for periodontal attachment loss and for oral cancer, and snus leaves lesions at the placement site. No mouthwash, no whitening product and no hygienist substitutes for stopping, which is why it belongs at the top of this sheet.",
+      "A",
+      "Surgeon Gen"
+     ],
+     [
+      "Snack frequency beats total sugar",
+      "Caries is driven by the frequency of pH drops rather than the total sugar load - frequent sipping keeps plaque pH below critical over and over. Keep fermentable-carbohydrate exposures to two or three meals plus water, and let the teeth clear between them.",
+      "B",
+      "Cariology"
+     ],
+     [
+      "Acidic drinks, energy drinks and sports drinks",
+      "Low pH plus sucrose plus citric acid produces erosion and caries at once - the highest erosion-risk beverage class there is. Water as the default, a straw for acidic drinks so the acid bypasses the enamel, and a rinse afterwards.",
+      "B",
+      "Beverage lit"
+     ],
+     [
+      "Xylitol gum twice a day",
+      "Cochrane supports a modest but real caries benefit from xylitol or sorbitol gum used twice daily. Many gums use sucrose instead, which does the opposite of what you wanted from chewing something between meals.",
+      "A",
+      "Cochrane"
+     ],
+     [
+      "Oil pulling is an adjunct at best",
+      "Twenty-five RCTs and 1,184 participants: gingival indices improve, with a mean gingival index standardised mean difference of -1.14, but chlorhexidine beats it on plaque and the GRADE certainty of that evidence is very low. There is no caries-outcome data and it never replaces brushing.",
+      "B",
+      "Jong 2024"
+     ],
+     [
+      "Alcohol dries the mouth",
+      "Saliva is the primary remineralising buffer on the tooth surface, so xerostomia is the strongest salivary driver of caries, and alcohol-containing rinses make it worse. The effect is dose-dependent rather than confined to heavy drinkers, so water between drinks matters more than any mouthwash brand.",
+      "B",
+      "Mechanism"
+     ],
+     [
+      "Prediabetes and periodontal disease",
+      "Hyperglycaemia impairs neutrophil function and raises both the risk and the progression of periodontal disease, while periodontal inflammation worsens glycaemic control in the other direction. With Prediabetes flagged, shorten the dental recall interval rather than treating it as optional.",
+      "B",
+      "Standards"
+     ],
+     [
+      "Glucose, glycation and the collagen in your face",
+      "Advanced glycation end-products crosslink collagen and elastin in the dermis, stiffening it and cutting elasticity - the same chemistry that shows up as glycated haemoglobin. Better glycaemic control is a skin intervention, and it compounds with sunscreen and a retinoid rather than competing with them.",
+      "B",
+      "AGE mech"
+     ]
+    ]
+   },
+   {
+    "title": "Teeth - Whitening Ranked by Enamel Safety",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Sensitivity is the price of peroxide",
+      "Transient sensitivity occurs in up to two-thirds of at-home whitening users and rises with peroxide concentration and with pre-existing gingival recession. In office, 74% reported sensitivity with 35% hydrogen peroxide against 44% with 6% - so ask what concentration you are being offered.",
+      "A",
+      "JADA 2002"
+     ],
+     [
+      "Treat the gingivitis before you bleach",
+      "Inflamed, bleeding tissue bleeds through the tray and the gel concentrates on it, and active caries progresses and stains restorations under a whitening gel. Dental clearance and healthy gums first - whitening a dirty mouth is expensive and pointless.",
+      "A",
+      "ADA"
+     ],
+     [
+      "Custom trays, 10-16% carbamide peroxide",
+      "A dentist-issued custom tray keeps the gel on the teeth; generic trays concentrate it on the gums, and 7-12% peroxide left on overnight penetrates the pulp. Follow the label time rather than the tube's optimism, and use a potassium-nitrate or high-fluoride desensitising paste through the course.",
+      "A",
+      "ADA"
+     ],
+     [
+      "Charcoal and acidic kits",
+      "Charcoal is a high-abrasivity dentifrice that adsorbs stain and can increase abrasion; acid kits take the erosion route instead. Whitening changes tooth colour, not enamel mineral status - there is no whiter-than-white, only a dissolved one.",
+      "B",
+      "RDA std"
+     ]
+    ]
+   },
+   {
+    "title": "Teeth - Alignment and Function",
+    "intro": [],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Clear aligners - 6 to 18 months",
+      "They move teeth predictably for mild to moderate crowding and they come out, which is the entire hygiene advantage and the entire compliance risk: 20-22 hours a day or nothing happens, and the attachment is lost daily.",
+      "B",
+      "Ortho lit"
+     ],
+     [
+      "Fixed braces for what aligners cannot do",
+      "Root rotation, vertical control, some skeletal cases and extraction cases need a fixed appliance. Aligners are a tool rather than a superior appliance by default, and the right choice depends on the tooth movement, not the marketing.",
+      "B",
+      "Ortho lit"
+     ],
+     [
+      "Retention is forever",
+      "Teeth move for the rest of your life and bone remodels around a retainer continuously, so orthodontics buys a retainer schedule rather than a result. A lost retainer means a returning tooth within months, which is the single most under-discussed fact in the consult.",
+      "A",
+      "Ortho lit"
+     ],
+     [
+      "Bruxism - 8-31% adult prevalence",
+      "Clenching and grinding cause attrition, abfraction, fractured restorations, masseter hypertrophy and temporomandibular disorder, and prevalence runs 8-31% of adults. A night guard protects the teeth from the consequences but does nothing about the drive behind the clenching.",
+      "A",
+      "Bruxism SR"
+     ],
+     [
+      "Sleep-disordered breathing drives the clenching",
+      "With sleep apnoea on your profile, treat the airway as well as the teeth: apnoea fragments sleep and the arousal-driven jaw activity that follows is a driver of the grinding itself, which is why a night guard on its own keeps treating the consequence.",
+      "B",
+      "Bruxism SR"
+     ],
+     [
+      "Mouth breathing - treat the obstruction",
+      "Chronic mouth breathing dries the mouth, worsens gingivitis and snoring, and in children drives adenoidal facies and reduced maxillary development. Self-applied jaw-forward posture carries condylar and TMD risk, so treat the obstruction - ENT and sleep assessment - rather than the posture.",
+      "A",
+      "Ortho/ENT"
+     ],
+     [
+      "Tongue cleaning - gentle and optional",
+      "Scraper frequency does not reduce caries when brushing is adequate, and rough scraping harms the tongue. Clean gently if it is coated, and spend the effort on the brush and the fluoride instead.",
+      "C",
+      "Mechanism"
+     ]
+    ]
+   },
+   {
+    "title": "Grooming Cadence",
+    "intro": [
+     "A fixed date in the calendar beats motivation every time. Maintenance is the whole game."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Book the grooming date",
+      "Haircuts, beard trims, nail clips and brow tidy-ups all fail on inspiration. Put them in the calendar as recurring events with a real time - the marginal daily decision is what kills the habit, not the willingness.",
+      "B",
+      "Behaviour"
+     ],
+     [
+      "Haircut interval follows growth rate",
+      "Hair grows about 1 cm a month, so a 3 cm cut is roughly a 10-12 week cycle. Going shorter than the growth cycle means you see it every week, which is where barber-shop impulsivity lives - agree the length when you are thinking clearly, not when it is overdue.",
+      "C",
+      "Growth rate"
+     ],
+     [
+      "A beard is skin underneath",
+      "A beard sits on skin that gets no sunscreen, traps moisture and harbours Malassezia, so itch and flake are usually seborrhoeic dermatitis of the beard - treated with the same antifungals as the scalp. Beard oil is mostly marketing; the diagnosis and the antifungal are what work.",
+      "B",
+      "Derm practice"
+     ],
+     [
+      "Shaving - direction, tools, frequency",
+      "Shave with the grain, use a sharp blade and a gel or cream rather than soap, and do not shave twice in a day. Every pass removes keratin and can cause folliculitis and post-inflammatory pigment, and in anyone who pigments the shadow is permanent unless treated as pigment.",
+      "B",
+      "Folliculitis"
+     ],
+     [
+      "Nails - cuticle, hangnails, direction",
+      "Clean under the free edge weekly, cut straight across and file in one direction to avoid delamination, moisturise the nail plate rather than the cuticle, and leave the cuticle alone. A torn hangnail becomes an infection far more often than it becomes a cosmetic issue.",
+      "B",
+      "Nail care"
+     ],
+     [
+      "Brows - do not draw a shape and shave it",
+      "Brows do not regrow, and thinning the orbital rim ages the face faster than almost anything else you can do to it. Brush them upward, trim only obvious strays, and if you tint, stay two shades from natural so the roots do not read as a warm halo.",
+      "C",
+      "Derm practice"
+     ],
+     [
+      "Skin maintenance beats skin intervention",
+      "Twice-daily gentle cleanse, daily SPF, one retinoid and a moisturiser are the entire routine. Everything else is optional, and every optional step is another chance to quit the four that carry the result.",
+      "A",
+      "AAD"
+     ],
+     [
+      "Book the dentist on the same calendar",
+      "A cleaning every six months with an exam attached. Periodontal bone loss is visible long before it hurts, and the mouth is the only part of you that cannot be managed from the kitchen - put it in the recurring events next to the haircut.",
+      "A",
+      "ADA"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "body-nutrition",
+  "sheet": "BODY_NUTRITION",
+  "blurb": "Energy balance, protein architecture, micronutrients, the graded supplement stack and physique aesthetics. No workouts - those live in GZCL Program.xlsx.",
+  "sections": [
+   {
+    "title": "Energy Balance - Nobody Gets This Exactly Right on the First Try",
+    "intro": [
+     "Maintenance is an interval, not a number. Judge it on the 2-3 week weight trend and adjust once."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Value",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Maintenance - the low end",
+      "kg x 31 kcal. Start here and correct against the trend rather than against a calculator.",
+      "",
+      "B",
+      "Profile"
+     ],
+     [
+      "Maintenance - the high end",
+      "kg x 34 kcal. The width of this band is the error bar on every other number in the module.",
+      "",
+      "B",
+      "Profile"
+     ],
+     [
+      "Calorie guidance - live from your goal",
+      "Reads PROFILE Goal and returns the band you are actually in, so the sheet changes when your goal does.",
+      "",
+      "A",
+      "PROFILE"
+     ],
+     [
+      "Cut - 400-600 kcal below maintenance",
+      "The deficit band that preserves lean mass and training output. Below it, the muscle cost arrives before the fat loss finishes.",
+      "-500",
+      "B",
+      "Convention"
+     ],
+     [
+      "Bulk - 150-250 kcal above maintenance",
+      "A small surplus. A large one buys fat at a premium rate and hides the scale for weeks at a time.",
+      "200",
+      "B",
+      "Convention"
+     ],
+     [
+      "Recomp - hold maintenance and eat protein high",
+      "Body composition changes without an energy change, which is slow, unglamorous and the only route that keeps everything else working.",
+      "0",
+      "B",
+      "Convention"
+     ],
+     [
+      "Maintain - hold the trend flat",
+      "At maintenance, adjusted by what the last 2-3 weeks actually did. Maintenance is an active number, not the absence of one.",
+      "0",
+      "B",
+      "Convention"
+     ],
+     [
+      "Short sleep makes a deficit harder to run",
+      "Short sleep raises ghrelin, lowers leptin, raises insulin resistance and increases next-day energy intake - it moves the appetite side of a deficit before it moves the discipline side, and the next-day intake overwrites the deficit you planned. Fix the sleep before optimising the macros; the levers are on the SLEEP_RECOVERY sheet.",
+      "",
+      "A",
+      "RCT lit"
+     ],
+     [
+      "The 80/20 plate",
+      "About 80% of calories from food you would recognise without a label, 20% from whatever you want. The 20% is what makes the 80% survivable for years rather than weeks.",
+      "80",
+      "C",
+      "Convention"
+     ],
+     [
+      "Ultra-processed food - the headline risk",
+      "Keep it to 0-1 a day. All-cause mortality RR 1.21 (95% CI 1.15-1.27), type 2 diabetes and anxiety OR 1.48, adverse sleep OR 1.41, obesity OR 1.55. Note that whole-grain breads are over-classified by NOVA - do not throw that subgroup away with the rest.",
+      "1.21",
+      "A",
+      "BMJ 24"
+     ],
+     [
+      "Alcohol is linear, not a J-curve",
+      "Per +8 g/day: all-cause OR 1.27, cardiovascular 1.30, cancer 1.20, digestive 2.06. Mendelian randomisation finds no protective benefit at low intake, so the observational curve is confounding, not protection. Least is best; never a reason to start.",
+      "1.27",
+      "A",
+      "IJE 24"
+     ],
+     [
+      "Reverse diet 100-200 kcal at a time",
+      "Coming off a deficit, add 100-200 kcal/day rather than jumping straight to maintenance. Post-diet hunger is ghrelin up, leptin down, T3 down and thermic effect suppressed - not a broken basal rate.",
+      "200",
+      "B",
+      "Refeeding"
+     ],
+     [
+      "A cheat day is not a metabolic reset",
+      "One high-carb refeed does not restart fat loss, and a large single-day surplus is net negative across the week it sits in. A diet break at maintenance is the useful version of the same idea.",
+      "",
+      "B",
+      "Refeeding"
+     ]
+    ]
+   },
+   {
+    "title": "Protein Architecture",
+    "intro": [
+     "The Value column is live: it reads the PROFILE derived cells, so the numbers follow your weight."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Value",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Protein floor - live from your weight",
+      "1.6 g/kg bodyweight. The dose-response curve plateaus around here, which is why the floor and not the ceiling is the number to hit on a bad day.",
+      "",
+      "A",
+      "Morton 18"
+     ],
+     [
+      "Protein ceiling while cutting",
+      "2.2 g/kg bodyweight in a deficit; the studied range across trials is 2.0-2.7 g/kg.",
+      "",
+      "A",
+      "Longland 16"
+     ],
+     [
+      "Protein per sitting",
+      "0.4 g/kg, split across 3-5 feedings roughly 4 hours apart. Muscle protein synthesis saturates near 20-40 g a meal, so a single enormous dinner is the least efficient way to spend the same grams.",
+      "",
+      "A",
+      "CW-Venne 13"
+     ],
+     [
+      "2.4 g/kg versus 1.2 g/kg, head to head",
+      "In a 40% deficit with high-volume training, 2.4 g/kg gained +1.2 kg of lean mass against +0.1 kg on 1.2 g/kg - and lost more fat (-4.8 kg against -3.5 kg). More protein was not more calories; it was a different result.",
+      "2.4",
+      "A",
+      "AJCN 16"
+     ],
+     [
+      "Protein in g/kg of lean mass",
+      "2.3-3.1 g/kg FFM when you are already lean and training hard in a deficit. This is the version that holds when bodyweight understates the tissue you are trying to keep.",
+      "3.1",
+      "A",
+      "Helms 14"
+     ],
+     [
+      "Deficit size costs more muscle than protein dose",
+      "20-30% of weight lost on hypocaloric diets is lean mass, and the severity of the deficit drives that loss more than the protein does. Feed the target, then take the deficit smaller and longer.",
+      "20",
+      "B",
+      "J Cachexia"
+     ],
+     [
+      "Fat floor - 0.6-1.0 g/kg",
+      "Mostly unsaturated sources. Below the floor hormones, absorption and satiety suffer. Nothing here competes with the protein floor when energy is tight.",
+      "0.6",
+      "B",
+      "Helms 14"
+     ],
+     [
+      "Carbohydrate is the variable, not the enemy",
+      "Whatever energy is left after protein and fat, typically 3-6 g/kg. It moves training quality, appetite and sleep more than it moves body composition on its own.",
+      "5",
+      "B",
+      "Helms 14"
+     ],
+     [
+      "Fibre - 30 g a day",
+      "At least 30 g/day, a vegetable at every meal. High-fibre diets lower weight and visceral fat against isoenergetic low-fibre ones, and the satiety is what makes a deficit livable.",
+      "30",
+      "A",
+      "BMJ 15"
+     ],
+     [
+      "Low glycaemic beats low carbohydrate",
+      "Repeated glucose and insulin spikes upregulate lipogenesis and hunger. Whole grains, legumes and fruit rather than white flour and sweets - same calories, different appetite.",
+      "",
+      "B",
+      "BMJ"
+     ],
+     [
+      "Added fructose goes to the liver",
+      "If FattyLiver or Prediabetes is on your profile this is a direct lever: isoenergetic exchange of fructose for glucose raises liver fat and insulin resistance in controlled feeding studies. Cap the added kind; whole fruit is not the problem.",
+      "",
+      "A",
+      "JAMA Netw 14"
+     ],
+     [
+      "Hydration - 30-35 ml/kg",
+      "30-35 ml/kg/day, more in heat, more in a deficit, more when the sodium is high. Thirst and pale urine are the readout - you do not need to weigh your water.",
+      "35",
+      "D",
+      "Convention"
+     ],
+     [
+      "Long-term very-low-carb without monitoring",
+      "It can suppress sleep through cortisol and glucose swings, narrows food variety, and opens real gaps in fibre, potassium and magnesium. If you run it, keep fibre at 30 g and watch sleep and electrolytes.",
+      "",
+      "B",
+      "Mechanistic"
+     ]
+    ]
+   },
+   {
+    "title": "Micronutrients That Actually Matter",
+    "intro": [
+     "Test before you dose. Almost every row here is a reason not to supplement blind."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Value",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Iron - ferritin and TSAT before anything",
+      "Never supplement iron without both a ferritin and a transferrin saturation. Ferritin is an acute-phase reactant, so read it with CRP; overload causes oxidative damage and it is not reversible by stopping.",
+      "",
+      "A",
+      "EAS"
+     ],
+     [
+      "Iron in women - the ferritin is confounded",
+      "Menstrual blood loss keeps ferritin low on a diet that would be sufficient for anyone else, so a single threshold misreads half the readers of this row. If the flag on your profile is Anaemia or LowFerritin, treat the result, not the number.",
+      "",
+      "A",
+      "EAS"
+     ],
+     [
+      "Haemochromatosis presents in men",
+      "With no menstrual loss to drain it, iron accumulates silently and commonly surfaces in men from mid-life. Ferritin above 300 ug/L in a man is the trigger for HFE genotyping and a full iron workup.",
+      "300",
+      "A",
+      "HFE guide"
+     ],
+     [
+      "Vitamin D - 1,000-2,000 IU, tested not dosed",
+      "Test 25(OH)D rather than dosing blind. Reported 30 ng/mL may truly be anywhere from 15 to 45 ng/mL depending on the assay, so the number you are chasing is less precise than it looks.",
+      "2000",
+      "B",
+      "IOM"
+     ],
+     [
+      "30 ng/mL is no longer a sufficiency line",
+      "The 2024 Endocrine Society retracted the 30 ng/mL sufficiency category. Stop treating a single threshold as a verdict; the assay spread alone is wider than most of the interventions people take for it.",
+      "",
+      "A",
+      "ES 2024"
+     ],
+     [
+      "Vitamin D megadosing",
+      "The IOM upper limit is 4,000 IU/day and levels above 50 ng/mL are of concern for hypercalcaemia and hypercalciuria. More is not better; the UL exists because people took more.",
+      "4000",
+      "X",
+      "IOM"
+     ],
+     [
+      "Vitamin B12 - test, and pair with MMA",
+      "Serum B12 alone misses deficiency. Methylmalonic acid is the second marker that separates a borderline result from a real one, and it rises before the serum does.",
+      "",
+      "B",
+      "NIH ODS"
+     ],
+     [
+      "Folate - food first",
+      "Leafy greens, legumes and liver cover the requirement without any of the upper-limit problem that high-dose folic acid carries in the general population.",
+      "",
+      "B",
+      "IOM/ODS"
+     ],
+     [
+      "Magnesium - correct a deficiency, not a mood",
+      "Evidence for improving sleep quality or mood in people who are not deficient is weak. If you are deficient, 200-400 mg of elemental magnesium in the evening is reasonable; if you are not, it is an expensive placebo.",
+      "400",
+      "C",
+      "SRs"
+     ],
+     [
+      "Zinc - the copper catch",
+      "Long-term high-dose zinc blocks copper absorption, and copper deficiency shows up as anaemia and neutropenia. Cap zinc above 30 mg/day or pair it with copper.",
+      "30",
+      "B",
+      "NIH ODS"
+     ],
+     [
+      "Vitamin B6 - the neuropathy one",
+      "Chronic pyridoxine causes sensory neuropathy, dose-dependently and well below the old 100 mg caps. The EFSA tolerable upper limit is 12 mg/day for adults, and every label in a stack counts.",
+      "12",
+      "A",
+      "EFSA 23"
+     ],
+     [
+      "Iodine - the iodised salt is the whole story",
+      "The requirement is small and the population supply is one of the few good fortification stories left. Iodised salt plus whatever the diet supplies is enough; kelp and seaweed concentrates are how people overshoot into thyroid trouble.",
+      "",
+      "C",
+      "IOM/ODS"
+     ],
+     [
+      "Omega-3 - dose and formulation decide the outcome",
+      "If HighApoB or HighLpA is on your profile, this is the one supplement intervention with an outcome trial behind it: REDUCE-IT cut major cardiovascular events 25% on 4 g of prescription-grade EPA. VITAL and STRENGTH at around 1 g a day did not. The dose and the preparation, not the fish-oil idea, are the intervention.",
+      "4",
+      "A",
+      "REDUCE-IT"
+     ],
+     [
+      "Omega-3 for the skin - weaker case, say so",
+      "At ordinary doses the skin and inflammatory-marker evidence is thin compared with the cardiovascular data. Take the high-dose EPA route for the heart, not because the bottle mentions skin.",
+      "",
+      "C",
+      "SRs"
+     ],
+     [
+      "Choline - adequate, not dosed",
+      "The requirement is in the hundreds of milligrams and a varied diet covers it. Large doses simply add to the fishy smell; there is no case for a standalone choline supplement.",
+      "",
+      "C",
+      "IOM/ODS"
+     ],
+     [
+      "Selenium - narrow window, Brazil nuts",
+      "Both too little and too much matter, and the upper limit is close to what a person might reach with a large daily serving of Brazil nuts plus a multivitamin. Food first, and count the nuts rather than the label.",
+      "400",
+      "C",
+      "IOM/ODS"
+     ],
+     [
+      "Beta-carotene if you smoke - never",
+      "High-dose beta-carotene in smokers increased lung cancer incidence in both CARET and ATBC. Take vitamin A from food; if you supplement at all, the regulated provitamin form is the safer ceiling.",
+      "",
+      "A",
+      "ATBC"
+     ]
+    ]
+   },
+   {
+    "title": "The Graded Supplement Stack",
+    "intro": [
+     "Grade the use, not the molecule. Every row says what it is for and when to stop."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Value",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Creatine monohydrate - 3-5 g",
+      "The best-evidenced sports supplement that exists, and it is safe. Across 19 RCTs serum creatinine rose 0.13 mg/dL while eGFR did not move (-5.2, CI -15 to +4.6) and urea was unchanged - the creatinine rise is an assay artefact of higher muscle turnover, not kidney injury. If you do have kidney disease, monitor with cystatin C rather than creatinine.",
+      "5",
+      "A",
+      "JRN 26"
+     ],
+     [
+      "Creatine does not cause hair loss",
+      "A 12-week RCT in 45 men found no difference in DHT, DHT-to-testosterone ratio, density, follicular unit counts or cumulative hair thickness. Do not skip the most effective supplement you can take because of alopecia.",
+      "45",
+      "A",
+      "JISSN 25"
+     ],
+     [
+      "Creatine and water - intracellular",
+      "It draws water into the muscle cell, not into the bloodstream. That is a training-output gain, not dehydration, and normal hydration habits are unaffected.",
+      "",
+      "A",
+      "ISSN"
+     ],
+     [
+      "Whey and casein - the practical powder",
+      "High-quality, digestible and the easiest way to close the gap between food and the protein ceiling. Use them when the target is unreachable from food, not because whole food is inferior. A 20-40 g dose saturates synthesis; the rest of the day still has to come from somewhere.",
+      "40",
+      "A",
+      "Helms 14"
+     ],
+     [
+      "Powder only if the target is missed from food",
+      "If you hit the protein floor from food on a normal day, a shaker is money spent on nothing measurable. The supplement is a solution to a shortfall you have already measured, not a default part of the protocol.",
+      "",
+      "A",
+      "Longland 16"
+     ],
+     [
+      "Caffeine - the cutoff is the whole intervention",
+      "The highest-yield item in this stack, and the only rule is when you stop rather than how much you take. The cutoff arithmetic, the 0, 3 and 6 hour findings and the no-tolerance result belong to SLEEP_RECOVERY, which owns the mechanism; the PROFILE cell computes your cutoff from your bedtime, so this row is the decision, not the derivation.",
+      "400",
+      "A",
+      "Drake 13"
+     ],
+     [
+      "Vitamin D - dose after a test",
+      "1,000-2,000 IU/day is a reasonable maintenance dose once you know your level. The dosing rule and the retracted 30 ng/mL threshold are in MICRONUTRIENTS - this row only records that it is worth taking at all.",
+      "2000",
+      "B",
+      "IOM"
+     ],
+     [
+      "Omega-3 - prescription EPA, not a fish-oil capsule",
+      "The benefit arrived at 4 g of EPA in a pharmaceutical preparation; the 1 g studies were null. If HighApoB or HighLpA is set, match the formulation to the trial - or do not expect the trial's result from a supermarket capsule.",
+      "4",
+      "A",
+      "REDUCE-IT"
+     ],
+     [
+      "Magnesium glycinate at night, if deficient",
+      "200-400 mg of elemental magnesium in the evening, only where a deficiency exists. Magnesium L-threonate has small trials and no high-quality randomised evidence on sleep outcomes - low risk, low evidence.",
+      "400",
+      "C",
+      "SRs"
+     ],
+     [
+      "Melatonin - 0.3-1 mg, timed to the clock",
+      "0.3-1 mg reproduces physiologic nocturnal melatonin levels - 0.3 mg and 1 mg both do it, and the common 5-10 mg is wildly out of proportion to the evidence. It works best 1-3 hours before sleep relative to your dim-light melatonin onset, not 30 minutes before lights-out. Fix light, caffeine and wake time first - a supplement does not repair a circadian problem.",
+      "1",
+      "B",
+      "Sleep 95"
+     ],
+     [
+      "Ashwagandha - the regulators have caught up",
+      "Multiple regulators now warn of rare severe liver injury, and it is contraindicated in known liver disorders. Avoid it entirely if any liver risk is on your profile; if you continue, monitor liver function rather than assuming tolerance.",
+      "",
+      "A",
+      "EDA 2024"
+     ],
+     [
+      "Collagen peptides - an optional add-on",
+      "Modest evidence for skin hydration and elasticity. Sun exposure is the dominant modulator of photoageing by a wide margin, so sunscreen and a retinoid come first and collagen comes fourth, at whatever price it sells for.",
+      "10",
+      "B",
+      "RCTs"
+     ]
+    ]
+   },
+   {
+    "title": "Not Worth It",
+    "intro": [
+     "Grade X across the board: no benefit worth the mechanism, the cost or the interference."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Value",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Testosterone boosters",
+      "If LowTestosterone is set on your profile, this is the row that matters most: tribulus, fenugreek, proprietary arousal blends and anything claiming to raise testosterone without a blood test move nothing. The interventions that do change a low level are diagnostic and supervised, and total testosterone alone misclassifies men with low SHBG - free testosterone, repeated in the morning, is the measurement that decides.",
+      "",
+      "X",
+      "Mechanistic"
+     ],
+     [
+      "Fat burners and thermogenics",
+      "Caffeine and synephrine under a proprietary-blend label, sold on the back of an unblinded study. The mechanism is a stimulant effect you already have from coffee, with a hepatic and cardiovascular risk attached.",
+      "",
+      "X",
+      "EFSA 18"
+     ],
+     [
+      "BCAAs",
+      "Branched-chain amino acids add nothing to a diet already meeting the protein target, because complete protein supplies them in the right ratio. A BCAA product is a way to spend money while missing the ingredient that does the work.",
+      "",
+      "X",
+      "Helms 14"
+     ],
+     [
+      "Detoxes and cleanses",
+      "There is no defined toxin and no excretion pathway being accelerated. Twenty percent of US herbal supplement liver injury comes from exactly these products, green tea extract is the second cause, and with known liver risk this is the row that matters. Your liver clears most things at baseline.",
+      "20",
+      "X",
+      "LiverTox"
+     ],
+     [
+      "Fat-free foods",
+      "Removing fat does not remove its calories and does not remove the reason you are hungry. The products are formulated to be eaten more of, which is the mechanism by which fat-free became the opposite of its name.",
+      "",
+      "X",
+      "Mechanistic"
+     ],
+     [
+      "Stem cells and exosomes",
+      "Unregulated, unapproved, unsterile products sold as regenerative medicine with no batch standard and no dose. The documented harms are infections, tumours and blood clots, not the promised regeneration.",
+      "",
+      "X",
+      "FDA"
+     ],
+     [
+      "Green tea extract capsules",
+      "EFSA finds no safe dose identified: at or above 800 mg of EGCG a day from supplements, transaminase elevation is associated with it. Brewed tea is a different and safe product. If you take the capsule, keep it well under that and never on an empty stomach.",
+      "800",
+      "X",
+      "EFSA 18"
+     ]
+    ]
+   },
+   {
+    "title": "Body Composition",
+    "intro": [
+     "The number is a measurement. What you do about it is decided on the PROFILE page."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Value",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Body-fat band - live from your sex",
+      "Reads PROFILE Sex and returns the band where facial definition and hormonal function coexist. Change your sex on PROFILE and this cell changes with it.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "Men - 10-15%",
+      "The band where testosterone, appetite and facial definition are all still intact. Below about 8% the hormonal and recovery costs start to arrive, and the extra leanness buys very little you can see in a mirror.",
+      "15",
+      "B",
+      "Body comp"
+     ],
+     [
+      "Women - 18-24%",
+      "The equivalent band sits higher, and the reason is not vanity: the same percentage in a woman means less lean tissue and a smaller margin above the level where menstrual function and bone density are compromised. Estrogen also decides where fat sits, so the shape at a given percentage is not the shape at the same percentage in a man.",
+      "24",
+      "B",
+      "Body comp"
+     ],
+     [
+      "Waist-to-height ratio - the one to actually track",
+      "Waist at the navel, height, and a target below 0.50. A practical screening cut-off for central adiposity that beats BMI, because BMI cannot tell muscle from fat and central fat is the compartment that carries the risk. The cell reads PROFILE live.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "BMI - screening only",
+      "Useful for population screening and useless as a personal target: it cannot tell muscle from fat, and it is the same number for a lean frame and a heavy one. Live from PROFILE, kept because people will look for it.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "Measure it the same way every time",
+      "Three-day average weight, waist at the navel at the end of a normal exhale, and one body-fat method only. Switching between calipers, a smart scale and a DEXA manufactures differences that do not exist - the estimate changes, the fat does not.",
+      "",
+      "B",
+      "Anthropom"
+     ],
+     [
+      "Body-fat estimate - live from PROFILE",
+      "The live cell returns the body-fat percentage you entered if you measured one, and otherwise a circumference-based estimate from weight, waist and height. It is an estimate: a measured number beats it, which is why the PROFILE input exists above it.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "Weekly loss ceiling - 0.4-0.6 kg a week",
+      "Read the kilograms: the live cell is a Goal-driven string, not a calculation - 0.4-0.6 kg for Cut, 0.1-0.2 kg for Recomp, and a dash for Bulk and Maintain. On your own weight that is roughly 0.5-1.0% a week, and past the top of it a fifth to a third of the loss is lean mass rather than fat.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "Muscle protein synthesis falls, breakdown does not rise",
+      "In energy restriction muscle protein synthesis falls while muscle protein breakdown is unchanged (0.078 to 0.079 %/h). That is why a deficit does not automatically cost muscle - and why the deficit rate, not the deficit itself, is the variable that decides it.",
+      "0.078",
+      "A",
+      "J Physiol 17"
+     ],
+     [
+      "Adaptive thermogenesis is real and small",
+      "A systematic review found it in 27 of 33 studies, but the well-designed ones return small or non-significant values, attenuated or absent after weight stabilises (-72 to -85 kcal/day, sustained). Count it as a 100-300 kcal/day penalty, not a broken machine, and re-measure maintenance instead of feeding the fear.",
+      "300",
+      "B",
+      "Nunes 22"
+     ],
+     [
+      "Weight cycling compounds every round",
+      "Each cut-and-regain cycle adds adaptive thermogenesis, increases the overshoot and produces net fat gain, while the skin and ligaments stretch and do not fully recoil. The slow deficit is not a compromise; it is the strategy that leaves you intact at the end.",
+      "",
+      "B",
+      "Nunes 22"
+     ],
+     [
+      "A deficit stacked on high cardio volume",
+      "Concurrent training plus energy restriction carries the highest measured lean-mass loss of any combination - more than either alone. The volume that creates that condition lives in GZCL Program.xlsx; this row exists so the interaction is not discovered by accident.",
+      "",
+      "A",
+      "Longland 16"
+     ],
+     [
+      "Refeeding syndrome is a real risk at low intake",
+      "After prolonged severe restriction, fast reintroduction of carbohydrate can drive thiamine demand and fluid shifts. Rebuild at 100-200 kcal/day, include thiamine, and treat rapid refeeding after crash dieting as a clinical question rather than a challenge.",
+      "200",
+      "B",
+      "Refeeding"
+     ]
+    ]
+   },
+   {
+    "title": "Physique Aesthetics",
+    "intro": [
+     "What the face and the silhouette actually do, and which of those things are not a diet problem."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Value",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Chasing a face target is how you over-cut",
+      "The face is not a body-fat readout: facial fat is the last compartment to empty and the first to read as gaunt, so a scale that is moving and a face that is not is the normal state of a cut, not a failure of it. Use the waist and a monthly standardised photograph as the feedback, because a mirror in a deficit is a feedback loop that rewards cutting harder for a change that was never on the way.",
+      "",
+      "B",
+      "Bellity 26"
+     ],
+     [
+      "The buccal pad grows with you",
+      "The buccal fat pad increases from childhood into adulthood and may not begin to decrease until 60-70, when it descends and pseudo-herniates. It is not a fat store a deficit reaches into: a cheek that stays full through a 15 kg loss is behaving exactly as described, and no further deficit empties it faster. The compartment anatomy is on the APPEARANCE sheet; what this row adds is that a full lower cheek is not a nutrition failure.",
+      "",
+      "B",
+      "Bellity 26"
+     ],
+     [
+      "Submental and buccal - two different problems",
+      "They sit either side of the jawline and they end differently. The submental pad responds to total energy balance, empties late in a deficit and is what actually defines the jaw angle, so it is the compartment a cut can move. The buccal pad keeps its volume on its own schedule and, when it finally declines in later life, it descends rather than shrinks - a laxity problem at that point, not a fullness one. Treating the second like the first is why chin-and-cheek work comes back at the first sign of weight regain.",
+      "",
+      "B",
+      "Bellity 26"
+     ],
+     [
+      "Evening sodium - the next-morning face",
+      "Sodium shifts fluid into the intravascular space. In controlled trials high sodium raised reported bloating with RR 1.27 while plasma volume rose dose-dependently and total body water did not - it is a distribution shift, not weight. Keep the evening meal lower-sodium, hydrate through the day, and never correct it by under-hydrating.",
+      "1.27",
+      "B",
+      "DASH-Na"
+     ],
+     [
+      "Alcohol rebound swelling",
+      "Alcohol suppresses the antidiuretic hormone, so the water lost overnight is replaced as rebound retention - which is why a face looks worse the morning after. Alternate with water, expect the effect, and judge nothing on a single morning.",
+      "",
+      "C",
+      "Mechanistic"
+     ],
+     [
+      "A short night shows on the face before the scale moves",
+      "Objective skin measures move with a short night and observers rate it; the figures and the mechanism belong to SLEEP_RECOVERY. It is listed here because a deficit and a short night are one intervention aimed at two goals, and because the second one quietly undoes the first - see the sodium, alcohol and sleep compounding row below before judging a face on a single morning.",
+      "",
+      "A",
+      "Sleep sheet"
+     ],
+     [
+      "Sauna - a cardiovascular association, not a fat burner",
+      "Finnish cohorts reporting 4-7 sauna sessions a week against one or fewer showed cardiovascular mortality HR 0.50 and all-cause 0.60, observational and confounded by fitness and socioeconomic status. The sweat is the part that is not in question: sweat mass is water leaving the body, replaced within hours, and thermoregulation is not catabolism. Enjoy it for the relaxation and the plausible cardiovascular benefit; if you want an expenditure number, measure energy rather than reading a wet towel.",
+      "0.5",
+      "B",
+      "JAMA IM 15"
+     ],
+     [
+      "Spot reduction does not exist",
+      "You cannot choose the site fat leaves from. Workout-induced local fat change is a transient measurement artefact, not a mechanism. The compartment that responds is decided by genetics and sex, and the only lever is the total deficit.",
+      "",
+      "X",
+      "Established"
+     ],
+     [
+      "Steroid moon face",
+      "Anabolic steroids and corticosteroids drive sodium and water retention, redistribute subcutaneous fat and thin the skin - which is why a moon face arrives with the gyno, the acne and the shedding, not instead of them. It is a marker of drug exposure and it partially reverses on stopping.",
+      "",
+      "B",
+      "Endocrine"
+     ],
+     [
+      "Rapid loss leaves loose skin",
+      "Skin remodels over years after a large change in mass or fat, so the speed of the loss is the main determinant of how much laxity is left. Slower loss and the collagen support in the supplement stack are what help; significant laxity is a surgical question, not a diet one.",
+      "",
+      "C",
+      "Mechanistic"
+     ],
+     [
+      "Stretch marks are hormonal as well as mechanical",
+      "Dermal tearing tracks puberty, pregnancy, Cushing syndrome and steroid use as closely as it tracks rapid weight change - which is why they appear on bodies whose weight never moved. Moisturise, and know that they fade with maturation rather than disappearing.",
+      "",
+      "C",
+      "Mechanistic"
+     ],
+     [
+      "Sodium, alcohol and poor sleep compound",
+      "All three independently produce morning oedema, and alcohol also degrades the sleep that would otherwise clear it. Address one at a time and measure after two weeks rather than judging a single morning in a mirror.",
+      "",
+      "B",
+      "Mechanistic"
+     ],
+     [
+      "One food for fat loss",
+      "No single food has a meaningful independent fat-loss effect outside of the total energy balance. Broccoli is a good vegetable; it is not a mechanism.",
+      "",
+      "X",
+      "Meta 15"
+     ]
+    ]
+   },
+   {
+    "title": "Where Training Lives",
+    "intro": [
+     "This workbook owns the numbers. GZCL Program.xlsx owns the programming."
+    ],
+    "header": [
+     "Item",
+     "Target",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "GZCL Program.xlsx owns all programming",
+      "Sets, reps, load progression, exercise selection, weekly split and session structure belong to GZCL Program.xlsx and to nowhere else. Nothing in this module prescribes a workout, and if a row here ever looks like it does, it is wrong.",
+      "A",
+      "Workbook"
+     ],
+     [
+      "This workbook owns the targets GZCL executes against",
+      "The calorie band, the protein floor and ceiling, the per-meal protein, the weekly loss ceiling, the body-fat band, the caffeine cutoff and the sleep window. Set them here, then execute them in GZCL Program.xlsx against these numbers rather than against invented ones.",
+      "A",
+      "Workbook"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "sleep-recovery",
+  "sheet": "SLEEP_RECOVERY",
+  "blurb": "The one intervention that improves everything else. Wake time is the anchor, not bedtime.",
+  "sections": [
+   {
+    "title": "The Protocol - in This Order",
+    "intro": [
+     "Wake time first. Everything else in this sheet is downstream of it."
+    ],
+    "header": [
+     "Lever",
+     "Standard",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Fix the wake time, not the bedtime",
+      "The wake time anchors the circadian phase, the homeostatic sleep pressure and when you meet light. Hold it within 30 minutes every day, weekends included - a wake time that moves by two hours on Saturday has already cost you the week.",
+      "A",
+      "Circadian"
+     ],
+     [
+      "Morning light within an hour of waking",
+      "Ten to twenty minutes outdoors soon after you are up. Outdoor light is an order of magnitude brighter than any interior, and it is the signal that sets tonight's sleep pressure. Interior light through a window is a weak version of the same thing, which is why a winter commute is worth something.",
+      "B",
+      "Circadian"
+     ],
+     [
+      "The caffeine cutoff",
+      "Caffeine is an adenosine A1 and A2A receptor antagonist, so it blocks the pressure to sleep rather than causing wakefulness. 400 mg measurably disrupts sleep taken 0 h, 3 h or 6 h before bed - more than an hour of total sleep time lost even at 6 h - and habitual users build no tolerance to the effect. Half-life runs 3-7 h, so take the last dose five to six half-lives out: about 6 h for 100 mg, about 12 h for 400 mg. The PROFILE cell computes yours from your bedtime.",
+      "A",
+      "Drake 13"
+     ],
+     [
+      "Evening caffeine moves the clock, it does not only block sleep",
+      "A double espresso three hours before bed caused a phase delay of roughly 40 minutes in dim-light melatonin onset - nearly half the shift produced by three hours of 3,000-lux bright light, for a fraction of the exposure. So an evening coffee is a circadian intervention as much as a sedative one, and no amount of tolerance training removes it.",
+      "A",
+      "Burke 16"
+     ],
+     [
+      "Seven to nine hours is the target",
+      "The band is wide because need is individual; below it, chronic restriction independently raises insulin resistance, appetite (ghrelin up, leptin down), blood pressure and cortisol. Short sleep is among the strongest modifiable cardiovascular risk factors there is, and it is not a personality trait you can out-argue. If you are consistently under six hours, blaming genetics is the part to drop.",
+      "A",
+      "Cohorts"
+     ],
+     [
+      "Bedroom 17-19 degrees",
+      "Core temperature falls before sleep onset and a cold room delays it. Around 18-19 C is the working figure; an unheated bedroom in winter is the commonest sleep-quality problem nobody logs.",
+      "C",
+      "Sleep phys"
+     ],
+     [
+      "Blackout dark",
+      "Any light reaching the retina after dark suppresses melatonin, and the cheapest circadian intervention available is a light-proof bedroom. Eye masks and blackout fabric work if the window cannot be blocked; the light on the ceiling from a streetlamp is enough to matter.",
+      "B",
+      "Circadian"
+     ],
+     [
+      "A 30-60 minute wind-down",
+      "The clock does not change because you decided to try harder, so give the transition the same discipline you give everything else. Read, breathe, whatever is low-stakes and repeatable - the mechanism is that pre-sleep arousal has to be unwound, and a chosen routine does that faster than an unresolved day does.",
+      "B",
+      "Sleep hyg"
+     ],
+     [
+      "Alcohol is the classic sleep liar",
+      "It shortens sleep onset, which is the only number it improves. It suppresses REM, fragments the second half of the night as the metabolites clear, raises snoring and apnoea likelihood, and disrupts the circadian rhythm itself. Keep the last drink four to six hours before bed, and treat an eight-hour night with unrefreshing sleep as a reason to look at alcohol before anything else.",
+      "A",
+      "Sleep med"
+     ],
+     [
+      "Screens out of the bedroom",
+      "Light suppresses melatonin onset and content raises pre-sleep arousal, and both compound. No screen for the last hour, brightness down beforehand, and charge the phone somewhere else - the last half-hour of scrolling is the half-hour the light rule already covered.",
+      "B",
+      "Circadian"
+     ],
+     [
+      "Naps under 30 minutes, before 15:00",
+      "The post-lunch cortisol dip is real and a short nap is a legitimate use of it. A late or long one removes homeostatic pressure you need that night, so it moves the cost onto sleep onset and fragments what follows.",
+      "B",
+      "Sleep phys"
+     ],
+     [
+      "One alarm - snoozing fragments the night",
+      "Each snooze is an arousal: homeostatic sleep pressure is reset downward and the deepest N3 sleep is the first thing lost. Get up with the first alarm and use the friction of standing up as the decision.",
+      "B",
+      "Sleep hyg"
+     ],
+     [
+      "Light after sunset is the strongest circadian disruptor",
+      "Evening light displaces melatonin, delays the cortisol rhythm toward your wake time and suppresses evening testosterone. Dim or amber lighting after dark, and a dark bedroom, together do more for the rhythm than any supplement.",
+      "B",
+      "Circadian"
+     ]
+    ]
+   },
+   {
+    "title": "Recovery Metrics - What Is Worth Measuring",
+    "intro": [
+     "Trend and consistency, not stage detail. A consumer device is not a sleep study."
+    ],
+    "header": [
+     "Lever",
+     "Standard",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Resting heart rate - the seven-day mean",
+      "Track the mean of a week of morning readings, not a single morning. Day-to-day noise swamps the signal; a drift over two to three weeks is the thing worth acting on, and it is a decent proxy for the sleep and illness load you cannot otherwise see.",
+      "B",
+      "Physiol"
+     ],
+     [
+      "HRV - trend only, and know the sensor",
+      "Heart rate variability is a genuine autonomic marker, but wrist optical sensors are not measuring the beat-to-beat intervals an ECG measures, so the absolute number is not comparable across devices or even firm to firm. Use the direction over weeks from one device, under one measurement condition.",
+      "C",
+      "Validation"
+     ],
+     [
+      "Consumer sleep trackers - what they can and cannot do",
+      "Sensitivity is high at about 0.93: if you were awake, the device usually says so. Specificity is 0.18-0.54, so if it says you were asleep there is barely a coin-flip chance it is right, and MAPE - mean absolute percentage error - exceeds 20% for both deep and REM. One device called 59% of epochs deep when the true value was 10.8%. Fitbit overestimated total sleep time far more in insomniacs (+32.9 min) than in good sleepers (+6.5 min) - the worse your sleep, the worse the estimate.",
+      "A",
+      "Chinoy 21"
+     ],
+     [
+      "How to use a tracker - consistency, not stages",
+      "Judgement: how consistently you go to bed, how consistently you wake, and how the trend is moving. Sleep-stage detail is noise at consumer accuracy and it invites the problem below. If insomnia or sleep apnoea is suspected, the device cannot answer it - a sleep study can.",
+      "A",
+      "Lee 24"
+     ],
+     [
+      "Orthosomnia - 30.9% of those who track",
+      "Roughly 30.9% of US adults who track their sleep screen positive for orthosomnia risk, and about a third of adults track at all. The mechanism is feedback, not measurement: anxiety about a bad score produces the arousal that impairs sleep, and the next morning's score confirms it. The fix is a review window - monthly at most - then stop checking nightly, or stop tracking entirely. Waking at 87% every morning is data about the tracker.",
+      "B",
+      "MDPI 24"
+     ],
+     [
+      "Snoring, witnessed apnoeas and morning headache",
+      "With SleepApnea on your profile, no wearable substitutes for a sleep study. Loud snoring, witnessed pauses, a dry mouth on waking and a headache that clears by midday are the questions to take to a clinician, and untreated obstruction is a cardiovascular and dental problem long before it is a tiredness problem.",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Social jetlag - over two hours, and the cost is real",
+      "A weekend shift of more than two hours against your weekday schedule was associated with +2.29 kg/m2 of BMI and 129% higher odds of a chronic condition; catch-up sleep beyond two hours carried 78% higher odds of being overweight. Circadian misalignment disrupts the HPA axis, so the cost is metabolic as well as cosmetic. Cap the shift under an hour and get outside in the morning.",
+      "A",
+      "Sleep Br 24"
+     ],
+     [
+      "Catch-up sleep does not repair the metabolic damage",
+      "Duration and circadian misalignment are different debts. Longer weekend sleep does not undo the phase shift, and the metabolic benefit of catch-up was confined to the most physically active quartile. Treat the schedule as the intervention; treat the weekend as part of the same schedule.",
+      "B",
+      "Lancet 16"
+     ]
+    ]
+   },
+   {
+    "title": "When Sleep Reaches Hair and Skin",
+    "intro": [
+     "The appearance sheet sends here for the mechanism; this is where the sleep loss actually shows up."
+    ],
+    "header": [
+     "Lever",
+     "Standard",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "The shed arrives 8-12 weeks after the insult",
+      "Hair is the lagging readout, which is why sleep belongs on this sheet and not only on the hair one. The insult - a bad fortnight of sleep, a crash diet, a hard month - registers now and the visible shed arrives 8-12 weeks later; the APPEARANCE sheet owns the timeline and the diagnosis, this row owns the reason a sleep debt can be the insult that triggers it. Do not read a sudden shed as a new event: it is usually the old one arriving on schedule.",
+      "B",
+      "TE review 20"
+     ],
+     [
+      "Substance P is the sleep-to-scalp link",
+      "Substance P is the peptide that ties insomnia and stress to scalp tenderness, so a run of short nights is a plausible trigger for the tenderness rather than a coincidence of timing. The prevalence figures for trichodynia, and what to do about a tender scalp, are on the APPEARANCE sheet; this row exists because the mechanism runs through sleep, not because a scalp product will help.",
+      "B",
+      "Derm Ther 25"
+     ],
+     [
+      "Objective skin damage from a short night",
+      "Acute sleep loss produces less skin hydration, higher transepidermal water loss, higher skin pH, worse extensibility and more malondialdehyde - a measurable shift in the barrier, not an impression. It is one of the few appearance changes with a readable number behind it, and it reverses with recovery sleep.",
+      "A",
+      "Sleep Med 22"
+     ],
+     [
+      "Observers rate it before you do",
+      "Raters looking at sleep-deprived faces score them lower on attractiveness (-4% on a 100 mm scale), higher on tiredness (+19%) and lower on perceived health (-8.4 mm). Nobody in the study of sleep-deprived people thought they looked worse. That gap is the entire return on a consistent sleep schedule.",
+      "A",
+      "BMJ 10"
+     ],
+     [
+      "A short night makes a face puffy",
+      "Acute sleep loss produces swollen eyes, paler skin, more visible lines and dark circles - all of it reversible within a night of normal sleep, which is why the morning-after judgement is a bad one. Persistent morning puffiness is a different problem: sodium, alcohol, allergy or apnoea, and it will not resolve by sleeping more.",
+      "A",
+      "Sleep 13"
+     ],
+     [
+      "Sleep is the anabolic window",
+      "Sleep debt raises cortisol, impairs muscle protein synthesis and reduces training quality, so work done on a badly slept night is done at a discount. That is a reason to protect the sleep, not a prescription - the programming itself belongs to GZCL Program.xlsx, and the protein and calorie targets it executes against are on the PROFILE page.",
+      "A",
+      "Sports sleep"
+     ],
+     [
+      "Hair as a lagging adherence dashboard",
+      "The systematic review of sleep and hair loss treats hair as a delayed readout of stress, sleep, nutrition and drug exposure - useful as a dashboard, useless as a diagnosis. Read it monthly at most, from a standardised photo in the same light, and never from the mirror or the floor of the shower.",
+      "B",
+      "Derm Ther 25"
+     ]
+    ]
+   },
+   {
+    "title": "Evening Wind-Down - 60 Minutes",
+    "intro": [
+     "The same sequence every night. The repetition is the mechanism."
+    ],
+    "header": [
+     "Lever",
+     "Standard",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "1. Minutes 0-15 - lights down",
+      "Dim the lights or switch to amber as soon as the sun is down, and keep the last fifteen minutes of brightness brief. The endocrinology is in THE PROTOCOL; this is the step, and it only works done at the same point every night.",
+      "B",
+      "Circadian"
+     ],
+     [
+      "2. Minutes 15-25 - close the work",
+      "The day's unresolved business is the most reliable source of pre-sleep arousal there is, and it needs a boundary rather than an effort of will. Write down what is still open so it is not in your head, then stop.",
+      "B",
+      "Sleep hyg"
+     ],
+     [
+      "3. Minutes 25-35 - phone out of the room",
+      "Charge it across the room and out of reach. The rule and its three separate costs - light, arousal, and the wind-down it displaces - are in THE PROTOCOL; this is the step that makes them cheap.",
+      "B",
+      "Circadian"
+     ],
+     [
+      "4. Minutes 35-45 - alcohol is finished",
+      "If the last drink was four to six hours before bed this slot is already clear and you are done with it. If it was not, this is where it ends - the price in REM suppression, fragmentation and snoring is set out in THE PROTOCOL.",
+      "A",
+      "Sleep med"
+     ],
+     [
+      "5. Minutes 45-55 - the room, not the person",
+      "Room down to temperature, blackout drawn, one alarm set for the morning - the degrees and the reasoning are in THE PROTOCOL. Do it in the same order every night: the sequence is what trains the expectation of bedtime, which is most of why it works.",
+      "B",
+      "Sleep hyg"
+     ],
+     [
+      "6. Minutes 55-60 - last caffeine check",
+      "Tonight's last dose was hours ago; this is about tomorrow's. Read the cutoff off the PROFILE cell rather than counting half-lives in your head - it is computed from your bedtime, and it is the one deadline in this sequence that cannot be met retroactively.",
+      "A",
+      "Drake 13"
+     ],
+     [
+      "7. In bed - if you are awake, get up",
+      "Roughly twenty minutes of wakefulness in bed teaches the bed the wrong association. Get up, sit somewhere dim, do something boring until sleep returns, and come back. The other half of the rule is the wake time, which does not move for a bad night.",
+      "B",
+      "Sleep hyg"
+     ],
+     [
+      "8. Morning - light first, tracker later",
+      "Outdoors first, then anything that tells you how you slept - the light protocol is in THE PROTOCOL, and the ordering is the point. The score belongs to the monthly review window, not to the first minute of the day.",
+      "A",
+      "Circadian"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "longevity-health",
+  "sheet": "LONGEVITY_HEALTH",
+  "blurb": "Biomarkers, home measurement, screening, red flags, the symptom and disease indices, and the honest experimental shelf.",
+  "sections": [
+   {
+    "title": "Biomarker Table - Enter Your Values",
+    "intro": [
+     "Type the result into Value; Status judges it against the band in Target. Rows that pull from PROFILE recompute on their own. Grade is the strength of the evidence for the row, not a score for you."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "ApoB (mg/dL)",
+      "The count of atherogenic particles. The NLA ladder is 55 / 60 / 80 / 130 mg/dL by risk: below 55 for very high risk (about LDL-C 55 / non-HDL 85), below 60 for high risk, below 80 for moderate primary risk (about LDL 130 / non-HDL 190), and 130 is where risk reaches that of a smoker.",
+      "",
+      "A",
+      "NLA 24"
+     ],
+     [
+      "ApoB counts particles, not cholesterol",
+      "LDL-C is the cholesterol mass inside those particles, and the mass per particle varies several-fold between people - so two people with identical LDL-C can carry very different counts. ApoB stratifies risk better before and after therapy, and the discordance is common rather than exceptional.",
+      "-",
+      "A",
+      "Circ 24"
+     ],
+     [
+      "Asking for apoB is still Class 2a, not Class 1",
+      "The 2026 ACC/AHA multisociety guidance places apoB measurement 2a once LDL-C and non-HDL-C are at goal in ASCVD, CKM or diabetes, and 2b off therapy. A 2026 NHANES/UKB analysis found real discordance at target values and apoB more precise overall - which is why it belongs in the baseline panel rather than in a second thought.",
+      "-",
+      "B",
+      "ACC/AHA 26"
+     ],
+     [
+      "ApoB running 5 mg/dL above LDL-C",
+      "A discordance of 5 mg/dL or more in that direction is the trigger to intensify LDL-C lowering rather than to accept the LDL-C as reassurance.",
+      "-",
+      "B",
+      "JACC Adv 26"
+     ],
+     [
+      "LDL-C (mg/dL)",
+      "Still worth tracking, but as a second opinion on the particle count. Above 190 is familial hypercholesterolaemia territory, above 130 high risk.",
+      "",
+      "A",
+      "NLA 24"
+     ],
+     [
+      "Non-HDL-C (mg/dL)",
+      "The fallback when apoB is unavailable: 85, 130 and 190 track apoB 55, 80 and 130. It carries the same information as apoB without the apoB assay.",
+      "",
+      "B",
+      "NLA 24"
+     ],
+     [
+      "HDL-C (mg/dL)",
+      "High HDL-C is not a target and pharmacological raising has not reduced events. It is worth reading once: very high values can be artefact, and the number is not a lever you can pull.",
+      "-",
+      "B",
+      "AHA"
+     ],
+     [
+      "Triglycerides (mg/dL)",
+      "Above 150 is high on fasting, and the fasting value understates what a day of eating actually does. Triglyceride-rich particles are counted by apoB, so the two belong in the same discussion.",
+      "",
+      "A",
+      "NLA 24"
+     ],
+     [
+      "Lp(a) (mg/dL)",
+      "Above 50 is elevated (about 105 nmol/L) and present in roughly one person in five; above 180 (about 430 nmol/L) is very high lifetime risk. More than 90% of it is genetically determined, so lifestyle moves it very little.",
+      "",
+      "A",
+      "EAS 22"
+     ],
+     [
+      "Lp(a) - once in a lifetime",
+      "ESC/EAS 2019, CCS 2021, EAS 2022, NLA 2024 and AHA/ACC 2026 all now say test at least once in life. Repeat only if a secondary cause is suspected, and cascade-screen first-degree relatives.",
+      "-",
+      "A",
+      "AHA/ACC 26"
+     ],
+     [
+      "Never convert Lp(a) between units",
+      "The mg/dL and nmol/L conversion factors are inaccurate enough to reclassify high-risk patients downward. Report whichever unit the assay gave you and keep the number in that unit for the rest of your life.",
+      "-",
+      "A",
+      "NLA 24"
+     ],
+     [
+      "HbA1c (%)",
+      "Below 5.7% is normal. It is a weighted average of two to three months of glycated haemoglobin, which is exactly why it fails when the haemoglobin itself is abnormal.",
+      "",
+      "A",
+      "ADA"
+     ],
+     [
+      "HbA1c is unreliable in anaemia",
+      "Iron-deficiency anaemia usually pushes HbA1c up, haemoglobin variants push it down in either direction, and uraemia and recent transfusion do the same. With Anaemia on your profile this number is not a glycaemia measurement at all, which is why fasting glucose and fasting insulin below it are the readings that carry the diagnosis.",
+      "-",
+      "A",
+      "ADA/EASD"
+     ],
+     [
+      "Fasting glucose (mg/dL)",
+      "Below 100 is normal, 100-125 impaired fasting glucose. Fasting glucose misses postprandial dysglycaemia, which is why it never travels alone.",
+      "",
+      "A",
+      "ADA"
+     ],
+     [
+      "Fasting insulin and HOMA-IR",
+      "Fasting insulin is a crude proxy for insulin resistance and is useful only in the panel context. HOMA-IR is glucose x insulin / 405, and it moves before glucose does - a normal glucose with a high HOMA is the early shape.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "HbA1c alone is not the diabetes screen",
+      "Adding fasting insulin, triglycerides and waist catches what HbA1c misses, and it is the only way to see an isolated prediabetic reading rather than a clean-looking result.",
+      "-",
+      "A",
+      "ADA/EASD"
+     ],
+     [
+      "When HbA1c cannot be interpreted",
+      "Fructosamine over the previous two to three weeks, or a continuous glucose monitor, substitutes for the reading rather than arguing with it.",
+      "-",
+      "B",
+      "Standards"
+     ],
+     [
+      "hs-CRP (mg/L)",
+      "Below 1 low risk, 1-3 intermediate, above 3 high. Repeat when you are well: infection, an injury and an obesity flare all move it, and a single reading during any of them means nothing.",
+      "",
+      "A",
+      "AHA/CDC"
+     ],
+     [
+      "hs-CRP never decides statin eligibility",
+      "The JUPITER subgroup finding that drove early adoption did not replicate; testing hs-CRP to decide who gets a statin is not recommended. Read it as inflammation, not as an indication.",
+      "-",
+      "B",
+      "Standards"
+     ],
+     [
+      "Homocysteine (\u00b5mol/L)",
+      "Above 15 is raised. B-vitamin trials lower the number and do not reduce cardiovascular events or mortality, so a high result is a prompt to look for B12, folate, B6 and renal function - not a prescription.",
+      "",
+      "A",
+      "ACMG 13"
+     ],
+     [
+      "Do not genotype MTHFR",
+      "The ACMG guideline says not to test for MTHFR polymorphisms. C677T is a poor risk marker; hyperhomocysteinaemia itself is the variable of interest.",
+      "-",
+      "A",
+      "ACMG 13"
+     ],
+     [
+      "Ferritin (\u00b5g/L)",
+      "An acute-phase reactant as much as an iron store, so it is read against CRP and iron studies rather than on its own. Above 300 is the trigger for an iron-overload workup; below 30 is depletion with or without anaemia.",
+      "",
+      "A",
+      "Standard"
+     ],
+     [
+      "Ferritin is also an inflammatory marker",
+      "Inflammation raises ferritin without raising iron. A ferritin of 400 with a high hs-CRP is an inflammatory result until proven otherwise.",
+      "-",
+      "B",
+      "Standard"
+     ],
+     [
+      "Transferrin saturation (TSAT, %)",
+      "The other half of the iron pair. Below 20% is iron deficiency even with a normal haemoglobin; above 45% is iron overload and the number that points at hereditary haemochromatosis.",
+      "",
+      "A",
+      "HFE guide"
+     ],
+     [
+      "Ferritin above 300 in a man",
+      "The reference range is not shared on this marker, which is why this is the one ferritin row on the sheet that is not universal. BODY_NUTRITION > MICRONUTRIENTS states the threshold and the HFE workup it triggers; what belongs here is that the result that earns an appointment should be visible on the row you read when the result lands.",
+      "-",
+      "A",
+      "HFE guide"
+     ],
+     [
+      "Ferritin without menstrual loss",
+      "The threshold that triggers the workup is the wrong one to argue with here; the statement of why is on BODY_NUTRITION > MICRONUTRIENTS THAT ACTUALLY MATTER. With LowFerritin set, this is the row that says to treat the result rather than to wait for it to fall further.",
+      "-",
+      "A",
+      "EAS"
+     ],
+     [
+      "25(OH)D (ng/mL)",
+      "The IOM position is to treat below 12-20 and to be concerned above 50 for hypercalcaemia. The 2024 Endocrine Society retracted the 30 ng/mL sufficiency line and suggests against routine screening in healthy adults, so test on risk, not on routine.",
+      "",
+      "B",
+      "IOM/ES 24"
+     ],
+     [
+      "A reported 30 ng/mL is an interval, not a point",
+      "The spread between assay platforms is wide enough that a printed 30 is not a measurement of anything. BODY_NUTRITION > MICRONUTRIENTS states the range in full and owns the number; what belongs on a screening sheet is the habit - retest the same blood on a second platform before you chase a value you cannot resolve.",
+      "-",
+      "B",
+      "DEQAS"
+     ],
+     [
+      "SHBG (nmol/L)",
+      "Low SHBG is an insulin-resistance signal in its own right, and it is why a total testosterone on its own is not a testosterone measurement.",
+      "-",
+      "B",
+      "Consensus"
+     ],
+     [
+      "Total testosterone alone misclassifies men",
+      "A panel that reports one total and nothing else has not measured testosterone. BODY_NUTRITION > NOT WORTH IT states why and owns the measurement that decides; on a screening sheet the action is the same either way - two morning samples, SHBG alongside, and a diagnosis before any prescription.",
+      "-",
+      "A",
+      "Endo Soc"
+     ],
+     [
+      "Uric acid (\u00b5mol/L)",
+      "Above 420 is the cardiometabolic cut-point, derived in men, where the reference range and the risk gradient come from. Read it against weight, alcohol and kidneys rather than as a gout diagnosis.",
+      "",
+      "B",
+      "Consensus"
+     ],
+     [
+      "eGFR (mL/min/1.73m2)",
+      "Below 60 is chronic kidney disease territory and it is asymptomatic for years. It is also the number that makes NSAID and PPI duration a real question rather than a footnote.",
+      "",
+      "B",
+      "CKD-EPI"
+     ],
+     [
+      "Haemoglobin (g/dL)",
+      "Below 12 in women and 13 in men is anaemia. It is the screen that catches occult gastrointestinal bleeding in men and menstrual loss in women, which is why it is on the baseline panel at all.",
+      "",
+      "A",
+      "WHO"
+     ],
+     [
+      "TSH (mIU/L)",
+      "0.4-4.0 is the usual range; outside it, the free T4 decides whether it matters. Both directions are real - a low TSH is not the reassuring one.",
+      "",
+      "B",
+      "Clinical"
+     ]
+    ]
+   },
+   {
+    "title": "Functional Vitals",
+    "intro": [
+     "The markers that predict outcomes better than most of the bloods. The two live target rows read PROFILE and follow the sex you entered there."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "VO2max (ml/kg/min) - your number",
+      "The single steepest gradient on this sheet: each 1 ml/kg/min is 9% lower all-cause mortality. Enter a field-test estimate, not a wearable guess.",
+      "",
+      "A",
+      "Laukkanen"
+     ],
+     [
+      "VO2max target - live from your sex",
+      "Reads the PROFILE target, so it changes if you change your sex entry. Above 33 for women, above 40 for men; 43-46 is the good band in men aged 40-60 and above 50 reads as superior.",
+      "",
+      "B",
+      "ACSM/AHA"
+     ],
+     [
+      "Each 1 ml/kg/min is 9% lower all-cause mortality",
+      "There is no single medical marker with a steeper gradient than cardiorespiratory fitness. Poor fitness is comparable to smoking, obesity and diabetes as a risk factor, which is why it is a vital sign and not a fitness-flavoured extra.",
+      "-",
+      "A",
+      "Laukkanen 16"
+     ],
+     [
+      "The decline is not automatic",
+      "VO2max falls about 0.5-1 ml/kg/min per decade after 30, and CARDIA documented that fall in people who were not training. It is the reason there is no maintenance mode to enter at 30.",
+      "-",
+      "B",
+      "CARDIA"
+     ],
+     [
+      "Grip strength (kg) - your number",
+      "The easiest strong marker in the workbook to measure at home. The floor below follows your sex: under 27 kg in men is the EWGSOP2 sarcopenia threshold, and the same evidence gives no single female cut-off, so the cell reads 40 kg for men and 25 kg for women rather than grading a woman against a threshold that was never hers.",
+      "",
+      "A",
+      "EWGSOP2"
+     ],
+     [
+      "Grip target - live from your sex",
+      "Reads the PROFILE target: at or above 40 kg for men, 25 kg for women.",
+      "",
+      "A",
+      "PURE 15"
+     ],
+     [
+      "Each 5 kg lower grip is 16% higher all-cause mortality",
+      "17% for cardiovascular mortality, 7% for myocardial infarction and 9% for stroke. In the PURE cohort grip strength out-predicted systolic blood pressure for both all-cause and cardiovascular death - which is not the reputation grip has.",
+      "-",
+      "A",
+      "PURE 15"
+     ],
+     [
+      "Resting heart rate (bpm) - your number",
+      "On waking, before you sit up. The trend beats any single reading, and a week's mean beats one morning.",
+      "",
+      "B",
+      "Framingham"
+     ],
+     [
+      "Resting HR category - live from PROFILE",
+      "The same bands, computed by the sheet: athlete below 50, normal to 65, upper normal to 75, elevated above.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "Systolic blood pressure (mmHg)",
+      "Below 120 is normal, 120-129 elevated, 130-139 stage 1, 140+ stage 2, 180+ a crisis. Confirm with repeated properly-taken readings rather than with the one you took standing up.",
+      "",
+      "A",
+      "AHA"
+     ],
+     [
+      "Blood pressure category - live from PROFILE",
+      "Read the sheet's own verdict, which also requires the diastolic you typed on PROFILE before it will answer.",
+      "",
+      "A",
+      "PROFILE"
+     ],
+     [
+      "Orthostatic drop - systolic (mmHg)",
+      "Lying to standing, a fall of 20 mmHg systolic or 10 mmHg diastolic is the threshold that predicts falls, injury and mortality. Symptomatic drops at less than that still count.",
+      "",
+      "A",
+      "Guidelines"
+     ],
+     [
+      "Waist-to-height ratio - live from PROFILE",
+      "The cut-off is 0.50. The measurement protocol, the interpretation and why it beats BMI are on BODY_NUTRITION > BODY COMPOSITION; it is on this sheet because it is one of the few numbers you can take yourself, without a machine, for the rest of your life.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "Waist-to-hip ratio - live from PROFILE",
+      "Higher central fat on a given hip circumference is the worse of the two distributions, which is what this ratio measures.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "BMI category - live from PROFILE",
+      "Screening only, and the sheet says so in its own words: the same BMI describes a lean frame and a heavy one. Read it beside the waist and fitness rows above.",
+      "",
+      "B",
+      "PROFILE"
+     ],
+     [
+      "Sleep hours per night",
+      "Seven to nine. The band, the protocol and the argument with genetics are on SLEEP_RECOVERY > THE PROTOCOL; the number is tracked here because it sits next to the other vitals that short sleep corrupts.",
+      "",
+      "A",
+      "SLEEP sheet"
+     ],
+     [
+      "Sitting hours per day",
+      "Above 6-8 hours of sitting raises all-cause and cardiovascular mortality independently of how much activity you do. High activity mitigates sitting but does not cancel it.",
+      "",
+      "A",
+      "Patterson 18"
+     ],
+     [
+      "Television hours per day",
+      "Over 3-4 hours carries its own penalty that activity does not offset - it is the one high-risk behaviour that stays high in people who exercise plenty.",
+      "",
+      "A",
+      "Ekelund 16"
+     ],
+     [
+      "Alcohol drinks per week",
+      "The bands below are the ones PROFILE scores with, not a target. The linear-risk statement - no protective dip at any dose - is on BODY_NUTRITION and it is the reason least is best.",
+      "",
+      "A",
+      "PROFILE score"
+     ]
+    ]
+   },
+   {
+    "title": "Home Measurement Protocol",
+    "intro": [
+     "A number measured badly is a number you will chase for a year. Most of these take under ten minutes between them - the longest is the orthostatic drop, which needs five minutes lying down and two readings standing up. Two run on a different clock: the shed count takes a week, and the bloods take a fasting morning at a fixed hour."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Blood pressure cuff size",
+      "The bladder must cover about 80% of the arm circumference and 40% of its width. A cuff that is too small reads high and a cuff that is too large reads low, and most home cuffs are the wrong one for the arm.",
+      "-",
+      "A",
+      "AHA"
+     ],
+     [
+      "Five minutes of sitting first",
+      "Seated, back supported, feet flat, arm at heart level, no caffeine, no exercise and no talking for 30 minutes beforehand. A full bladder and a recent meal both inflate the reading.",
+      "-",
+      "A",
+      "AHA"
+     ],
+     [
+      "Two readings, one minute apart",
+      "Average them. The first reading is a warm-up measurement, not a measurement, and a clinic that takes one is taking the high one.",
+      "-",
+      "A",
+      "AHA"
+     ],
+     [
+      "Resting heart rate on waking",
+      "Before you sit up, before the phone, on the same side of the bed. SLEEP_RECOVERY > RECOVERY METRICS owns the seven-day mean; this is the single reading that produces it.",
+      "-",
+      "B",
+      "Framingham"
+     ],
+     [
+      "Grip dynamometer - the protocol",
+      "Maximum of 2-3 attempts, dominant hand, elbow resting on an armrest, squeezing for about three seconds. Take the best of the attempts rather than the last, and test at the same time of day each month.",
+      "-",
+      "A",
+      "EWGSOP2"
+     ],
+     [
+      "Waist at the navel",
+      "Relaxed, at the end of a normal exhale, tape snug but not digging. The measuring protocol itself is on BODY_NUTRITION > BODY COMPOSITION; the reason to own a tape measure is that it is the only anthropometric number that predicts outcomes on its own. BODY_NUTRITION > BODY COMPOSITION owns the reading and the cut-off.",
+      "-",
+      "B",
+      "PROFILE sheet"
+     ],
+     [
+      "Neck and hip for the Navy estimate",
+      "Neck below the Adam's apple, hip at the widest part of the hips or glutes. Feed both into the body-fat estimate on BODY_NUTRITION > BODY COMPOSITION - a circumference estimate is only as good as the constancy of how you took them.",
+      "-",
+      "C",
+      "PROFILE sheet"
+     ],
+     [
+      "The seven-day shed count",
+      "Count what goes down the drain for a week and keep the count, because a single shower tells you nothing and a week tells you whether the rate is climbing. The thresholds that turn a count into a diagnosis, and the miniaturised-hair ratio, are on APPEARANCE > THE WORKUP BEFORE ANY HAIR DRUG; this row is the measurement, not the interpretation.",
+      "-",
+      "B",
+      "JAAD"
+     ],
+     [
+      "Daylight photography, monthly",
+      "Same light, same distance, same time of day, dry hair, no product, same parting. The constancy is the measurement; the monthly photo is how you get a comparable image at all, because memory is not a control. What the image means is on SLEEP_RECOVERY > WHEN SLEEP REACHES HAIR AND SKIN, which treats hair as a lagging readout rather than a diagnosis.",
+      "-",
+      "B",
+      "Method"
+     ],
+     [
+      "A field VO2max test is enough",
+      "A six-minute walk, a stair climb or a submaximal estimate you can repeat outdoors for years is worth more than an exact laboratory number you only have once. Trend it, do not chase it.",
+      "-",
+      "B",
+      "ACSM"
+     ],
+     [
+      "The orthostatic drop, measured properly",
+      "Supine for five minutes, then standing, with blood pressure at one and three minutes. Symptomatic or 20/10 mmHg matters on its own - it predicts falls, injury and mortality whether or not you are hypertensive.",
+      "-",
+      "A",
+      "Guidelines"
+     ],
+     [
+      "Fasting bloods at the same hour",
+      "Fasting 8-12 hours, morning slot, water allowed, no alcohol the night before. Morning is not negotiable for testosterone and cortisol; a random cortisol is close to useless because the hormone is diurnal.",
+      "-",
+      "A",
+      "Standards"
+     ],
+     [
+      "Same cuff, same scale, same time",
+      "Measurement error, not biology, explains most of the week-to-week noise in every number on this sheet. A cuff that drifts two millimetres produces a drift that reads exactly like a trend.",
+      "-",
+      "B",
+      "Methodology"
+     ],
+     [
+      "Write it down, or you do not have a baseline",
+      "An unrecorded measurement is a snapshot, and screening is only useful when there is something to trend. A phone note with the date is enough; a spreadsheet only matters if you will still open it in five years.",
+      "-",
+      "A",
+      "Practice"
+     ]
+    ]
+   },
+   {
+    "title": "Screening Schedule",
+    "intro": [
+     "What to check, how often, and why a test without a baseline is a snapshot. Ages are the entry points; the intervals inside them are what change with risk."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Around 30 - the baseline panel",
+      "ApoB, Lp(a), HbA1c and fasting glucose, TSH, full blood count, comprehensive metabolic panel with creatinine and liver enzymes, ferritin with TSAT, B12, 25(OH)D if you are at risk, lipids, and a urine albumin-to-creatinine ratio. This is the row everything else is trended against, and it is the one most people skip.",
+      "-",
+      "A",
+      "Guideline"
+     ],
+     [
+      "Around 40 - the panel becomes an interval",
+      "This is the age at which 'baseline' stops being one appointment and starts being a schedule: lipids and HbA1c move to the risk-based interval above, blood pressure is measured at every visit, and the annual review adds waist, grip and a field fitness number rather than another blood panel. Colorectal screening starts five years later - the row below states the age, because starting at 45 rather than 50 is the change in this table most readers have not heard.",
+      "-",
+      "A",
+      "Guideline"
+     ],
+     [
+      "Lp(a) - once in a life",
+      "At any age, and once is enough. It is genetically set, so a repeat twenty years later is a second look at the same number.",
+      "-",
+      "A",
+      "AHA/ACC 26"
+     ],
+     [
+      "Lipids every 1-5 years by risk",
+      "The interval is set by your apoB, your blood pressure and your family history, not by your age. A 30-year-old with an apoB of 130 is on a different clock from a 30-year-old with a 45.",
+      "-",
+      "A",
+      "NLA 24"
+     ],
+     [
+      "HbA1c every three years if it is normal",
+      "A normal result buys three years of confidence, not a decade. Shorter intervals once it enters the impaired range, and the annual screen that catches what HbA1c structurally cannot.",
+      "-",
+      "A",
+      "ADA"
+     ],
+     [
+      "Blood pressure every year from 18",
+      "Every visit, every clinic, every pharmacy. It is the measurement that leads to more life-years saved than any test in this table, and the one most often taken badly.",
+      "-",
+      "A",
+      "AHA"
+     ],
+     [
+      "Colorectal, 45 to 75",
+      "A faecal immunochemical test annually, or a colonoscopy every ten years. Starting at 45 rather than 50 is the single largest change in this schedule over the last decade - it found lesions in a cohort that had been told it was too early.",
+      "-",
+      "A",
+      "USPSTF"
+     ],
+     [
+      "Hepatitis C - once",
+      "A one-off antibody test in every adult, with no risk requirement and no annual repeat. The treatment is curative and the undiagnosed group is large.",
+      "-",
+      "A",
+      "CDC"
+     ],
+     [
+      "HIV - once",
+      "One test, routinely offered rather than asked for. The result of not asking is a population that never gets tested.",
+      "-",
+      "A",
+      "USPSTF"
+     ],
+     [
+      "Shingles vaccine",
+      "The recombinant vaccine has replaced the live one, and the schedule is age-based rather than exposure-based. It is on this sheet because the recommendation has moved twice and most people still hold the older one.",
+      "-",
+      "A",
+      "CDC"
+     ],
+     [
+      "Dental - every six months",
+      "Examination and cleaning twice a year, with periodontal charting. APPEARANCE > GROOMING CADENCE owns the six-month recall and why it goes on the calendar at all; here it is a systemic-inflammation appointment, which is also what this sheet is for.",
+      "-",
+      "A",
+      "ADA"
+     ],
+     [
+      "Skin and scalp check, annually",
+      "A deliberate full-body and scalp inspection with the same person if possible. A changing lesion that you have seen every week of your life is the one nobody examines properly.",
+      "-",
+      "A",
+      "AAD"
+     ],
+     [
+      "Bone density by age and risk",
+      "A DEXA is scheduled by risk rather than by a birthday: a fragility fracture, long-term steroid use, or a low body weight moves the date earlier than any schedule would. Bring the previous scan if there is one - the number that decides anything is the change from the last result, and a first result on its own says very little.",
+      "-",
+      "B",
+      "USPSTF"
+     ],
+     [
+      "Bone density from 65 for women",
+      "The one age-based entry point in this table, and it exists because the post-menopausal bone loss it is looking for is predictable while the evidence for men is insufficient rather than negative. It is also the row most often assumed by people who have had a fracture without it.",
+      "-",
+      "B",
+      "USPSTF"
+     ],
+     [
+      "Cervical screening, 21 to 65",
+      "Cytology every three years to 29, then cytology every three years or high-risk HPV every five years to 65. Age-specific, sex-specific, and the schedule changes at 30 rather than at a risk factor - which is why it is worth knowing rather than assuming.",
+      "-",
+      "B",
+      "USPSTF"
+     ],
+     [
+      "Abdominal aortic aneurysm - one ultrasound",
+      "Men 65-75 who have ever smoked: a single screening ultrasound, ever. Not an annual series and not a blood test - the whole benefit is in that one scan, so skipping it by inattention is the whole cost.",
+      "-",
+      "B",
+      "USPSTF"
+     ],
+     [
+      "At 50 - take the second reading",
+      "The most useful appointment in this schedule is the one that compares two decades of your own numbers. A baseline at 30 with nothing since tells you nothing about slope, and slope is the thing that changes decisions.",
+      "-",
+      "B",
+      "Practice"
+     ],
+     [
+      "Fifty and up - the interval that shrinks",
+      "Nothing in this table changes on your fiftieth birthday, but most of the intervals above are upper bounds for a low-risk person. The fiftieth is where the arithmetic of accumulated exposure starts to be worth acting on.",
+      "-",
+      "B",
+      "Practice"
+     ],
+     [
+      "Screening without a baseline is a snapshot",
+      "Every reference range is a distribution, and a number only means something against your own history. The second measurement is worth more than the first, and the third more than the second.",
+      "-",
+      "A",
+      "Guideline"
+     ],
+     [
+      "Screening you will not attend is not screening",
+      "The evidence for most of this table is in people who completed it. The schedules above assume attendance; the attendance is the part that fails, and a shorter list you actually do beats a complete one you skip.",
+      "-",
+      "A",
+      "Practice"
+     ],
+     [
+      "Annual, every year, no exceptions",
+      "Blood pressure, weight, waist, a look at your teeth, and the marker interval your risk allows. Five things, most of them free, is a defensible floor for a healthy adult.",
+      "-",
+      "A",
+      "Guideline"
+     ]
+    ]
+   },
+   {
+    "title": "Red Flags - Go Now",
+    "intro": [
+     "Every row is gated to a condition flag on your PROFILE, because a red flag shown to everybody is noise. The gate is an audience filter: it routes a finding to the readers who have already told the sheet they have that condition. It is not a claim that the flag causes the finding."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Chest pain or pressure",
+      "Crushing, heavy or spreading pain, especially with sweating, nausea or breathlessness, is an ambulance rather than a clinic. Atypical presentation is the norm in diabetes, in women and in people with existing disease.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Sudden weakness, numbness or speech change",
+      "A facial droop, an arm that will not lift or words that will not come out means stroke and a clock that started when it began. Note the time - the treatment window is hours, not days.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Syncope or a near-faint on standing",
+      "Fainting during exertion is never benign. It carries the same arrhythmia and structural workup whether or not your blood pressure is high.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Sudden vision loss",
+      "A curtain across one eye is amaurosis fugax until proven otherwise; a field defect with a headache is a different emergency. Either way it is today, not next week.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Black, tarry stool",
+      "Upper gastrointestinal bleeding digested on the way through. With iron deficiency already on your profile, a ferritin that fell without a reason is the same story told quietly.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Breathless on one flight of stairs",
+      "New exertional breathlessness, or a leg ulcer that will not heal, is a cardiac or a circulatory problem rather than a fitness problem. Neither is a thing to train through.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Unexplained weight loss",
+      "More than 5% of bodyweight in six months without trying, especially with fatigue or a raised HbA1c, is a diagnostic workup rather than a good month.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Night sweats that soak the bedding",
+      "Drenching night sweats, fever or unexplained weight loss together are a lymphoma and infection question. One warm night is not.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "A new hard lesion that will not heal",
+      "A sore, a crust or a non-healing ulcer on the face or scalp for more than three weeks, whatever it looks like. Sun-exposed skin, and a history of any sun damage makes it less excusable, not more.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Losing the openings in the scalp",
+      "Skin that has gone shiny with the follicular openings gone is scarring alopecia, and it is permanent: the openings do not come back, which is why a slick patch is an appointment this week and not a question for next year. APPEARANCE > HAIR HYGIENE owns the permanent-scarring statement for traction alopecia and for relaxers and bleach.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "A mouth ulcer past two weeks",
+      "Non-healing for more than a fortnight is an oral-medicine referral, not a mouthwash. Alcohol and smoking multiply the risk and hide the warning.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "A white or red patch that will not wipe off",
+      "An oral leukoplakia or erythroplakia is a premalignant lesion until biopsied, and neither wipes off onto a cloth the way thrush does.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Jaundice or dark urine",
+      "Yellow sclera with tea-coloured urine on a supplement stack is hepatotoxicity until the liver panel says otherwise. Stop the stack and get the bloods.",
+      "-",
+      "A",
+      "LiverTox"
+     ],
+     [
+      "Vomiting blood or coffee-ground vomit",
+      "Upper gastrointestinal bleeding, and the reason an iron-deficient result is investigated with a scope rather than with a different supplement.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Tingling or numbness in the feet",
+      "Symmetrical peripheral neuropathy on a B-vitamin stack is pyridoxine toxicity, and it can be irreversible. The dose that causes it is on BODY_NUTRITION > MICRONUTRIENTS, which owns the tolerable upper intake; this row exists because the symptom is the thing people bring to a clinic, and the stack is what they will not mention unless asked.",
+      "-",
+      "A",
+      "EFSA 23"
+     ],
+     [
+      "A hot, swollen, exquisitely tender big toe",
+      "A gout flare is a diagnosis to confirm once and then manage; a first presentation that might be an infected joint needs to be excluded the same day.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "A first-degree relative with heart disease early",
+      "Coronary disease in a father or brother before 55, or a mother or sister before 65, is the family history that makes an Lp(a) test urgent rather than routine.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "A new lump or change in the breast",
+      "A new lump, dimpling, a nipple that has changed direction or bloody nipple discharge. Gated on FattyLiver because visceral adiposity is one of the strongest modifiable breast-cancer risk factors - if you have flagged it, this row is about you rather than about everybody.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Testicular mass or unilateral change",
+      "A painless testicular lump, or a testicle that has changed size or consistency, is a same-week appointment. Unilateral painless change is the presentation that gets delayed.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Two weeks of low mood or lost interest",
+      "Anhedonia or hopelessness persisting past two weeks is a clinical depression rather than a bad fortnight, and it is treatable - the point of naming it here is that two weeks is short enough to wait out and long enough that waiting is the mistake. Escalating hair-pulling is named on APPEARANCE > HAIR HYGIENE.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "A swollen, painful calf",
+      "One-sided calf swelling and warmth is a deep-vein thrombosis, and the risk rises with time spent sitting and with age. Unilateral is the word that matters.",
+      "-",
+      "A",
+      "Clinical"
+     ]
+    ]
+   },
+   {
+    "title": "Symptom Index",
+    "intro": [
+     "Symptom, the causes worth considering, and the sheet or the appointment that actually resolves it. A symptom index is only useful if it names where to go."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Fatigue that sleep does not fix",
+      "Overtraining, iron deficiency, an underactive thyroid, sleep apnoea, or depression. Ferritin and TSAT, then TSH, then a sleep question - in that order. SLEEP_RECOVERY > RECOVERY METRICS owns the sleep half, and the STOP-Bang question in particular.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Brain fog in the afternoon",
+      "Postprandial dip, poor sleep quality, caffeine cycling or mild hyperglycaemia. If it arrives daily after lunch, glucose and insulin belong in the panel above.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "The 3pm crash",
+      "Carbohydrate-heavy lunch, waking with insufficient deep sleep, or an overdue meal. An afternoon caffeine top-up hides it for two hours and takes the evening with it.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Night sweats",
+      "Infection, lymphoma, menopause, hypoglycaemia and a warm bedroom are five different problems with the same symptom. Soaking the bedding is the threshold - see RED FLAGS.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Bloating after meals",
+      "Fructose and sugar alcohols first, then a fast eating rate, then a fibre increase faster than your gut adapts. A gut-symptom pattern tracking one food is a food answer, not a probiotic.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Constant cravings",
+      "Sleep debt, a deficit that is too aggressive, low protein, or a conditioning loop built on high-reward food. The order of those four is the order to fix them.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Cold hands and feet",
+      "Peripheral vasoconstriction, an underactive thyroid, anaemia, or a low calorie intake. Persistent and painless, with no colour change, is worth a clinician; with colour change it is urgent.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Water retention",
+      "Sodium the night before, alcohol, a heavy leg day, an under-trained state, or a kidney question. One morning is not a pattern; a week is. BODY_NUTRITION owns the sodium and alcohol mechanisms in full.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Hair shedding in clumps",
+      "A diffuse shed that arrives in clumps rather than a gradual thinning is a different question from pattern loss. APPEARANCE > THE WORKUP BEFORE ANY HAIR DRUG owns the diagnosis, the shed count and the lag from the insult; the first thing to do here is write down what happened about three months ago.",
+      "-",
+      "A",
+      "TE review 20"
+     ],
+     [
+      "An itchy scalp",
+      "Dandruff and seborrhoeic dermatitis sit at the top; psoriasis and allergic contact dermatitis follow. APPEARANCE > SCALP DISORDERS holds the differential and the wash cadence.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Flaky scalp that returns",
+      "An inflammatory cycle rather than dry skin: over-treatment, an active ketoconazole wash and a heavy oil all produce it. APPEARANCE > SCALP DISORDERS owns the twice-weekly cadence.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Facial redness that comes and goes",
+      "It is on a symptom index rather than a dermatology list because coming and going is the part that decides the question: a flare that tracks a weekend, a hot room or a bottle of wine is a trigger log, while redness that has not moved whatever you stop is the appointment. APPEARANCE > SKIN TYPES AND CONDITIONS owns the definition and the absolute rule about steroids.",
+      "-",
+      "A",
+      "NDTF"
+     ],
+     [
+      "New pigment that will not fade",
+      "Pigment that darkens in summer and stays through winter is melasma rather than a tan that went wrong, and it behaves differently enough to be worth a dermatologist's eye rather than a brighter exfoliant. APPEARANCE > SKIN TYPES AND CONDITIONS owns the mechanism and the treatment.",
+      "-",
+      "B",
+      "AAD"
+     ],
+     [
+      "Jaw clenching on waking",
+      "An aching jaw and a sore temple on waking is night bruxism, and it is a dental consequence as much as a facial one. APPEARANCE > TEETH - ALIGNMENT AND FUNCTION owns the prevalence and the appliance; PRESENCE_STYLE > JAW AND CLENCHING owns what to do about the drive behind it.",
+      "-",
+      "A",
+      "Bruxism SR"
+     ],
+     [
+      "Snoring",
+      "Nose, alcohol, sleep position and sleep apnoea, in that order, and apnoea is the one that matters. With SleepApnea set, a wearable does not substitute for a sleep study - SLEEP_RECOVERY > RECOVERY METRICS says so.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "A headache that clears by midday",
+      "The overnight-then-clear pattern points at obstruction rather than at stress. SLEEP_RECOVERY > RECOVERY METRICS states the questions to take to a clinician; on a symptom index the job of this row is to route it there instead of to a painkiller.",
+      "-",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Brain fog after eating",
+      "A large carbohydrate load with an insulin spike behind it, more reliably than the meal itself. Protein and a slower eating rate change it; a faster walk after the meal is the cheapest intervention.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Low libido",
+      "Sleep debt, low energy availability, alcohol, depression, and low testosterone - which needs two morning samples with SHBG before it is even a candidate.",
+      "-",
+      "B",
+      "Endo Soc"
+     ],
+     [
+      "Erectile change",
+      "A cardiovascular marker before it is a bedroom one: endothelial function shows up there early. Worth reading alongside the lipid rows rather than as an isolated symptom.",
+      "-",
+      "B",
+      "Meschia 04"
+     ],
+     [
+      "Swollen ankles by evening",
+      "Fluid, venous insufficiency, or a heart or kidney question depending on whether it is both ankles or one. Unilateral calf swelling is different - see RED FLAGS.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Constipation",
+      "Fibre, fluid, movement and iron or thyroid status. The fibre target of 30 g a day is on BODY_NUTRITION > PROTEIN ARCHITECTURE; the gradual increase matters more than the number.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Reflux",
+      "Meal timing and size, alcohol, and the side you sleep on. Frequent reflux with weight loss or difficulty swallowing is a scope, not a lifestyle adjustment.",
+      "-",
+      "B",
+      "ACG"
+     ],
+     [
+      "Bruising easily",
+      "Trauma, ageing skin, steroids, an anticoagulant, or a clotting-factor question. Unusual bruising with a raised INR on any medication is worth one blood test.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Slow wound healing",
+      "Protein, vitamin C, zinc, glucose control, steroid use and circulation. The protein and glucose rows are the two that turn up most often in a body-composition context.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Restless legs at night",
+      "Iron deficiency without anaemia, caffeine, and antihistamines. Ferritin below about 75 is the number that predicts it, which is lower than the number that predicts anaemia.",
+      "-",
+      "A",
+      "Sleep med"
+     ],
+     [
+      "Needing the toilet at night",
+      "Fluid timing, alcohol, glucose control and prostate or urinary symptoms. Nocturia is also the marker a waist measurement predicts, which is why the two belong in the same review.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Losing the thread mid-sentence",
+      "Word-finding difficulty is a sleep-deprivation sign long before it is anything else, and it is worth naming as such rather than as stress.",
+      "-",
+      "B",
+      "SLEEP sheet"
+     ]
+    ]
+   },
+   {
+    "title": "Disease Index",
+    "intro": [
+     "Condition, the markers that move first or move most predictively, and what to screen. Read the middle column to know which test is worth ordering before the symptom arrives."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Atherosclerotic cardiovascular disease",
+      "ApoB first, then non-HDL-C and Lp(a). It is the one disease on this sheet where a blood marker outruns the symptoms by decades, which is why apoB is in the baseline panel rather than in the cardiology clinic.",
+      "-",
+      "A",
+      "NLA 24"
+     ],
+     [
+      "Fatty liver (MASLD/NAFLD)",
+      "ALT and GGT move, then the fasting insulin and the HbA1c. Alcohol, added fructose and the size of an energy deficit all move it, and the liver is silent until it is not.",
+      "-",
+      "A",
+      "AASLD"
+     ],
+     [
+      "Insulin resistance and prediabetes",
+      "Fasting insulin and HOMA-IR move before fasting glucose and before HbA1c, and the waist carries it earlier still - the fasting insulin and HbA1c rows in BIOMARKER TABLE above own the sequence. BODY_NUTRITION > ENERGY BALANCE owns what moves it.",
+      "-",
+      "A",
+      "ADA"
+     ],
+     [
+      "Hypertension",
+      "Blood pressure, then the kidney panel. Home technique and the orthostatic drop are both on this sheet, and 34% of newly diagnosed hypertensives have undiagnosed apnoea.",
+      "-",
+      "A",
+      "AHA"
+     ],
+     [
+      "Obstructive sleep apnoea",
+      "STOP-Bang of 3 or more is 93% sensitive for moderate-to-severe disease and 100% for severe; male sex is itself one of the criteria. Prevalence runs 24-26% of middle-aged men. No wearable substitutes for a sleep study.",
+      "-",
+      "A",
+      "Chung 16"
+     ],
+     [
+      "Hypothyroidism",
+      "TSH, then free T4. Both directions are real, and fatigue alone does not diagnose either.",
+      "-",
+      "B",
+      "Clinical"
+     ],
+     [
+      "Iron-deficiency anaemia",
+      "Ferritin and TSAT, not the haemoglobin. Haemoglobin is the last thing to move, which is why the deficiency is usually years old by the time the blood count reports it.",
+      "-",
+      "A",
+      "Standard"
+     ],
+     [
+      "Hereditary haemochromatosis",
+      "Ferritin and TSAT together, then HFE genotyping when both point that way. It presents earlier and more visibly in men, which is the form BODY_NUTRITION > MICRONUTRIENTS owns with the threshold; in women the same accumulation waits for the menopause. Either way it is a differential for unexplained fatigue, diabetes or a liver finding, and this row is untagged by sex for that reason.",
+      "-",
+      "A",
+      "HFE guide"
+     ],
+     [
+      "Vitamin B12 deficiency",
+      "B12, and methylmalonic acid when the result is borderline - the MMA is what separates an insufficient intake from a genuine deficiency. APPEARANCE > THE WORKUP BEFORE ANY HAIR DRUG owns the hair presentation.",
+      "-",
+      "A",
+      "Standard"
+     ],
+     [
+      "Vitamin D deficiency",
+      "A single 25(OH)D, interpreted as an interval rather than a point. The 25(OH)D row in BIOMARKER TABLE above states the retracted sufficiency line; BODY_NUTRITION > MICRONUTRIENTS owns the assay spread behind it.",
+      "-",
+      "B",
+      "IOM"
+     ],
+     [
+      "Chronic kidney disease",
+      "eGFR with a urine albumin-to-creatinine ratio. Both are on the baseline panel and both are silent until late, and the eGFR is also what makes long-term NSAID and PPI use worth a review.",
+      "-",
+      "A",
+      "CKD-EPI"
+     ],
+     [
+      "Gout",
+      "Uric acid between attacks, then the joint itself. Above 420 in men is the risk line; during an acute flare the level falls and is least reliable of all.",
+      "-",
+      "A",
+      "ACR"
+     ],
+     [
+      "Gastro-oesophageal reflux",
+      "The symptoms, then an endoscopy when there is alarm - weight loss, dysphagia, anaemia or an age-appropriate interval. Reflux is also a weight and alcohol readout.",
+      "-",
+      "B",
+      "ACG"
+     ],
+     [
+      "Periodontitis",
+      "Bleeding on probing, pocketing, and radiographs - not the absence of pain. It is a chronic inflammatory source and a cardiovascular risk marker, and APPEARANCE > TEETH - DAILY HYGIENE owns the gingival side and the recall interval.",
+      "-",
+      "A",
+      "EHE 2020"
+     ],
+     [
+      "Osteopenia and osteoporosis",
+      "A fragility fracture at low trauma, a measured height loss, or a T-score below -2.5. What moves bone density is mechanical loading and adequate protein; calcium and vitamin D alone do not. The age and risk trigger for the scan itself is in SCREENING SCHEDULE above.",
+      "-",
+      "B",
+      "ISCD"
+     ],
+     [
+      "Benign prostatic hyperplasia",
+      "Urinary flow and symptom scores, then PSA interpretation in context - age, family history and finasteride exposure all change what a number means.",
+      "-",
+      "B",
+      "EAU"
+     ],
+     [
+      "Polycystic ovary syndrome",
+      "Clinical diagnosis first, then insulin resistance, lipids and blood pressure. The metabolic consequences outlive the reproductive ones, and the metabolic screen is the part that is routinely missed.",
+      "-",
+      "B",
+      "AES"
+     ],
+     [
+      "Major depression",
+      "Two weeks of low mood or anhedonia, functional impairment, and a question about sleep, alcohol and thyroid rather than a single blood test. Treatable, and under-diagnosed in men.",
+      "-",
+      "A",
+      "NICE"
+     ],
+     [
+      "Anxiety",
+      "Clinical again, with alcohol, caffeine and sleep as the three levers that are also three medical problems when they get worse.",
+      "-",
+      "B",
+      "NICE"
+     ],
+     [
+      "Sleep debt",
+      "Hours, not feeling. Duration and circadian misalignment are separate debts and a long weekend does not clear either - SLEEP_RECOVERY > THE PROTOCOL - IN THIS ORDER owns the protocol and the tracker limits.",
+      "-",
+      "A",
+      "SLEEP sheet"
+     ],
+     [
+      "Prostate cancer risk and finasteride",
+      "Finasteride 5 mg over seven years in PCPT found Gleason 8-10 prostate cancer in 1.8% against 1.1% on placebo. The 1 mg hair dose is a different risk-benefit conversation with a different number; APPEARANCE > THE HAIR DRUG STACK owns the hair decision.",
+      "-",
+      "A",
+      "PCPT"
+     ],
+     [
+      "Non-alcoholic fatty liver versus alcohol",
+      "The same imaging finding has a different meaning depending on intake. The test that separates them is the drink history, taken seriously - not the liver enzymes, which overlap completely.",
+      "-",
+      "A",
+      "AASLD"
+     ]
+    ]
+   },
+   {
+    "title": "The Experimental Shelf - Honest Verdicts",
+    "intro": [
+     "Interventions where the human evidence has not arrived, plus the drugs people already take continuously and rarely re-examine. Every row is dose-as-outcome or an honest no. Programming belongs to GZCL Program.xlsx."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Rapamycin",
+      "Strong vertebrate lifespan data across the ITP and multiple species, and limited human evidence. Known harms include glucose intolerance, hyperlipidaemia, testicular atrophy and mucositis. There is no approved longevity indication, and the intermittent regimens that reduce the metabolic harm in mice have no human equivalent.",
+      "-",
+      "B",
+      "Aging Cell 25"
+     ],
+     [
+      "Metformin for longevity",
+      "A 2025 meta-analysis of 167 studies across eight vertebrate species found rapamycin extending lifespan like dietary restriction and metformin showing no clear benefit. It remains valuable for diabetes and for other indicated patients - which is a different claim than being a longevity drug.",
+      "-",
+      "B",
+      "Aging Cell 25"
+     ],
+     [
+      "NMN and nicotinamide riboside",
+      "They raise NAD in humans. The lifespan effect is unproven, and NAD supplementation raises circulating methylnicotinamide - a metabolite flagged as a potential tumour promoter. That is the part a bottle never mentions.",
+      "-",
+      "C",
+      "Human PK"
+     ],
+     [
+      "Extended fasts",
+      "No demonstrated benefit over moderate restriction, and time-restricted eating has not been shown superior on the primary outcomes. Autophagy claims from fasting in humans are unproven.",
+      "-",
+      "C",
+      "CALERIE 2"
+     ],
+     [
+      "Intermittent fasting is an adherence tool",
+      "CALERIE 2 achieved 11.9% calorie restriction with 71% of weight lost as fat, and lowered LDL, blood pressure, insulin sensitivity and CRP - without significantly affecting the primary outcomes, while lowering resting metabolic rate in year one and reducing T3, TNF-alpha and bone mineral density. Judge the achieved deficit, not the fasting window.",
+      "-",
+      "B",
+      "CALERIE 2"
+     ],
+     [
+      "Calorie restriction is not fasting is not autophagy",
+      "Three different things with one marketing word attached to each. Say energy deficit, because that is the one with data behind it.",
+      "-",
+      "C",
+      "Lit review"
+     ],
+     [
+      "Sauna",
+      "The Finnish cohorts are the strongest observational association on this shelf and BODY_NUTRITION > PHYSIQUE AESTHETICS states the hazard ratios and owns the sweat-is-not-fat correction. What belongs here is the verdict: observational, confounded by fitness and socioeconomic position, and not a proven cause - a cheap low-risk habit, not an intervention.",
+      "-",
+      "B",
+      "JAMA IM 15"
+     ],
+     [
+      "Cold exposure",
+      "Brown-fat claims in humans are thin. It is a cheap way to feel better about yourself and an unreliable way to change a biomarker.",
+      "-",
+      "C",
+      "Metabolic"
+     ],
+     [
+      "Spermidine",
+      "No human outcome data on lifespan, cognition or a clinical endpoint. The argument runs through autophagy in model organisms, which is where the human evidence stops.",
+      "-",
+      "C",
+      "Preclinical"
+     ],
+     [
+      "TAME",
+      "The first registered trial to ask whether metformin extends human life. It has not reported, and until it does, metformin is a drug with indications rather than one with a longevity indication.",
+      "-",
+      "C",
+      "Aging Cell 25"
+     ],
+     [
+      "Zone 2 volume is an outcome, not a programme",
+      "The number worth having is the volume you sustain and the threshold you can hold a conversation at - the minutes, not the workout. The workout lives in GZCL Program.xlsx; this workbook owns the target it executes against.",
+      "-",
+      "B",
+      "GZCL sheet"
+     ],
+     [
+      "GLP-1 without resistance training",
+      "Lean mass is 25-30% of total weight loss on GLP-1 receptor agonists - about 1.74 kg on GLP-1s and 5.44 kg on semaglutide in the body-composition analyses - while the proportion of lean mass improves. Muscle loss is how weight loss turns into sarcopenic obesity, so the protein floor and resistance training start on day one rather than after the last injection.",
+      "-",
+      "B",
+      "Karakasis 25"
+     ],
+     [
+      "A multivitamin as longevity insurance",
+      "No trial shows extension of life in non-deficient adults, and the harm comes from the stacking: beta-carotene in smokers, B6, vitamin A and iron all have documented harms at doses a bottle contains comfortably.",
+      "-",
+      "A",
+      "EFSA 23"
+     ],
+     [
+      "Biomarker inflation",
+      "Combining weak heterogeneous surrogate outcomes with industry funding is how a biomarker becomes a claim. The question to ask of any longevity intervention is simple: is the endpoint a real human event or a marker that moved?",
+      "-",
+      "B",
+      "Moqri 25"
+     ],
+     [
+      "Chronic NSAIDs",
+      "COX-2 inhibitors and NSAIDs other than naproxen raise cardiovascular events (RR 1.37) and all-cause mortality (1.22); every NSAID raises heart-failure risk and the CV risk tracks dose. They also raise blood pressure and cause AKI on CKD. Topical first, shortest course, lowest dose.",
+      "-",
+      "A",
+      "Bhatt 08"
+     ],
+     [
+      "Chronic PPIs",
+      "Chronic use carries a chronic kidney disease hazard ratio of 1.26 against non-users and 1.34 against H2 blockers, rising with duration - 1.94 at 31-90 days, 2.75 over one to two years where eGFR is already below 60. Lowest effective dose, de-prescribe, and re-evaluate at four to eight weeks.",
+      "-",
+      "B",
+      "BMJ 16"
+     ],
+     [
+      "NSAIDs and heat",
+      "Dehydration concentrates the urine and an NSAID on top of it is how an AKI on chronic kidney disease happens - usually in an endurance session or a hard shift, both of which belong to GZCL Program.xlsx.",
+      "-",
+      "B",
+      "Mechanism"
+     ]
+    ]
+   },
+   {
+    "title": "Lifestyle Levers, Ranked by Effect",
+    "intro": [
+     "Ranked by effect size, not by effort. The live score at the end is a rough self-tracking number from PROFILE, not a medical screen."
+    ],
+    "header": [
+     "Item",
+     "Target band / standard",
+     "Status",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Resistance training",
+      "Any resistance training: -15% all-cause mortality, -19% cardiovascular, -14% cancer. The maximum benefit arrives by about 60 minutes a week and plateaus near 120; aerobic and resistance combined reach -40%. That is why this row is the first one here, and why the programme lives in GZCL Program.xlsx rather than on this sheet.",
+      "-",
+      "A",
+      "AJPM 22"
+     ],
+     [
+      "Aerobic activity",
+      "60-75 minutes a day of moderate activity removes the mortality penalty of high sitting time. The sitting penalty is real and independent; this is the lever that cancels it.",
+      "-",
+      "A",
+      "Lancet 16"
+     ],
+     [
+      "Cardiorespiratory fitness",
+      "The measurement and the effect size are in FUNCTIONAL VITALS above, together with the PROFILE target that reads your sex. It ranks here because it is the one marker on this sheet where a number you can take yourself outranks a panel you cannot.",
+      "-",
+      "A",
+      "Laukkanen 16"
+     ],
+     [
+      "Grip strength",
+      "The effect size is in FUNCTIONAL VITALS above. It ranks here because it is the rare strong marker that needs a dynamometer rather than a lab, takes fifteen seconds, and travels with the general trend of everything else on the sheet.",
+      "-",
+      "A",
+      "PURE 15"
+     ],
+     [
+      "Not smoking",
+      "The cessation benefit is immediate and among the largest of any intervention there is - measured in years, not percentages. Nicotine pouches are not the neutral swap they are sold as: nicotine raises heart rate and blood pressure, causes vasoconstriction, and has no cardiovascular outcome benefit. NRT as a bridge to quitting, not as a destination.",
+      "-",
+      "A",
+      "Surgeon Gen"
+     ],
+     [
+      "Blood pressure",
+      "Track it, take it properly, and treat the average rather than the highest reading. It is the one row here where the measurement technique and the intervention have the same effect size.",
+      "-",
+      "A",
+      "AHA"
+     ],
+     [
+      "apoB",
+      "The only lipid measurement that moves events, and the one most people have never had. The 2026 discordance analysis is the reason it belongs in the baseline panel rather than in a second opinion.",
+      "-",
+      "A",
+      "Circ 24"
+     ],
+     [
+      "Sleep",
+      "It ranks here because the rows above it are harder to hold without it, not because it is the larger lever - a sheet that ranks sleep below resistance training has the order wrong. SLEEP_RECOVERY owns the mechanism, the band and the protocol; what belongs on a ranked list is the dependency, because sleep is the one lever whose failure shows up in every other row here.",
+      "-",
+      "A",
+      "SLEEP sheet"
+     ],
+     [
+      "Alcohol",
+      "Least is best, and it ranks here only because the answer is already known rather than because the dose is unclear - there is no protective dip at any level. The evidence and the numbers are on BODY_NUTRITION > ENERGY BALANCE; what it does to recovery on top of that is a separate cost, since alcohol suppresses testosterone, sleep and protein synthesis acutely.",
+      "-",
+      "A",
+      "IJE 24"
+     ],
+     [
+      "Purpose and social connection",
+      "Social isolation and loneliness sit among the strongest predictors of all-cause mortality, at a magnitude comparable to established physical risk factors, and purpose is inversely associated with mortality and with CHD relapse. Structured contact, built into the week like anything else.",
+      "-",
+      "B",
+      "Reviews"
+     ],
+     [
+      "Protein in a deficit",
+      "The doses are on BODY_NUTRITION > PROTEIN ARCHITECTURE, which owns the per-meal split as well. It ranks here because it is the row that determines whether every other lever on this sheet - resistance training, the deficit, the GLP-1 conversation - actually keeps the tissue it claims to keep.",
+      "-",
+      "A",
+      "Helms 14"
+     ],
+     [
+      "Never enter maintenance at 30",
+      "The decline rate and the cohort that documented it are in FUNCTIONAL VITALS above. The reason it is a ranked lever rather than a footnote is the direction: the only moment this list is cheap is before the trend line exists to defend.",
+      "-",
+      "B",
+      "CARDIA"
+     ],
+     [
+      "Lifestyle score - live from PROFILE",
+      "A rough eight-point self-tracking score built from sleep, activity, smoking and alcohol. It is a dashboard for your own consistency, not a medical risk score, and it will flatter you if you type what you meant.",
+      "",
+      "D",
+      "PROFILE"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "presence-style",
+  "sheet": "PRESENCE_STYLE",
+  "blurb": "Posture, voice, speech, fragrance and fit.",
+  "sections": [
+   {
+    "title": "Posture",
+    "intro": [
+     "The honest version. Posture is a comfort and ergonomics question with one genuinely useful social effect; the injury narrative is much weaker than the product aisle suggests."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Forward head position",
+      "The ear sits in front of the shoulder rather than above it, usually with the upper chest extended to compensate. Real, common, and worth treating as a strength and endurance problem rather than as a spine waiting to fail.",
+      "B",
+      "Physio"
+     ],
+     [
+      "The upper-crossed pattern",
+      "Tight pecs and upper trapezius with overactive upper cervical extensors and weak deep neck flexors - one pattern producing the forward head, rounded shoulders and lifted ribcage that desk work builds. Naming the pattern is most of the value, because it tells you which tissues to load.",
+      "B",
+      "Physio"
+     ],
+     [
+      "Jutting the chin is not a fix",
+      "The jut is a compensation for forward head posture and it reinforces the anterior translation of the head it is meant to remove. It feels like effort because it is effort: it recruits the wrong tissues to hold a position the deep neck flexors should hold.",
+      "C",
+      "Physio"
+     ],
+     [
+      "The deep neck flexors are the target",
+      "The longus capitis and longus colli hold the head back over the shoulders, and they atrophy behind a screen. Load, endurance and range are what changes the shape; the chin position on its own is a symptom.",
+      "C",
+      "Physio"
+     ],
+     [
+      "Hip flexors are the other half",
+      "Short hip flexors pull the pelvis forward and the lumbar spine into extension, which pushes the shoulders back into the same pattern. It is why a neck-only fix keeps coming back.",
+      "C",
+      "Physio"
+     ],
+     [
+      "Thoracic extensors and glutes",
+      "The other two tissues the pattern switches off. Loaded movement of the upper back and the hips restores the position far more durably than any cue to sit up straighter.",
+      "C",
+      "Physio"
+     ],
+     [
+      "Texting does change cervical alignment",
+      "Radiographically unambiguous: phone use alters sagittal alignment at the foramen magnum-C2, at C1-C2 and at C3-C4, and more so sitting than standing. Overall cervical lordosis does not change. This is a real measurable effect - it is only the pain claim that fails.",
+      "B",
+      "PMC 12775622"
+     ],
+     [
+      "And it is not shown to cause neck pain",
+      "A study of young adults found text-neck posture associated with neither neck pain nor its frequency; a 2024 study of 192 students found no association between maximum neck flexion and NDI, DASH or grip; a 2025 twelve-month longitudinal study found cervical flexion during smartphone use was not a risk factor for neck pain. Biomechanically plausible and largely disconfirmed.",
+      "B",
+      "Eur Spine J 24"
+     ],
+     [
+      "So treat posture as ergonomics, not as injury prevention",
+      "Comfortable positions, breaks and supported screens are worth having on comfort grounds. Selling them as spinal protection is not supported by the longitudinal evidence quoted above.",
+      "B",
+      "IASP"
+     ],
+     [
+      "Headset use at a desk",
+      "A sustained cap weight on a flexed neck, associated with forward head posture. Alternate ears, take breaks between calls, and do not spend a whole day pinned to one side.",
+      "C",
+      "Mechanism"
+     ],
+     [
+      "Posture braces de-load without strengthening",
+      "A passive strap takes the load off muscles that then have no reason to get stronger, and it creates a dependence on the thing that was meant to be temporary. Strengthening is the intervention; the brace is a temporary prop if anything.",
+      "C",
+      "Physio"
+     ],
+     [
+      "Static loading fatigues, perfect included",
+      "Any position held long enough fatigues its tissue - including an ideal one. Change position every 30-45 minutes, which is a smaller ask than holding one perfect posture and a better one than trying.",
+      "C",
+      "Ergonomics"
+     ],
+     [
+      "Phone at eye level, both hands, elbows supported",
+      "The ergonomic fix for the radiographic finding above: it moves the neck out of flexion without asking the shoulder to hold the phone. Two hands and a supported elbow beat any amount of neck strength.",
+      "B",
+      "Occup health"
+     ],
+     [
+      "Measuring your own posture honestly",
+      "A side-on photo in neutral, at the same distance, is more honest than a mirror or a memory. Judge the position you hold while reading this row, not the one you can produce on request.",
+      "C",
+      "Method"
+     ]
+    ]
+   },
+   {
+    "title": "Jaw and Clenching",
+    "intro": [
+     "Chronic clenching is the one appearance-visible habit on this sheet. The consequences are real, they are cumulative, and the treatment order matters."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Clenching thickens the masseter",
+      "Chronic masseter activity produces hypertrophy, which reads as a wider, squarer lower face. It is the one place where an unconscious habit has a visible structural outcome.",
+      "B",
+      "Bruxism SR"
+     ],
+     [
+      "The muscle and the joint are different problems",
+      "Masseter hypertrophy is an aesthetic question; temporomandibular disorder is a pain and function question. Treatments that help one do not automatically help the other, which is why the evidence looks conflicting until you separate them.",
+      "B",
+      "Delcanho 22"
+     ],
+     [
+      "Conservative management comes first",
+      "Awareness training and habit reversal, physiotherapy and a stabilisation splint exhaust the conservative list before anything invasive. That ordering is evidence-led, not caution.",
+      "B",
+      "TMD guide"
+     ],
+     [
+      "Botox before the conservative list is finished",
+      "The ordering error, not the drug. APPEARANCE > JAWLINE REALITY carries the trial evidence behind it and APPEARANCE > PROCEDURES carries the treatment itself; the mistake this sheet exists to catch is arriving at the appointment before awareness training, physiotherapy and a stabilisation splint have been tried.",
+      "A",
+      "Delcanho 22"
+     ],
+     [
+      "A night guard is a dental appliance, not a jaw treatment",
+      "It buys the restorative bill you were trying to avoid and nothing more. The muscle keeps adapting to the same load, so years of nightly wear buy you the crown you did not want while the lower face widens anyway. The tooth-side argument is on APPEARANCE > TEETH - ALIGNMENT AND FUNCTION.",
+      "A",
+      "Bruxism SR"
+     ],
+     [
+      "Clenching is a screen-and-stress behaviour",
+      "The trigger is more often a hard deadline than a bad tooth. Evening screen time, caffeine and unresolved stress keep the masseter active, so a guard without addressing any of those is half a treatment.",
+      "B",
+      "Bruxism SR"
+     ],
+     [
+      "Tooth wear is cumulative and irreversible",
+      "Attrition from decades of grinding does not enamel back. The reason to deal with clenching in your thirties is that the repair options in your fifties are crowns.",
+      "A",
+      "Clinical"
+     ],
+     [
+      "Headache that starts at the temples",
+      "Tension-type headache referred from an overworked masseter, worse on waking and with the jaw clenched. The distinguishing detail is the jaw, not the head.",
+      "B",
+      "Clinical"
+     ]
+    ]
+   },
+   {
+    "title": "Voice",
+    "intro": [
+     "How you sound is mostly mechanics, and the mechanics are learnable. Two of the claims in this section that sound like folk wisdom are not true."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Project from the diaphragm, not the throat",
+      "Raising volume by pushing from the throat increases vocal fold collision force, and that is what produces fatigue, hoarseness and nodules over time. Volume supported by breath costs the vocal folds almost nothing.",
+      "A",
+      "Voice path"
+     ],
+     [
+      "Vocal fry is a real mode, not a register",
+      "Fry is genuine phonation with incomplete glottal closure. Habitual use outside pre-pausal positions - the end of a statement rather than the whole sentence - is associated with increased effort and voice-disorder symptoms.",
+      "B",
+      "Wolk 12"
+     ],
+     [
+      "Fry is not a female thing",
+      "Acoustic studies of Australian teenagers found no significant male-female difference in creak prevalence, and creak was historically a male masculinity marker. Perception differs by speaker sex; prevalence does not.",
+      "B",
+      "JASA 25"
+     ],
+     [
+      "Voice-disorder prevalence, for scale",
+      "Around 6% of young adults report a voice disorder lasting three days or more, and benign vocal cord lesions are around 70% male overall. That is prevalence, not a diagnosis, and it is why a two-week hoarseness rule below is not alarmist.",
+      "B",
+      "Add Health 23"
+     ],
+     [
+      "Speed degrades intelligibility",
+      "Speaking above a comfortable rate raises filler-word rate and reduces how much of each sentence lands. Slower with more pauses beats faster, and it also reads as more confident.",
+      "B",
+      "Speech res"
+     ],
+     [
+      "Filler words",
+      "Listeners hear reduced competence and credibility behind them, independently of what was said around them. That is why they are worth measuring rather than intending away: count them in two recorded minutes, then subtract that count later - SPEECH AND PRESENCE below owns what to substitute for them.",
+      "B",
+      "Comm res"
+     ],
+     [
+      "Monotone",
+      "Prosody carries meaning, and flat delivery is read as low engagement whatever the content says. Pitch variation plus a falling intonation at the end of a statement does most of the work.",
+      "B",
+      "Speech sci"
+     ],
+     [
+      "Breathiness",
+      "An incomplete vocal fold closure on every syllable reads as uncertainty and costs carrying power. Closing on the voiced sounds and letting the unvoiced ones leak is the actual technique.",
+      "B",
+      "Voice path"
+     ],
+     [
+      "Hydration and dryness",
+      "Vocal fold lubrication is thin fluid, so a dry room, a blocked nose and an antihistamine all produce the same thin voice. Water before you speak, not during.",
+      "B",
+      "Voice path"
+     ],
+     [
+      "Hoarseness past two weeks is an ENT appointment",
+      "Two weeks is the threshold for laryngoscopy rather than for more steaming. Persistent hoarseness with a neck lump, pain on swallowing, blood or weight loss goes the same week.",
+      "A",
+      "ENT"
+     ],
+     [
+      "Warm up before a long speaking day",
+      "The voice fatigues like any loaded tissue over a day of use. Gentle phonation and easy pitch movement before the first meeting costs five minutes and is the difference between a voice that lasts and one that goes.",
+      "B",
+      "Voice path"
+     ]
+    ]
+   },
+   {
+    "title": "Speech and Presence",
+    "intro": [
+     "Presence is not a personality trait you either have or lack. It is a handful of behaviours, each of which is cheap and learnable, and one of which turns out to be about posture."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "The silent beat instead of 'um'",
+      "A pause reads as thinking; 'um' reads as searching. Substituting a comfortable silence for the filler is the single highest-yield change and the one people notice least when you do it.",
+      "B",
+      "Comm res"
+     ],
+     [
+      "Terminal falling intonation",
+      "Statements that rise at the end sound like questions, and a room reads the pitch before the content. Falling on the last word is what makes something sound like a decision.",
+      "B",
+      "Speech sci"
+     ],
+     [
+      "Two questions a day",
+      "People who ask questions are listened to more and disclose more. Two is enough to be genuine and few enough to stay real.",
+      "B",
+      "Comm res"
+     ],
+     [
+      "Posture changes how you are judged",
+      "Upright versus slouched posture changes observer ratings of competence and confidence - an effect on impression, not on your spine. Knowing which one you are buying keeps it in proportion to what posture is worth.",
+      "B",
+      "Risko 16"
+     ],
+     [
+      "Speed under stress",
+      "Stress raises speaking rate and pitch and narrows range, all at once. The tell is not visible in your own head, so the rehearsal below is how you catch it.",
+      "B",
+      "Comm res"
+     ],
+     [
+      "The two-minute rehearsal",
+      "Say the two sentences that matter, out loud, standing, twice, before the room. It is the cheapest preparation available and it changes the first sixty seconds, which is where most of the impression is formed.",
+      "B",
+      "Practice"
+     ],
+     [
+      "Volume matches the room",
+      "The error is almost always speaking at conversation volume into a room built for presentation. The room decides the volume; you do not.",
+      "C",
+      "Practice"
+     ],
+     [
+      "End on the decision",
+      "The most common way to lose a room is to close with an open question after the substance is over. Close on what was decided and then stop.",
+      "B",
+      "Comm res"
+     ]
+    ]
+   },
+   {
+    "title": "Fragrance and Scent",
+    "intro": [
+     "The whole category is dose. Everything below is either how much, where, or what it does to the skin - and the allergy literature is unambiguous that more is worse."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Three roles, not one bottle",
+      "A daily scent, an evening scent and an occasion scent. One signature scent worn everywhere is the same as wearing none - the association that makes a scent memorable is variety over time.",
+      "C",
+      "Style"
+     ],
+     [
+      "Two or three sprays, on points",
+      "Neck, chest and the inside of each wrist, from about fifteen centimetres. Spraying and walking away is how you get scent inside the shirt rather than on the person.",
+      "B",
+      "Style"
+     ],
+     [
+      "A one-note scent reads as generic",
+      "A single dominant note projects a single impression. Layered compositions read as more deliberate at the same dose, and the second layer costs nothing extra.",
+      "B",
+      "Perfume"
+     ],
+     [
+      "Allergen load rises with dose",
+      "Fragrance contact allergy is dose- and exposure-dependent, and the deodorised and low-allergen claims are about the formula, not about using less of a strong one.",
+      "B",
+      "Contact derm"
+     ],
+     [
+      "Rotate seasonally",
+      "Rotate between a heavier and a lighter family across the year. Summer scents amplified in heat are the fastest route to headache and to being the loudest person in a lift.",
+      "C",
+      "Style"
+     ],
+     [
+      "Skin type changes the day length",
+      "Oily skin oxidises a scent faster and shortens it; dry skin holds it. The same bottle reads completely differently on different people, which is why testing on a blotter tells you nothing.",
+      "C",
+      "Perfume"
+     ],
+     [
+      "Fabric holds what skin cannot",
+      "Wool and natural fibres hold fragrance for days. A sprayed collar outlasts a sprayed wrist by a wide margin, and it is the difference between a scent and a room.",
+      "C",
+      "Perfume"
+     ],
+     [
+      "Never on shaved or broken skin",
+      "Alcohol bases sting and sensitise on freshly shaved or broken skin, which is how a deodorant becomes a contact dermatitis. Twenty minutes after shaving is the whole rule.",
+      "A",
+      "Contact derm"
+     ]
+    ]
+   },
+   {
+    "title": "Wardrobe, Fit and Style",
+    "intro": [
+     "Purely visual, cheap to fix, and the highest perceived-quality return per pound spent on this entire sheet. Every row here is a measurement against a landmark."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Shoulder seam at the deltoid",
+      "The seam belongs on the point of the shoulder bone. A seam that has run onto the upper arm is the single most common sign that a garment was not fitted, and it is visible from across a room.",
+      "C",
+      "Style"
+     ],
+     [
+      "Sleeve at the wrist bone",
+      "The cuff ends at the wrist bone where the hand joins the arm. An inch of forearm showing under a sleeve reads as borrowed.",
+      "C",
+      "Style"
+     ],
+     [
+      "The half break on trousers",
+      "A single break with the hem resting on the top of the shoe. No break reads short, more than one reads borrowed, and the difference between those two states is a tailor, not a budget.",
+      "C",
+      "Style"
+     ],
+     [
+      "Twenty to thirty coordinated pieces",
+      "A working wardrobe is a small set that makes every combination valid, not many pieces that each need the right partner. Three neutrals, two shirts, two trousers or one skirt, and the arithmetic does the rest.",
+      "C",
+      "Style"
+     ],
+     [
+      "Fabric weight for your climate",
+      "A summer-weight fabric in a cold room and a winter weight in a hot one both read as dressing wrong. Weight, not thickness, is what you feel first.",
+      "C",
+      "Style"
+     ],
+     [
+      "The fit budget",
+      "Money spent on fit beats money spent on fabric, and beats money spent on labels. An alteration costs a fraction of a garment and is the only part of the outfit nobody can measure.",
+      "C",
+      "Style"
+     ],
+     [
+      "Shoe quality per wear",
+      "Resoleable construction pays for itself over years, and the resoling is the only part of a shoe that ever needs replacing. Buy the pair that can be resoled and have it done twice.",
+      "C",
+      "Style"
+     ],
+     [
+      "Colour as a system",
+      "Fewer colours, repeated, look deliberate; the same number of garments in the same number of colours can look random. Decide the system once and let the pieces repeat.",
+      "C",
+      "Style"
+     ],
+     [
+      "The fit appointment",
+      "Thirty minutes in a shop that can alter, with the shoes you actually wear. It is the highest-yield half hour in this module and it is booked, not found.",
+      "C",
+      "Style"
+     ],
+     [
+      "Pressing beats upgrading",
+      "A pressed shirt outperforms an expensive unpressed one every time, and most of the impression of a good wardrobe is creasing. Hang by the seam, not the shoulder.",
+      "C",
+      "Style"
+     ]
+    ]
+   },
+   {
+    "title": "Myths",
+    "intro": [
+     "Grade X is not a strong opinion. These are the claims with no credible evidence, or with evidence that says the opposite. Where APPEARANCE already carries the full statement, this row is the verdict and the pointer."
+    ],
+    "header": [
+     "Item",
+     "Standard / why it matters",
+     "Grade",
+     "Ref"
+    ],
+    "rows": [
+     [
+      "Mewing reshapes the jaw",
+      "No. The verdict, the AAO warning and the risks are on APPEARANCE > JAWLINE REALITY, which owns the finding. What belongs to this sheet is why it keeps appearing in posture and jaw material: it reads as a jaw exercise, and that is the only category error in it.",
+      "X",
+      "AAO 24"
+     ],
+     [
+      "Forced tongue posture",
+      "Pressing the tongue to the roof of the mouth reduces oral rest space and can change speech. If there is genuinely restricted airflow, that is a sleep-apnoea workup with an ENT, not a posture exercise.",
+      "X",
+      "Mechanism"
+     ],
+     [
+      "Posture braces fix posture",
+      "No. A strap changes the position while you wear it, which is the whole of what it does. POSTURE above carries the mechanism - de-loading without loading - and the strengthening that replaces it. Buying the prop first is how the prop becomes permanent.",
+      "X",
+      "Physio"
+     ],
+     [
+      "Chewing gum reshapes the face",
+      "No evidence that gum use changes facial bone structure. Jaw shape is set genetically and by growth, and it does not respond to repetition.",
+      "X",
+      "Orthod"
+     ],
+     [
+      "Standing taller changes your skeleton",
+      "Changing how you stand changes muscle length, posture and how you are perceived. It does not change bone structure, and nothing about standing will alter a skeletal limit.",
+      "X",
+      "Physio"
+     ],
+     [
+      "Clenching builds the jaw",
+      "Not the bone - JAW AND CLENCHING above is the row that says which tissue actually grows and which way it changes the face. The claim is on the shelf because the intention and the result point in opposite directions, and nobody believes the version they were told.",
+      "X",
+      "Bruxism SR"
+     ],
+     [
+      "Cold showers raise testosterone",
+      "The claim rests on uncontrolled single-subject measurements with no replication. There is no credible evidence for a testosterone effect, and a cold shower is worth having for entirely different reasons.",
+      "X",
+      "Endocrine"
+     ],
+     [
+      "Supplements fix voice",
+      "No supplement has credible evidence of improving vocal fold function. A dry room, an antihistamine or a cold does more damage in a day than a stack does good in a year.",
+      "X",
+      "Voice path"
+     ],
+     [
+      "Posture alone causes or cures back pain",
+      "Posture alone neither causes nor cures back pain in the general population; the association is weak and the interventions do not move outcomes. Treat a back pain presentation as a presentation, not as a posture verdict.",
+      "X",
+      "Guideline"
+     ],
+     [
+      "Perfect posture is a posture you can hold forever",
+      "No, and POSTURE above is the row with the number in it: any static position fatigues, the ideal one included. The myth is here because the instruction to hold one is what produces the stiffness people then blame on their desk.",
+      "X",
+      "Ergonomics"
+     ]
+    ]
+   }
+  ]
+ }
+]

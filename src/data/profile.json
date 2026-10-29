@@ -1,0 +1,328 @@
+{
+ "groups": [
+  {
+   "title": "Profile",
+   "fields": []
+  },
+  {
+   "title": "About You",
+   "fields": [
+    {
+     "field": "Age",
+     "unit": "years",
+     "why": "Twenties is the highest-plasticity decade. Prevention beats correction."
+    },
+    {
+     "field": "Sex",
+     "unit": "M / F",
+     "why": "Drives body-fat, grip and VO2max targets throughout the workbook."
+    },
+    {
+     "field": "Height",
+     "unit": "cm",
+     "why": "Measured, no shoes."
+    },
+    {
+     "field": "Weight (3-day avg)",
+     "unit": "kg",
+     "why": "Same conditions each day. A 3-day average kills the daily noise."
+    },
+    {
+     "field": "Waist (at navel)",
+     "unit": "cm",
+     "why": "Relaxed, end of a normal exhale. The most predictive number you own."
+    },
+    {
+     "field": "Neck",
+     "unit": "cm",
+     "why": "Below the Adam's apple. Feeds the body-fat estimate."
+    },
+    {
+     "field": "Hip",
+     "unit": "cm",
+     "why": "Widest part of the hips or glutes."
+    },
+    {
+     "field": "Body fat %",
+     "unit": "%",
+     "why": "Optional. Calipers, smart scale or DEXA. If present, this beats every estimate."
+    },
+    {
+     "field": "Goal",
+     "unit": "dropdown",
+     "why": "Sets the calorie guidance."
+    },
+    {
+     "field": "Hair type",
+     "unit": "Walker",
+     "why": "1 straight, 2 wavy, 3 curly, 4 coily. Drives wash cadence and porosity advice."
+    },
+    {
+     "field": "Scalp condition",
+     "unit": "dropdown",
+     "why": "Drives which hair rows surface. Get this diagnosed before treating it."
+    },
+    {
+     "field": "Skin type",
+     "unit": "Fitzpatrick",
+     "why": "Drives which skincare rows surface."
+    },
+    {
+     "field": "Skin concern",
+     "unit": "dropdown",
+     "why": "Acne, redness, pigment, dryness or oiliness - the one that is actually bothering you."
+    },
+    {
+     "field": "AGA stage",
+     "unit": "Norwood",
+     "why": "N1-N6. Act early: N2-N4 responds best to treatment."
+    }
+   ]
+  },
+  {
+   "title": "Bed & Screen",
+   "fields": [
+    {
+     "field": "Target bedtime",
+     "unit": "hh:mm",
+     "why": "Bed time flexes. The fixed wake time is the anchor."
+    },
+    {
+     "field": "Fixed wake time",
+     "unit": "hh:mm",
+     "why": "Same seven days a week. Everything downstream keys off this."
+    },
+    {
+     "field": "Sleep (avg)",
+     "unit": "hours",
+     "why": "Most adults do best at 7-9."
+    },
+    {
+     "field": "Screen time",
+     "unit": "hours/day",
+     "why": "Feeds the sleep and eye rows."
+    }
+   ]
+  },
+  {
+   "title": "Vitals & Lifestyle",
+   "fields": [
+    {
+     "field": "Systolic BP",
+     "unit": "mmHg",
+     "why": "Correct cuff, seated 5 min, arm at heart level, no caffeine for 30 min."
+    },
+    {
+     "field": "Diastolic BP",
+     "unit": "mmHg",
+     "why": "Two readings, taken properly."
+    },
+    {
+     "field": "Resting HR",
+     "unit": "bpm",
+     "why": "On waking, before you sit up."
+    },
+    {
+     "field": "Cardio minutes",
+     "unit": "min/week",
+     "why": "Zone 2 dose. The programming lives in GZCL Program.xlsx."
+    },
+    {
+     "field": "Alcohol",
+     "unit": "drinks/week",
+     "why": "Least is best. The risk curve is linear with no protective dip."
+    },
+    {
+     "field": "Smoking",
+     "unit": "dropdown",
+     "why": "Stopping is the single largest lever on this sheet."
+    },
+    {
+     "field": "Flag",
+     "unit": "",
+     "why": "Why it matters"
+    },
+    {
+     "field": "HighApoB",
+     "unit": "",
+     "why": "ApoB stratifies risk better than LDL-C. Circulation 2024 consensus."
+    },
+    {
+     "field": "HighLDL",
+     "unit": "",
+     "why": "Add apoB if LDL-C is the only lipid you have tracked."
+    },
+    {
+     "field": "Prediabetes",
+     "unit": "",
+     "why": "Fasting glucose, insulin and HbA1c. Energy balance is the lever."
+    },
+    {
+     "field": "FattyLiver",
+     "unit": "",
+     "why": "Alcohol, fructose and the size of the deficit all move this."
+    },
+    {
+     "field": "Hypertension",
+     "unit": "",
+     "why": "Home cuff technique is half the battle."
+    },
+    {
+     "field": "SleepApnea",
+     "unit": "",
+     "why": "A STOP-Bang of 3 or more is 93% sensitive for moderate-severe OSA."
+    },
+    {
+     "field": "HighHsCRP",
+     "unit": "",
+     "why": "Repeat when you are well. Read against weight and dental health."
+    },
+    {
+     "field": "Anaemia",
+     "unit": "",
+     "why": "HbA1c is unreliable here. Ferritin and TSAT are the real question."
+    },
+    {
+     "field": "LowFerritin",
+     "unit": "",
+     "why": "Work the shedding up before buying a drug: ferritin, TSAT, B12, TSH, zinc."
+    },
+    {
+     "field": "HighLpA",
+     "unit": "",
+     "why": "Genetically set. Test once in life; it changes the whole lipid strategy."
+    },
+    {
+     "field": "LowTestosterone",
+     "unit": "",
+     "why": "Two morning total T plus SHBG before any prescription."
+    },
+    {
+     "field": "HighUricAcid",
+     "unit": "",
+     "why": "Above 420 in men tracks cardiometabolic risk."
+    },
+    {
+     "field": "HighHomocysteine",
+     "unit": "",
+     "why": "Correct B12, folate, B6 and kidney function. Do not genotype MTHFR."
+    },
+    {
+     "field": "HeavyAlcohol",
+     "unit": "",
+     "why": "A Group 1 carcinogen that suppresses sleep and testosterone."
+    },
+    {
+     "field": "Sedentary",
+     "unit": "",
+     "why": "More than 8 hours sitting raises mortality independent of activity."
+    },
+    {
+     "field": "Waist-to-height ratio",
+     "unit": "",
+     "why": "Target below 0.50. Facial definition and cardiometabolic risk live here."
+    },
+    {
+     "field": "WHtR status",
+     "unit": "",
+     "why": "One number, two consequences."
+    },
+    {
+     "field": "Protein - g/day (floor)",
+     "unit": "g",
+     "why": "1.6 g/kg. The dose-response plateaus near here - Morton 2018."
+    },
+    {
+     "field": "Protein - g/day (ceiling)",
+     "unit": "g",
+     "why": "2.2 g/kg while cutting; 2.0-2.7 g/kg is the deficit range."
+    },
+    {
+     "field": "Protein per meal",
+     "unit": "g",
+     "why": "0.4 g/kg per sitting, across 3-5 feedings."
+    },
+    {
+     "field": "Maintenance kcal (low)",
+     "unit": "kcal",
+     "why": "kg x 31 for moderately active."
+    },
+    {
+     "field": "Maintenance kcal (high)",
+     "unit": "kcal",
+     "why": "kg x 34. Adjust by the observed 2-3 week trend."
+    },
+    {
+     "field": "Calorie guidance",
+     "unit": "",
+     "why": "The deficit band preserves muscle and performance."
+    },
+    {
+     "field": "Weekly fat-loss target",
+     "unit": "kg",
+     "why": "Faster than 1% of bodyweight a week costs muscle, not fat."
+    },
+    {
+     "field": "Body-fat band",
+     "unit": "",
+     "why": "The lean band where facial definition and hormones coexist."
+    },
+    {
+     "field": "Grip strength target",
+     "unit": "",
+     "why": "Each 5 kg lower grip is 16% higher all-cause mortality - PURE, Lancet 2015."
+    },
+    {
+     "field": "VO2max target",
+     "unit": "",
+     "why": "Each 1 ml/kg/min is 9% lower all-cause mortality. The steepest gradient here."
+    },
+    {
+     "field": "Caffeine cutoff (-10 h)",
+     "unit": "hh:mm",
+     "why": "400 mg disrupts sleep even 6 h out, and habitual use builds no tolerance."
+    },
+    {
+     "field": "Sleep window",
+     "unit": "",
+     "why": "Bedroom 17-19 C, blackout dark."
+    },
+    {
+     "field": "BMI",
+     "unit": "",
+     "why": "Screening only. It cannot tell muscle from fat."
+    },
+    {
+     "field": "BMI category",
+     "unit": "",
+     "why": "Read alongside waist and fitness, never alone."
+    },
+    {
+     "field": "Waist-to-hip ratio",
+     "unit": "",
+     "why": "Higher central fat tracks cardiometabolic risk."
+    },
+    {
+     "field": "Body fat (U.S. Navy estimate)",
+     "unit": "%",
+     "why": "Estimate only. If you measured it, yours wins."
+    },
+    {
+     "field": "Blood pressure category",
+     "unit": "",
+     "why": "Confirm with repeated readings. Crisis is urgent."
+    },
+    {
+     "field": "Resting HR category",
+     "unit": "",
+     "why": "The trend beats any single reading."
+    },
+    {
+     "field": "Lifestyle score",
+     "unit": "",
+     "why": "A rough self-tracking score, not a medical screen."
+    }
+   ]
+  }
+ ]
+}

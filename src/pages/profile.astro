@@ -1,0 +1,99 @@
+---
+import Base from '../layouts/Base.astro';
+import profile from '../data/profile.json';
+---
+
+<Base title="The profile sheet" description="One sheet, one person: the single input page that drives every filter, target and band in the protocol.">
+  <div class="container">
+    <header class="pagehead">
+      <p class="kicker mono">PROFILE — the single input sheet</p>
+      <h1>One sheet, one person</h1>
+      <p class="pagehead__blurb">
+        Every row in this protocol is filtered through five visibility tags read from the profile:
+        sex, hair type, skin type, goal and condition flags. Fill it once; the dashboard does the rest.
+        What follows is the field catalogue — what each input is for.
+      </p>
+    </header>
+
+    <div class="groups">
+      {profile.groups.map((g: any) => (
+        <section class="group" aria-labelledby={`g-${g.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
+          <h2 id={`g-${g.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>{g.title}</h2>
+          <ul class="fields">
+            {g.fields.map((f: any) => (
+              <li class="field">
+                <span class="field__name">{f.field}</span>
+                {f.unit && <span class="field__unit mono">{f.unit}</span>}
+                <span class="field__why">{f.why}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .pagehead {
+    padding-block: 3.5rem 1rem;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.9rem;
+  }
+  h1 {
+    font-size: clamp(2.6rem, 5.5vw, 4rem);
+    margin-bottom: 0.7rem;
+  }
+  .pagehead__blurb {
+    color: var(--ink-soft);
+    font-size: 1.08rem;
+    max-width: 66ch;
+  }
+  .groups {
+    display: grid;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  .group h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .fields {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  .field {
+    display: grid;
+    grid-template-columns: 14rem 7rem 1fr;
+    gap: 1rem;
+    padding-block: 0.6rem;
+    border-bottom: 1px solid var(--line);
+    align-items: baseline;
+  }
+  .field__name {
+    font-weight: 600;
+  }
+  .field__unit {
+    font-size: 0.75rem;
+    color: var(--teal);
+  }
+  .field__why {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+  @media (max-width: 720px) {
+    .field {
+      grid-template-columns: 1fr auto;
+    }
+    .field__why {
+      grid-column: 1 / -1;
+    }
+  }
+</style>

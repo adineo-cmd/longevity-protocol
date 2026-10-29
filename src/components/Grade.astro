@@ -1,0 +1,72 @@
+---
+interface Props {
+  grade?: string;
+  muted?: boolean;
+}
+const { grade = '', muted = false } = Astro.props;
+const g = grade.trim().toUpperCase();
+const tone =
+  g.startsWith('A') || g.startsWith('STRONG') ? 'a'
+  : g.startsWith('B') ? 'b'
+  : g.startsWith('C') || g.startsWith('MIXED') ? 'c'
+  : g.startsWith('RX') ? 'rx'
+  : 'n';
+const bars = g.startsWith('A') ? '████' : g.startsWith('B') ? '███' : g.startsWith('C') ? '██' : '█';
+---
+
+{
+  g ? (
+    <span class:list={['grade', `grade--${tone}`, { 'grade--muted': muted }]}>
+      <span class="grade__bars" aria-hidden="true">
+        {bars}
+      </span>
+      <span class="grade__label">{g}</span>
+    </span>
+  ) : null
+}
+
+<style>
+  .grade {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    line-height: 1;
+    padding: 0.32em 0.55em 0.3em;
+    border: 1px solid var(--line-strong);
+    background: var(--panel);
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+  .grade__bars {
+    letter-spacing: -0.12em;
+    font-size: 0.62rem;
+    transform: translateY(-0.04em);
+  }
+  .grade__label {
+    letter-spacing: 0.06em;
+  }
+  .grade--a {
+    color: var(--grade-a);
+    border-color: color-mix(in srgb, var(--grade-a) 55%, transparent);
+  }
+  .grade--b {
+    color: var(--grade-b);
+    border-color: color-mix(in srgb, var(--grade-b) 55%, transparent);
+  }
+  .grade--c {
+    color: var(--grade-c);
+    border-color: color-mix(in srgb, var(--grade-c) 55%, transparent);
+  }
+  .grade--rx {
+    color: var(--ink);
+    background: var(--panel-dim);
+  }
+  .grade--n {
+    color: var(--ink-soft);
+  }
+  .grade--muted {
+    opacity: 0.75;
+  }
+</style>

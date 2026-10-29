@@ -1,0 +1,49 @@
+---
+import DataTable from './DataTable.astro';
+
+interface Section {
+  title: string;
+  intro: string[];
+  header: string[] | null;
+  rows: string[][];
+}
+interface Props {
+  sections: Section[];
+  idPrefix?: string;
+}
+const { sections, idPrefix = 's' } = Astro.props;
+const slug = (t: string) =>
+  t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+---
+
+{sections.map((sec, i) => (
+  <section class="sec" id={`${idPrefix}-${slug(sec.title)}`}>
+    <h2 class="sec__title">{sec.title}</h2>
+    {sec.intro.filter(Boolean).map((line) => (
+      <p class="sec__intro">{line}</p>
+    ))}
+    {sec.header && sec.rows.length > 0 && (
+      <DataTable header={sec.header} rows={sec.rows} />
+    )}
+  </section>
+))}
+
+<style>
+  .sec {
+    padding-block: 2.2rem 0.4rem;
+    scroll-margin-top: 5rem;
+  }
+  .sec + .sec {
+    border-top: 1px solid var(--line);
+    margin-top: 1.6rem;
+  }
+  .sec__title {
+    font-size: clamp(1.5rem, 2.6vw, 2rem);
+    margin-bottom: 0.55rem;
+  }
+  .sec__intro {
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin-bottom: 1rem;
+  }
+</style>

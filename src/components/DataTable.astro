@@ -1,0 +1,95 @@
+---
+import Grade from './Grade.astro';
+
+interface Props {
+  header: string[];
+  rows: string[][];
+  gradeCol?: number;
+  refCol?: number;
+  compact?: boolean;
+}
+const { header, rows, gradeCol = -1, refCol = -1, compact = false } = Astro.props;
+
+// find grade/ref columns automatically when not told
+const gCol = gradeCol >= 0 ? gradeCol : header.findIndex((h) => /^grade/i.test(h));
+const rCol = refCol >= 0 ? refCol : header.findIndex((h) => /^ref|source/i.test(h));
+const textCols = header.map((_, i) => i !== gCol && i !== rCol);
+---
+
+<div class="tablewrap">
+  <table class:list={['dt', { 'dt--compact': compact }]}>
+    <thead>
+      <tr>
+        {header.map((h, i) => (
+          <th scope="col" class:list={[{ 'col-grade': i === gCol, 'col-ref': i === rCol }]}>
+            {h}
+          </th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr>
+          {row.map((cell, i) =>
+            i === gCol ? (
+              <td class="col-grade"><Grade grade={cell} /></td>
+            ) : i === rCol ? (
+              <td class="col-ref mono">{cell}</td>
+            ) : (
+              <td class:list={[{ 'col-lead': i === 0 }]}>{cell}</td>
+            )
+          )}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .tablewrap {
+    overflow-x: auto;
+    background: var(--panel);
+    border: 1px solid var(--line);
+  }
+  .dt {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .dt th {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--ink-soft);
+    text-align: left;
+    padding: 0.7rem 0.9rem 0.55rem;
+    border-bottom: 1px solid var(--line-strong);
+    white-space: nowrap;
+  }
+  .dt td {
+    padding: 0.75rem 0.9rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .dt tr:last-child td {
+    border-bottom: 0;
+  }
+  .dt--compact td {
+    padding-block: 0.5rem;
+  }
+  .col-lead {
+    font-weight: 600;
+    min-width: 12ch;
+  }
+  .col-grade {
+    white-space: nowrap;
+  }
+  .col-ref {
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+</style>

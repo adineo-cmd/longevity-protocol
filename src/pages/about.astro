@@ -1,0 +1,177 @@
+---
+import Base from '../layouts/Base.astro';
+import Grade from '../components/Grade.astro';
+import { site, gradeLegend } from '../data/site';
+import about from '../data/about.json';
+---
+
+<Base title="About this protocol" description="How the workbook works: the tagging system, the evidence grades, where training lives, and the references behind the rows.">
+  <div class="container">
+    <header class="pagehead">
+      <p class="kicker mono">READ_ME</p>
+      <h1>About this protocol</h1>
+    </header>
+
+    <div class="about">
+      {about.sections.map((s: any) => (
+        <section class="block">
+          <h2>{s.title}</h2>
+          {s.intro.filter(Boolean).map((line: string) => (
+            <p class="block__intro">{line}</p>
+          ))}
+          {s.rows.length > 0 && (
+            <dl class="pairs">
+              {s.rows.map((r: any) => (
+                <div class="pairs__row">
+                  <dt>{r.k}</dt>
+                  <dd>{r.v}</dd>
+                </div>
+              ))}
+            </dl>
+          )}
+        </section>
+      ))}
+
+      <section class="block">
+        <h2>Evidence grades</h2>
+        <p class="block__intro">
+          The six knowledge sheets paint their grade chips by exactly these letters.
+        </p>
+        <dl class="pairs">
+          {gradeLegend.map((g) => (
+            <div class="pairs__row">
+              <dt><Grade grade={g.grade} /></dt>
+              <dd>{g.label}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      <section class="block">
+        <h2>The medical line</h2>
+        <dl class="pairs">
+          {about.medical.map((m: any) => (
+            <div class="pairs__row">
+              <dt>{m.k}</dt>
+              <dd>{m.v}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      <section class="block" id="references">
+        <h2>Primary references</h2>
+        <p class="block__intro">
+          Hybrid citation system: claims about drugs, supplements and risk factors cite the primary
+          literature; everything else cites the reviews and guidelines a clinician would actually read.
+        </p>
+        <ol class="refs">
+          {about.references.map((r: any) => (
+            <li>
+              <span class="refs__study">{r.study}</span>
+              <span class="refs__journal mono">{r.journal}</span>
+              <span class="refs__for">{r.citedFor}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .pagehead {
+    padding-block: 3.5rem 1rem;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.9rem;
+  }
+  h1 {
+    font-size: clamp(2.6rem, 5.5vw, 4rem);
+  }
+  .about {
+    max-width: 78ch;
+  }
+  .block {
+    padding-block: 2rem 0.5rem;
+  }
+  .block + .block {
+    border-top: 1px solid var(--line);
+  }
+  .block h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+  }
+  .block__intro {
+    color: var(--ink-soft);
+    margin-bottom: 1rem;
+    max-width: 66ch;
+  }
+  .pairs {
+    margin: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  .pairs__row {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    gap: 1rem;
+    padding-block: 0.6rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .pairs__row dt {
+    font-weight: 600;
+  }
+  .pairs__row dd {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+  .refs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: ref;
+  }
+  .refs li {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 1rem;
+    align-items: baseline;
+    padding-block: 0.55rem;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.9rem;
+  }
+  .refs li::before {
+    counter-increment: ref;
+    content: counter(ref, decimal-leading-zero);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    grid-column: 1;
+  }
+  .refs__study {
+    font-weight: 500;
+  }
+  .refs__journal {
+    font-size: 0.72rem;
+    color: var(--teal);
+    white-space: nowrap;
+  }
+  .refs__for {
+    color: var(--ink-soft);
+    font-size: 0.82rem;
+  }
+  @media (max-width: 720px) {
+    .pairs__row {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+    }
+    .refs li {
+      grid-template-columns: auto 1fr;
+    }
+  }
+</style>

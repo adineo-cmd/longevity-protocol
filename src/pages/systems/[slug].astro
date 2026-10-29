@@ -1,0 +1,150 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sections from '../../components/Sections.astro';
+import systems from '../../data/systems.json';
+import mistakes from '../../data/mistakes.json';
+
+export function getStaticPaths() {
+  return systems.map((s: any) => ({
+    params: { slug: s.slug },
+    props: { system: s },
+  }));
+}
+
+const { system } = Astro.props;
+const all = [...systems, mistakes];
+const idx = all.findIndex((s: any) => s.slug === system.slug);
+const prev = all[idx - 1];
+const next = all[idx + 1];
+const title = system.slug.split('-').map((w: string) => (w === '&' ? '&' : w[0].toUpperCase() + w.slice(1))).join(' & ');
+const totalRows = system.sections.reduce((m: number, x: any) => m + x.rows.length, 0);
+---
+
+<Base title={title} description={system.blurb}>
+  <div class="container layout">
+    <aside class="layout__aside">
+      <p class="layout__sheet mono">{system.sheet}</p>
+      <nav aria-label="On this page">
+        <ol class="toc">
+          {system.sections.map((sec: any) => (
+            <li>
+              <a href={`#s-${sec.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`}>{sec.title}</a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    </aside>
+
+    <article class="layout__main">
+      <header class="pagehead">
+        <h1>{title}</h1>
+        <p class="pagehead__blurb">{system.blurb}</p>
+        <p class="pagehead__meta mono">{system.sections.length} sections · {totalRows} graded rows</p>
+      </header>
+
+      <Sections sections={system.sections} />
+
+      <nav class="pager" aria-label="More sheets">
+        {prev && <a href={prev.slug === 'mistakes' ? '/mistakes' : `/systems/${prev.slug}`} rel="prev">← {prev.slug.replace(/-/g, ' ')}</a>}
+        {next && <a href={next.slug === 'mistakes' ? '/mistakes' : `/systems/${next.slug}`} rel="next">{next.slug.replace(/-/g, ' ')} →</a>}
+      </nav>
+    </article>
+  </div>
+</Base>
+
+<style>
+  .layout {
+    display: grid;
+    grid-template-columns: 16rem minmax(0, 1fr);
+    gap: 3rem;
+    padding-block: 3rem 1rem;
+  }
+  .layout__aside {
+    position: sticky;
+    top: 1.5rem;
+    align-self: start;
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+  }
+  .layout__sheet {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.9rem;
+  }
+  .toc {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid var(--line-strong);
+    font-size: 0.88rem;
+  }
+  .toc li {
+    border-bottom: 1px dotted var(--line);
+  }
+  .toc a {
+    display: block;
+    padding: 0.34rem 0 0.34rem 0.85rem;
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .toc a:hover {
+    color: var(--ink);
+  }
+  .pagehead {
+    margin-bottom: 1rem;
+  }
+  .pagehead h1 {
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    margin-bottom: 0.7rem;
+  }
+  .pagehead__blurb {
+    color: var(--ink-soft);
+    font-size: 1.08rem;
+    max-width: 60ch;
+  }
+  .pagehead__meta {
+    margin-top: 0.8rem;
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--line-strong);
+    font-size: 0.92rem;
+  }
+  .pager a {
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .pager a:hover {
+    color: var(--teal);
+  }
+  @media (max-width: 880px) {
+    .layout {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .layout__aside {
+      position: static;
+      max-height: none;
+    }
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.2rem 1rem;
+      border-left: 0;
+      padding-left: 0;
+    }
+    .toc li {
+      border-bottom: 0;
+    }
+  }
+</style>

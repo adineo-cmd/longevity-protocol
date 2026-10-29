@@ -1,0 +1,80 @@
+[
+ {
+  "metric": "Waist-to-height",
+  "target": "< 0.50",
+  "why": "Facial definition and cardiometabolic risk in one number.",
+  "grade": "A"
+ },
+ {
+  "metric": "Protein / day",
+  "target": "1.6-2.2 g/kg",
+  "why": "Substrate for muscle, skin, hair and nails.",
+  "grade": "A"
+ },
+ {
+  "metric": "Protein / meal",
+  "target": "0.4 g/kg",
+  "why": "Three to five feedings. Synthesis saturates per sitting.",
+  "grade": "A"
+ },
+ {
+  "metric": "Maintenance kcal",
+  "target": "kg x 31-34",
+  "why": "Adjust by the observed 2-3 week trend.",
+  "grade": "B"
+ },
+ {
+  "metric": "Body fat band",
+  "target": "sex-specific",
+  "why": "Facial definition sits near the bottom of the band.",
+  "grade": "B"
+ },
+ {
+  "metric": "Grip target",
+  "target": ">= 40 kg (M)",
+  "why": "Each 5 kg lower is 16% higher all-cause mortality.",
+  "grade": "A"
+ },
+ {
+  "metric": "VO2max target",
+  "target": "> 40 ml/kg/min",
+  "why": "The steepest mortality gradient of any variable here.",
+  "grade": "A"
+ },
+ {
+  "metric": "Caffeine cutoff",
+  "target": "10 h before bed",
+  "why": "400 mg disrupts sleep even 6 h out.",
+  "grade": "A"
+ },
+ {
+  "metric": "Blood pressure",
+  "target": "< 120 / 80",
+  "why": "Measure it properly or the number is decoration.",
+  "grade": "A"
+ },
+ {
+  "metric": "Resting HR",
+  "target": "50-65 bpm",
+  "why": "The trend beats any single reading.",
+  "grade": "B"
+ },
+ {
+  "metric": "BMI",
+  "target": "18.5-24.9",
+  "why": "Screening only. It cannot tell muscle from fat.",
+  "grade": "B"
+ },
+ {
+  "metric": "Calorie guidance",
+  "target": "Cut -400-600 \u00b7 Bulk +150-250",
+  "why": "The deficit band preserves muscle and performance.",
+  "grade": "B"
+ },
+ {
+  "metric": "Lifestyle score",
+  "target": "0-8 from 4 inputs",
+  "why": "A rough self-tracking score, not a medical screen.",
+  "grade": "C"
+ }
+]

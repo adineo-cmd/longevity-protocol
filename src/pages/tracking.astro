@@ -1,0 +1,113 @@
+---
+import Base from '../layouts/Base.astro';
+import tracking from '../data/tracking.json';
+---
+
+<Base title="Tracking logs" description="Blank logs, ready for entries: measurements, blood panels, symptoms, hair, medications, family history, appointments.">
+  <div class="container">
+    <header class="pagehead">
+      <p class="kicker mono">TRACKING</p>
+      <h1>Blank logs</h1>
+      <p class="pagehead__blurb">
+        The workbook's logs, printed as columns. Measure under the same conditions each time —
+        the trend beats any single reading.
+      </p>
+    </header>
+
+    <div class="logs">
+      {tracking.map((log: any) => (
+        <section class="log" aria-labelledby={`log-${log.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
+          <h2 id={`log-${log.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>{log.name}</h2>
+          {log.note && <p class="log__note">{log.note}</p>}
+          <div class="log__sheet">
+            <table>
+              <thead>
+                <tr>
+                  {log.columns.map((c: string) => (
+                    <th scope="col">{c}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {Array.from({ length: 6 }, () => (
+                  <tr>
+                    {log.columns.map(() => (
+                      <td><span class="cell" aria-hidden="true"></span></td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .pagehead {
+    padding-block: 3.5rem 1rem;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.9rem;
+  }
+  h1 {
+    font-size: clamp(2.6rem, 5.5vw, 4rem);
+    margin-bottom: 0.7rem;
+  }
+  .pagehead__blurb {
+    color: var(--ink-soft);
+    font-size: 1.08rem;
+    max-width: 62ch;
+  }
+  .logs {
+    display: grid;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  .log h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+  }
+  .log__note {
+    color: var(--ink-soft);
+    margin-bottom: 1rem;
+    max-width: 62ch;
+  }
+  .log__sheet {
+    overflow-x: auto;
+    border: 1px solid var(--line-strong);
+    background: var(--panel);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-align: left;
+    padding: 0.6rem 0.7rem;
+    border-bottom: 1px solid var(--line-strong);
+    white-space: nowrap;
+  }
+  td {
+    border-bottom: 1px dotted var(--line);
+    height: 2.1rem;
+  }
+  tr:last-child td {
+    border-bottom: 0;
+  }
+  .cell {
+    display: block;
+  }
+</style>

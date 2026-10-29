@@ -1,0 +1,391 @@
+{
+ "handoff": {
+  "title": "Where training lives",
+  "intro": [
+   "This workbook does not program workouts.",
+   "GZCL owns: exercise selection \u00b7 sets, reps and load progression \u00b7 warm-ups \u00b7 mobility and plyometrics \u00b7 conditioning programming",
+   "This workbook owns: the targets you are executed against \u2014 body-fat band \u00b7 protein targets \u00b7 calorie guidance \u00b7 cardio dose \u00b7 recovery rules \u00b7 the measurement loop",
+   "Deloads: the cadence is a recovery rule this workbook owns; the easier week itself is GZCL's to program. Call for one when the measurement log shows sleep short and resting HR climbing for a fortnight, not because the calendar says so."
+  ],
+  "pairs": [
+   {
+    "k": "GZCL owns:",
+    "v": "exercise selection \u00b7 sets, reps and load progression \u00b7 warm-ups \u00b7 mobility and plyometrics \u00b7 conditioning programming"
+   },
+   {
+    "k": "This workbook owns:",
+    "v": "the targets you are executed against \u2014 body-fat band \u00b7 protein targets \u00b7 calorie guidance \u00b7 cardio dose \u00b7 recovery rules \u00b7 the measurement loop"
+   }
+  ]
+ },
+ "anchors": [
+  {
+   "k": "Fixed wake time",
+   "v": "Same time seven days a week, weekends included - everything downstream keys off it."
+  },
+  {
+   "k": "Protein anchor",
+   "v": "0.4 g/kg of protein at each meal, across 3-5 feedings."
+  },
+  {
+   "k": "SPF every morning",
+   "v": "The dose and the application rules live on APPEARANCE."
+  },
+  {
+   "k": "A nightly retinoid",
+   "v": "On dry skin, in the order APPEARANCE specifies."
+  },
+  {
+   "k": "The caffeine cutoff",
+   "v": "PROFILE computes yours from your bedtime; SLEEP_RECOVERY owns the mechanism."
+  },
+  {
+   "k": "One zone-2 or VO2max session",
+   "v": "Dose only - the minutes live on PROFILE, the programming lives in GZCL Program.xlsx."
+  }
+ ],
+ "baseline": [
+  {
+   "k": "Photo set",
+   "v": "Face 5 angles, physique 3, daylight, no filters."
+  },
+  {
+   "k": "Tape set",
+   "v": "Neck, waist and hip - the same sites PROFILE holds."
+  },
+  {
+   "k": "Fasting blood panel",
+   "v": "Including ApoB and Lp(a); the result is filed in the TRACKING blood panel log."
+  },
+  {
+   "k": "Hair profile",
+   "v": "With the 7-day shed count."
+  },
+  {
+   "k": "Skin log",
+   "v": "Starting condition, written down before the routine begins."
+  },
+  {
+   "k": "Dental cleaning and exam",
+   "v": "The dental baseline the APPEARANCE teeth rows build on."
+  },
+  {
+   "k": "Grip and VO2max baseline",
+   "v": "Read against the targets PROFILE computes."
+  }
+ ],
+ "weeks": [
+  {
+   "num": 1,
+   "title": "Setup and baseline \u2014 instrument first",
+   "tasks": [
+    {
+     "task": "Fill PROFILE end to end",
+     "detail": "Age, sex, measurements, goal, hair, skin and every condition flag you actually have.",
+     "trackIn": "PROFILE"
+    },
+    {
+     "task": "Run the baseline set",
+     "detail": "All seven items from the plate above, before the first habit changes anything.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Start the measurement log",
+     "detail": "Weight, waist, neck, hip and BP on day 1, so week 10 has a week 0.",
+     "trackIn": "MEASUREMENT LOG"
+    },
+    {
+     "task": "Set the wake anchor",
+     "detail": "Fix the wake time first; the sleep window and the caffeine cutoff compute from it.",
+     "trackIn": "PROFILE"
+    }
+   ]
+  },
+  {
+   "num": 2,
+   "title": "Training rhythm and the first blood draw",
+   "tasks": [
+    {
+     "task": "Follow GZCL Program.xlsx",
+     "detail": "The plan, the progression and the warm-ups live there; this sheet only carries the targets.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Take the first fasting blood draw",
+     "detail": "The panel from the baseline set, filed row by row in the blood panel log.",
+     "trackIn": "BLOOD PANEL LOG"
+    },
+    {
+     "task": "Keep the weekly measurement row",
+     "detail": "Same scale, same tape, same conditions - the trend is the only readout.",
+     "trackIn": "MEASUREMENT LOG"
+    },
+    {
+     "task": "Log what the first fortnight felt like",
+     "detail": "Any symptom, with severity and suspected trigger, while the baseline is fresh.",
+     "trackIn": "SYMPTOM LOG"
+    }
+   ]
+  },
+  {
+   "num": 3,
+   "title": "Skin and scalp routine, fixed order",
+   "tasks": [
+    {
+     "task": "Build the routine in order",
+     "detail": "Cleanser, actives, moisturiser, SPF - the fixed order APPEARANCE specifies.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Start the nightly retinoid",
+     "detail": "Pea size on dry skin, with the moisturiser sandwich from APPEARANCE if needed.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Photograph the scalp parting",
+     "detail": "One reference photo now; the hair log wants something to compare against.",
+     "trackIn": "HAIR AND SCALP LOG"
+    },
+    {
+     "task": "Keep the symptom log honest",
+     "detail": "Purging resolves in 4-6 weeks; irritation burns where it lands - the discriminator lives on APPEARANCE.",
+     "trackIn": "SYMPTOM LOG"
+    }
+   ]
+  },
+  {
+   "num": 4,
+   "title": "Dental and alignment baseline",
+   "tasks": [
+    {
+     "task": "Book the cleaning and exam",
+     "detail": "The baseline item that takes the longest to get an appointment for.",
+     "trackIn": "APPOINTMENTS AND LABS"
+    },
+    {
+     "task": "Adopt the brushing rules",
+     "detail": "Technique, the wait after acid and the fluoride choice all live on APPEARANCE.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Keep the weekly measurement row",
+     "detail": "Weight, waist and the rest - unbroken since week 1.",
+     "trackIn": "MEASUREMENT LOG"
+    },
+    {
+     "task": "Check the anchors still hold",
+     "detail": "Wake time, protein at each meal, SPF, retinoid, cutoff, cardio dose.",
+     "trackIn": "\u2014"
+    }
+   ]
+  },
+  {
+   "num": 5,
+   "title": "Hair protocol \u2014 photo set at 8 weeks",
+   "tasks": [
+    {
+     "task": "Start the hair protocol",
+     "detail": "The AGA rows on APPEARANCE carry the agents and the application rules.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Run the 7-day shed count",
+     "detail": "Count once now, then monthly - the hair log holds the column.",
+     "trackIn": "HAIR AND SCALP LOG"
+    },
+    {
+     "task": "Fix the monthly photo reference",
+     "detail": "Same angles, same light, same length as the baseline set.",
+     "trackIn": "HAIR AND SCALP LOG"
+    },
+    {
+     "task": "Book the 8-week photo set",
+     "detail": "Week 8 needs the same daylight and angles as week 0 - put it in the calendar now.",
+     "trackIn": "APPOINTMENTS AND LABS"
+    }
+   ]
+  },
+  {
+   "num": 6,
+   "title": "Sleep and light consolidation",
+   "tasks": [
+    {
+     "task": "Hold the wake anchor through the weekend",
+     "detail": "A wake time that moves by two hours on Saturday has already cost the week.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Get the morning light",
+     "detail": "Ten to twenty minutes outdoors, within an hour of waking.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Dim the evenings",
+     "detail": "The after-dark lighting rules live on SLEEP_RECOVERY; the bedroom goes dark last.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Read the nights against the log",
+     "detail": "Resting HR and BP from the measurement log show what the nights are doing.",
+     "trackIn": "MEASUREMENT LOG"
+    }
+   ]
+  },
+  {
+   "num": 7,
+   "title": "Nutrition audit against the protein target",
+   "tasks": [
+    {
+     "task": "Weigh a normal week of eating",
+     "detail": "Compare the average day against the protein floor and ceiling PROFILE computes.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Close the gaps with food first",
+     "detail": "The powder-only rule from BODY_NUTRITION: supplement a measured shortfall, not a habit.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Check the fibre and hydration floors",
+     "detail": "30 g of fibre and 30-35 ml/kg - both on BODY_NUTRITION.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Keep the weekly measurement row",
+     "detail": "The audit reads against the trend, not against a single weigh-in.",
+     "trackIn": "MEASUREMENT LOG"
+    }
+   ]
+  },
+  {
+   "num": 8,
+   "title": "Style and presence drills",
+   "tasks": [
+    {
+     "task": "Take the 8-week photo set",
+     "detail": "Face 5 angles, physique 3, daylight, no filters - identical to week 0.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Work the presence rows",
+     "detail": "Posture, voice and grooming drills come from PRESENCE_STYLE, one at a time.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Audit the wardrobe against the style rows",
+     "detail": "Fit first; PRESENCE_STYLE carries the rules.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Log what the new routine caused",
+     "detail": "Symptoms and adherence, while the change is still fresh.",
+     "trackIn": "SYMPTOM LOG"
+    }
+   ]
+  },
+  {
+   "num": 9,
+   "title": "Cardio dose check against VO2max",
+   "tasks": [
+    {
+     "task": "Re-read the VO2max target",
+     "detail": "PROFILE computes it from your sex; each ml/kg/min is 9% lower all-cause mortality.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Check the weekly minutes",
+     "detail": "The zone-2 dose on PROFILE against what the weeks actually delivered.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Leave the programming alone",
+     "detail": "How the dose is delivered belongs to GZCL Program.xlsx.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Watch the resting HR trend",
+     "detail": "The measurement log's resting HR column is the cheapest cardio readout you own.",
+     "trackIn": "MEASUREMENT LOG"
+    }
+   ]
+  },
+  {
+   "num": 10,
+   "title": "Re-measure and compare against week 0",
+   "tasks": [
+    {
+     "task": "Repeat the full baseline set",
+     "detail": "Photos, tape, blood panel, shed count - same methods, or the comparison is fiction.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "File the second blood panel",
+     "detail": "Next to the first one in the blood panel log; deltas, not single values.",
+     "trackIn": "BLOOD PANEL LOG"
+    },
+    {
+     "task": "Compare the measurement trend",
+     "detail": "Ten weeks of rows against week 0 - weight, waist, BP, resting HR.",
+     "trackIn": "MEASUREMENT LOG"
+    },
+    {
+     "task": "Judge the body-fat band",
+     "detail": "Against the band PROFILE returns for your sex, not against a mirror verdict.",
+     "trackIn": "\u2014"
+    }
+   ]
+  },
+  {
+   "num": 11,
+   "title": "What to keep, what to cut",
+   "tasks": [
+    {
+     "task": "Audit every habit against the trend",
+     "detail": "Kept: what the measurements reward. Cut: what only the plan expected.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Read the adherence columns honestly",
+     "detail": "The hair log's adherence column and the symptom log tell you what actually happened.",
+     "trackIn": "HAIR AND SCALP LOG"
+    },
+    {
+     "task": "Review the medications list",
+     "detail": "Doses, reasons and next reviews, row by row.",
+     "trackIn": "MEDICATIONS AND SUPPLEMENTS"
+    },
+    {
+     "task": "Prune the stack",
+     "detail": "BODY_NUTRITION's NOT WORTH IT section is a list to drop from, not add to.",
+     "trackIn": "\u2014"
+    }
+   ]
+  },
+  {
+   "num": 12,
+   "title": "Quarterly decision \u2014 measure monthly, judge quarterly, decide annually",
+   "tasks": [
+    {
+     "task": "Set the next quarter's cadence",
+     "detail": "Monthly measurements, quarterly judgement - the cadence the focus line states.",
+     "trackIn": "\u2014"
+    },
+    {
+     "task": "Book the quarterly blood panel",
+     "detail": "And the annual one; the appointment log holds both.",
+     "trackIn": "APPOINTMENTS AND LABS"
+    },
+    {
+     "task": "Decide what the year targets",
+     "detail": "Goal changes happen on PROFILE, and every downstream number follows.",
+     "trackIn": "PROFILE"
+    },
+    {
+     "task": "Hand the training year to GZCL",
+     "detail": "GZCL Program.xlsx owns the next block; this workbook owns the targets it runs against.",
+     "trackIn": "\u2014"
+    }
+   ]
+  }
+ ]
+}

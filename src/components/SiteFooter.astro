@@ -1,0 +1,66 @@
+---
+import { site } from '../data/site';
+---
+
+<footer class="foot">
+  <div class="container foot__inner">
+    <div class="foot__mark">
+      <span class="foot__name">The Longevity Protocol</span>
+      <p class="foot__tag">One body, kept in working order.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="foot__nav">
+        {site.footerNav.map((item) => (
+          <li><a href={item.href}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+  <div class="container foot__legal">
+    <p>{site.disclaimer}</p>
+  </div>
+</footer>
+
+<style>
+  .foot {
+    margin-top: 5rem;
+    border-top: 1px solid var(--line-strong);
+    background: var(--panel);
+  }
+  .foot__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-block: 2.2rem 1.2rem;
+  }
+  .foot__name {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+  }
+  .foot__tag {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    margin-top: 0.2rem;
+  }
+  .foot__nav {
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.92rem;
+  }
+  .foot__nav a {
+    color: var(--ink-soft);
+  }
+  .foot__legal {
+    border-top: 1px solid var(--line);
+    padding-block: 1rem 2rem;
+    color: var(--ink-soft);
+    font-size: 0.82rem;
+    max-width: 72ch;
+  }
+</style>

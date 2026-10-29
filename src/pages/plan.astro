@@ -1,0 +1,213 @@
+---
+import Base from '../layouts/Base.astro';
+import plan from '../data/plan.json';
+
+const weeks = plan.weeks;
+---
+
+<Base title="The twelve-week plan" description="Daily anchors, a baseline fortnight, and twelve weeks of tasks — instrument first, then habit.">
+  <div class="container">
+    <header class="pagehead">
+      <p class="kicker mono">WEEKLY_PLAN, restated</p>
+      <h1>Twelve weeks, on one page</h1>
+      <p class="pagehead__note">
+        Do the daily anchors first; the weeks are additions, not replacements. Instrument before effort.
+      </p>
+    </header>
+
+    <section aria-labelledby="handoff">
+      <h2 id="handoff">{plan.handoff.title}</h2>
+      <p class="handoff__intro">{plan.handoff.intro.join(' ')}</p>
+      <dl class="handoff">
+        {plan.handoff.pairs.map((pair: any) => (
+          <div class="handoff__row">
+            <dt>{pair.k}</dt>
+            <dd>{pair.v}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section aria-labelledby="anchors">
+      <h2 id="anchors">The daily anchors</h2>
+      <p class="sectionnote">Every day, all twelve weeks. Written once; they hold for every week of the plan.</p>
+      <ul class="anchors">
+        {plan.anchors.map((a: any) => (
+          <li>
+            <span class="anchors__name">{a.k}</span>
+            <span class="anchors__detail">{a.v}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="baseline">
+      <h2 id="baseline">Baseline — the first 14 days</h2>
+      <p class="sectionnote">Everything is measured before anything is changed.</p>
+      <ul class="anchors anchors--baseline">
+        {plan.baseline.map((b: any) => (
+          <li>
+            <span class="anchors__name">{b.k}</span>
+            <span class="anchors__detail">{b.v}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="weeks">
+      <h2 id="weeks">The weeks</h2>
+      <ol class="weeks">
+        {weeks.map((w: any) => (
+          <li class="week" id={`week-${w.num}`}>
+            <div class="week__head">
+              <span class="week__num mono">W{String(w.num).padStart(2, '0')}</span>
+              <h3>{w.theme}</h3>
+            </div>
+            <ul class="week__tasks">
+              {w.tasks.map((t: any) => (
+                <li>
+                  <span class="week__task">{t.task}</span>
+                  {t.detail && <span class="week__detail">{t.detail}</span>}
+                  {t.trackIn && t.trackIn !== '—' && <span class="week__track mono">{t.trackIn}</span>}
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .pagehead {
+    padding-block: 3.5rem 1rem;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.9rem;
+  }
+  h1 {
+    font-size: clamp(2.6rem, 5.5vw, 4rem);
+    margin-bottom: 0.7rem;
+  }
+  .pagehead__blurb {
+    font-size: 1.08rem;
+    max-width: 62ch;
+  }
+  .pagehead__note {
+    color: var(--ink-soft);
+    margin-top: 0.5rem;
+    max-width: 62ch;
+  }
+  section {
+    margin-top: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+  .handoff__intro,
+  .sectionnote {
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin-bottom: 1rem;
+  }
+  .handoff {
+    margin: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  .handoff__row {
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+    gap: 1rem;
+    padding-block: 0.65rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .handoff__row dt {
+    font-weight: 600;
+  }
+  .handoff__row dd {
+    margin: 0;
+    color: var(--ink-soft);
+  }
+  .anchors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  .anchors li {
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+    gap: 1rem;
+    padding-block: 0.65rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .anchors__name {
+    font-weight: 600;
+  }
+  .anchors__detail {
+    color: var(--ink-soft);
+  }
+  .weeks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: week;
+  }
+  .week {
+    border-top: 1px solid var(--line-strong);
+    padding-block: 1.4rem 0.8rem;
+    scroll-margin-top: 4rem;
+  }
+  .week__head {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  .week__num {
+    font-size: 0.8rem;
+    color: var(--teal);
+    min-width: 2.6rem;
+  }
+  .week__head h3 {
+    font-size: 1.45rem;
+  }
+  .week__tasks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .week__tasks li {
+    display: grid;
+    grid-template-columns: 16rem 1fr auto;
+    gap: 1rem;
+    padding-block: 0.45rem;
+    border-bottom: 1px dotted var(--line);
+    font-size: 0.95rem;
+  }
+  .week__task {
+    font-weight: 600;
+  }
+  .week__detail {
+    color: var(--ink-soft);
+  }
+  .week__track {
+    font-size: 0.7rem;
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+  @media (max-width: 720px) {
+    .handoff__row,
+    .anchors li,
+    .week__tasks li {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+    }
+  }
+</style>

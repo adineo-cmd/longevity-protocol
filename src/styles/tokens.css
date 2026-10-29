@@ -1,0 +1,21 @@
+:root {
+  --paper: #e7ebe6;
+  --panel: #f7f8f5;
+  --panel-dim: #dfe4dd;
+  --ink: #18211c;
+  --ink-soft: #556058;
+  --teal: #0d6a5a;
+  --teal-deep: #094a3f;
+  --grade-a: #0d6a5a;
+  --grade-b: #8a6c00;
+  --grade-c: #9c3a1c;
+  --alert: #9c3a1c;
+  --line: rgba(24, 33, 28, 0.16);
+  --line-strong: rgba(24, 33, 28, 0.42);
+  --focus: #0d6a5a;
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'DM Sans Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', monospace;
+  --container: 1200px;
+  --measure: 66ch;
+}

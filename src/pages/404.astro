@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Not found" noindex>
+  <div class="container lost">
+    <p class="lost__code mono">404</p>
+    <h1>Nothing measured here.</h1>
+    <p class="lost__text">
+      This page is not in the protocol. The dashboard is the fastest way back in.
+    </p>
+    <p><a href="/">Back to the dashboard</a></p>
+  </div>
+</Base>
+
+<style>
+  .lost {
+    padding-block: 6rem;
+  }
+  .lost__code {
+    color: var(--ink-soft);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    margin-bottom: 0.8rem;
+  }
+  .lost__text {
+    color: var(--ink-soft);
+    margin-bottom: 1.4rem;
+  }
+</style>

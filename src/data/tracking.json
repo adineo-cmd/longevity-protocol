@@ -1,0 +1,99 @@
+[
+ {
+  "name": "MEASUREMENT LOG",
+  "note": "Measurement rows under the same conditions each time - the trend is the readout, not any single row.",
+  "columns": [
+   "Date",
+   "Weight",
+   "Waist",
+   "Neck",
+   "Hip",
+   "Chest",
+   "Arm",
+   "Thigh",
+   "Body fat %",
+   "BP sys",
+   "BP dia",
+   "Resting HR"
+  ]
+ },
+ {
+  "name": "BLOOD PANEL LOG",
+  "note": "Blood panel results, one fasting draw per row - read the deltas against the previous row, not single values.",
+  "columns": [
+   "Date",
+   "ApoB",
+   "LDL-C",
+   "non-HDL-C",
+   "HbA1c",
+   "Glucose",
+   "Insulin",
+   "Lp(a)",
+   "hs-CRP",
+   "Ferritin",
+   "TSAT",
+   "B12",
+   "25(OH)D",
+   "SHBG",
+   "TSH"
+  ]
+ },
+ {
+  "name": "SYMPTOM LOG",
+  "note": "Symptom rows: one event per row, with the suspected trigger written down while memory is fresh.",
+  "columns": [
+   "Date",
+   "Symptom",
+   "Severity 1-10",
+   "Duration",
+   "Suspected trigger",
+   "Resolved"
+  ]
+ },
+ {
+  "name": "HAIR AND SCALP LOG",
+  "note": "Hair and scalp entries: the monthly shed count, the photo it is read against, and what is actually in use.",
+  "columns": [
+   "Date",
+   "7-day shed count",
+   "Monthly photo ref",
+   "Product in use",
+   "Adherence"
+  ]
+ },
+ {
+  "name": "MEDICATIONS AND SUPPLEMENTS",
+  "note": "Medications and supplements with their doses - everything a prescriber or an assay would want to know about.",
+  "columns": [
+   "Substance",
+   "Dose",
+   "Frequency",
+   "Started",
+   "Reason",
+   "Prescriber",
+   "Next review"
+  ]
+ },
+ {
+  "name": "FAMILY HISTORY",
+  "note": "Family history: first-degree relatives, ages at onset, and what that changes about screening.",
+  "columns": [
+   "Condition",
+   "Relative",
+   "Age at onset",
+   "Notes"
+  ]
+ },
+ {
+  "name": "APPOINTMENTS AND LABS",
+  "note": "Appointment rows for every test, review and follow-up, with the date the result is due.",
+  "columns": [
+   "Date",
+   "Type",
+   "Clinician",
+   "Ordered tests",
+   "Result due",
+   "Follow-up"
+  ]
+ }
+]

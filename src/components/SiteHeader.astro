@@ -1,0 +1,103 @@
+---
+import { site } from '../data/site';
+
+const path = Astro.url.pathname;
+const isActive = (href: string) => path.startsWith(href);
+const nav = [
+  { href: '/systems', label: 'Systems' },
+  { href: '/mistakes', label: 'Mistakes' },
+  { href: '/plan', label: 'Plan' },
+  { href: '/tracking', label: 'Tracking' },
+  { href: '/profile', label: 'Profile' },
+  { href: '/about', label: 'About' },
+];
+---
+
+<header class="mast">
+  <div class="container mast__inner">
+    <a href="/" class="mast__mark">
+      <span class="mast__glyph mono" aria-hidden="true">████</span>
+      <span class="mast__name">The Longevity Protocol</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="mast__nav">
+        {nav.map((item) => (
+          <li>
+            <a href={item.href} class:list={[{ active: isActive(item.href) }]} aria-current={isActive(item.href) ? 'page' : undefined}>
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+  <p class="mast__band">
+    <span class="container mono">Evidence-graded · one body · updated {site.lastReviewed}</span>
+  </p>
+</header>
+
+<style>
+  .mast {
+    background: var(--panel);
+    border-bottom: 1px solid var(--line-strong);
+  }
+  .mast__inner {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-block: 1.1rem 0.9rem;
+  }
+  .mast__mark {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .mast__glyph {
+    font-size: 0.7rem;
+    letter-spacing: -0.14em;
+    color: var(--teal);
+  }
+  .mast__name {
+    font-family: var(--font-display);
+    font-size: 1.55rem;
+    line-height: 1;
+  }
+  .mast__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem 1.15rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.92rem;
+  }
+  .mast__nav a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    padding-block: 0.2rem;
+    border-bottom: 2px solid transparent;
+  }
+  .mast__nav a:hover {
+    color: var(--ink);
+  }
+  .mast__nav a.active {
+    color: var(--ink);
+    border-bottom-color: var(--teal);
+  }
+  .mast__band {
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+  }
+  .mast__band .mono {
+    display: block;
+    padding-block: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+</style>

@@ -1,0 +1,256 @@
+{
+ "sections": [
+  {
+   "title": "READ_ME",
+   "intro": [
+    "How the sheets work together: what PROFILE drives, what the evidence grades mean, where training lives, and the live checks the workbook runs on itself."
+   ],
+   "rows": []
+  },
+  {
+   "title": "HOW THIS WORKBOOK WORKS",
+   "intro": [
+    "PROFILE is the single input sheet and it drives everything. The dashboard shows what applies to you and hides what does not. PROFILE drives everything The five visibility tags - Sex, Hair, Skin, Goal and Flag - read the PROFILE answers PROFILE!$C$7, PROFILE!$C$14, PROFILE!$C$15, PROFILE!$C$17 and the 15 condition flags on PROFILE rows 36-50. One match column per sheet Every knowledge row carries a hidden match cell that resolves to 1 when the row is visible under your profile and 0 when it is not. That is the value the INTEGRITY CHECK counts and the value the dashboard's FILTER selects, so the sheets and the dashboard read the same truth. Nothing is deleted A row your profile does not match is hidden by the filter, never removed. Unhide the five tag columns and the match column on any knowledge sheet to see the full universal set and the rule that selected your subset - the helper fill on those cells stays legible when unhidden."
+   ],
+   "rows": []
+  },
+  {
+   "title": "THE FIRST THREE MINUTES",
+   "intro": [
+    "Fill PROFILE, read the dashboard, act on one anchor habit per domain. The full programme is WEEKLY_PLAN's twelve weeks. Minute one - fill PROFILE Every yellow cell, top to bottom, including every condition flag you actually have - a flag set to Yes is what surfaces its rows. The seeded values are where the workbook starts, not advice for you. Minute two - read the dashboard MASTER_DASHBOARD is the filtered view of all six knowledge sheets under your profile. An empty section means nothing in that domain applies to you yet. Minute three - act on one anchor habit per domain WEEKLY_PLAN's daily anchors: a fixed wake time, protein at each meal, SPF every morning, a nightly retinoid, the caffeine cutoff, one zone-2 session."
+   ],
+   "rows": []
+  },
+  {
+   "title": "EVIDENCE GRADES",
+   "intro": [
+    "A multiple RCTs or a meta-analysis \u00b7 B at least one RCT or a strong prospective cohort \u00b7 C small, mechanistic or observational \u00b7 D theoretical or anecdotal \u00b7 Rx prescription only \u00b7 X not worth it How the chips use them The six knowledge sheets paint their grade chips by exactly these letters. MISTAKES grades verdicts, not papers: a refuted claim takes X and a contested one takes C even where the underlying evidence would read higher. An Rx row is prescription only - it needs a clinician."
+   ],
+   "rows": []
+  },
+  {
+   "title": "VISIBILITY TAGS",
+   "intro": [
+    "Every knowledge row carries the five tags below in hidden columns, and it is visible only when every one of them passes. ALL always matches. A Flag list is strict on purpose: it matches only when every flag in it is set, so a partial condition never surfaces the row."
+   ],
+   "rows": [
+    {
+     "k": "Sex",
+     "v": "ALL \u00b7 M \u00b7 F"
+    },
+    {
+     "k": "Hair",
+     "v": "ALL \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 n-a"
+    },
+    {
+     "k": "Skin",
+     "v": "ALL \u00b7 I \u00b7 II \u00b7 III \u00b7 IV \u00b7 V \u00b7 VI \u00b7 n-a"
+    },
+    {
+     "k": "Goal",
+     "v": "ALL \u00b7 Cut \u00b7 Recomp \u00b7 Bulk \u00b7 Maintain"
+    },
+    {
+     "k": "Flag",
+     "v": "ALL \u00b7 the 15 declared flags: HighApoB \u00b7 HighLDL \u00b7 Prediabetes \u00b7 FattyLiver \u00b7 Hypertension \u00b7 SleepApnea \u00b7 HighHsCRP \u00b7 Anaemia \u00b7 LowFerritin \u00b7 HighLpA \u00b7 LowTestosterone \u00b7 HighUricAcid \u00b7 HighHomocysteine \u00b7 HeavyAlcohol \u00b7 Sedentary"
+    }
+   ]
+  },
+  {
+   "title": "WHERE TRAINING LIVES",
+   "intro": [
+    "The WEEKLY_PLAN handoff, restated for the map: this workbook does not program workouts. GZCL owns: Exercise selection, sets, reps and load progression, warm-ups, mobility, conditioning programming - every decision that makes a session. This workbook owns: The targets that plan executes against: the body-fat band, the protein floor and ceiling, calorie guidance, the cardio dose, the recovery rules, the measurement loop. Set them on PROFILE, then execute them in GZCL Program.xlsx. The boundary test: Any sentence in this workbook that prescribes sets, reps or a session plan is a defect; its fix belongs in GZCL Program.xlsx. If that sheet runs without these targets, it is the wrong plan."
+   ],
+   "rows": []
+  },
+  {
+   "title": "SHEET INDEX",
+   "intro": [
+    ""
+   ],
+   "rows": [
+    {
+     "k": "MASTER_DASHBOARD",
+     "v": "Everything the profile selects, pulled from all six knowledge sheets, on one screen."
+    },
+    {
+     "k": "PROFILE",
+     "v": "The single input sheet: measurements, goal, hair, skin, the fifteen condition flags and every derived target."
+    },
+    {
+     "k": "APPEARANCE",
+     "v": "Hair, face, skin, teeth, grooming and procedures - the visible layer."
+    },
+    {
+     "k": "BODY_NUTRITION",
+     "v": "Protein, calories, caffeine, alcohol, hydration - and the not-worth-it list to drop from."
+    },
+    {
+     "k": "SLEEP_RECOVERY",
+     "v": "Sleep, light, screens and recovery - the quarter of the day that multiplies the rest."
+    },
+    {
+     "k": "LONGEVITY_HEALTH",
+     "v": "Blood markers, grip, VO2max and screening - the added-years layer, read against PROFILE's targets."
+    },
+    {
+     "k": "PRESENCE_STYLE",
+     "v": "Posture, voice, wardrobe and grooming drills - presence as practice, not kit."
+    },
+    {
+     "k": "MISTAKES",
+     "v": "Claims that quietly backfire, with the mechanism, the fix and a verdict for each."
+    },
+    {
+     "k": "WEEKLY_PLAN",
+     "v": "The 12-week structure: the GZCL handoff, the daily anchors, the baseline and every week block."
+    },
+    {
+     "k": "TRACKING",
+     "v": "The blank logs: measurements, blood panels, symptoms, hair, medications, family history, appointments."
+    },
+    {
+     "k": "READ_ME",
+     "v": "This sheet: the tagging system, the evidence legend, the GZCL handoff and the integrity checks."
+    }
+   ]
+  },
+  {
+   "title": "INTEGRITY CHECK",
+   "intro": [
+    "The workbook's own self-test, run live. For each knowledge sheet it reads two numbers off the hidden match column - the rows resolving to 1 under your profile, and the sheet's total data rows - scanning each sheet from its first data row down. OK means the column resolved to numbers and the 1s fit inside the rows. REVIEW means the numbers failed to resolve (a broken reference, an empty or non-numeric count) or the 1s outnumber the rows; rebuild the workbook from the data, do not edit the formulas. Nothing here judges your data - a check never fires because your profile matches nothing."
+   ],
+   "rows": []
+  },
+  {
+   "title": "MISTAKES",
+   "intro": [
+    "A 0 is a valid answer, not a broken sheet: it says that domain holds no row your profile selects. Empty number columns on first open mean the file has not recalculated yet - recalculate once and they fill in."
+   ],
+   "rows": []
+  }
+ ],
+ "references": [
+  {
+   "n": "1",
+   "study": "Kaufman KD, Olsen EA, Whiting D, et al. Finasteride in the treatment of men with androgenetic alopecia",
+   "journal": "JAAD \u00b7 1998",
+   "citedFor": "Finasteride 1 mg efficacy (n=1,553) \u2014 Ch. 2"
+  },
+  {
+   "n": "2",
+   "study": "Olsen EA, Dunlap FE, Funicella T, et al. Randomized trial of 5% vs 2% topical minoxidil and placebo in AGA",
+   "journal": "JAAD \u00b7 2002",
+   "citedFor": "Minoxidil 5% efficacy \u2014 Ch. 2"
+  },
+  {
+   "n": "3",
+   "study": "Olsen EA, Hordinsky M, Whiting D, et al. Dual 5\u03b1-reductase inhibition: dutasteride trial",
+   "journal": "JAAD \u00b7 2006",
+   "citedFor": "Dutasteride vs finasteride \u2014 Ch. 2"
+  },
+  {
+   "n": "4",
+   "study": "Dhurat R, Sukesh M, Avhad G, et al. Randomized evaluator-blinded study of microneedling in AGA",
+   "journal": "Int J Trichology \u00b7 2013",
+   "citedFor": "Microneedling + minoxidil \u2014 Ch. 2"
+  },
+  {
+   "n": "5",
+   "study": "Pi\u00e9rard-Franchimont C, Goffin V, Henry F, et al. Nudging hair shedding by anti-dandruff shampoos (ketoconazole 2%)",
+   "journal": "Dermatology \u00b7 1998",
+   "citedFor": "Ketoconazole adjunct \u2014 Ch. 2"
+  },
+  {
+   "n": "6",
+   "study": "Panahi Y, Taghizadeh M, Marzony ET, Sahebkar A. Rosemary oil vs minoxidil 2% \u2014 randomized comparative trial",
+   "journal": "SKINmed \u00b7 2015",
+   "citedFor": "Rosemary oil [C] \u2014 Ch. 2"
+  },
+  {
+   "n": "7",
+   "study": "Hughes MC, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial",
+   "journal": "Ann Intern Med \u00b7 2013",
+   "citedFor": "Daily sunscreen vs discretionary \u2014 Ch. 3"
+  },
+  {
+   "n": "8",
+   "study": "Weiss JS, Ellis CN, Headington JT, et al. Tretinoin-induced improvement of photoaged skin",
+   "journal": "JAMA \u00b7 1988",
+   "citedFor": "Tretinoin photoaging RCT \u2014 Ch. 3"
+  },
+  {
+   "n": "9",
+   "study": "Proksch E, Segger D, Degwert J, et al. Oral specific collagen peptides and human skin physiology",
+   "journal": "Skin Pharmacol Physiol \u00b7 2014",
+   "citedFor": "Collagen peptides [B] \u2014 Ch. 3, 6"
+  },
+  {
+   "n": "10",
+   "study": "Morton RW, Murphy KT, McKellar SR, et al. Meta-analysis of protein supplementation on resistance-training gains",
+   "journal": "Br J Sports Med \u00b7 2018",
+   "citedFor": "1.6\u20132.2 g/kg protein band \u2014 Ch. 6"
+  },
+  {
+   "n": "11",
+   "study": "Kreider RB, Kalman DS, Antonio J, et al. ISSN position stand: creatine safety and efficacy",
+   "journal": "JISSN \u00b7 2017",
+   "citedFor": "Creatine 3\u20135 g \u2014 Ch. 6"
+  },
+  {
+   "n": "12",
+   "study": "Hall KD, Ayuketah A, Brychta R, et al. Ultra-processed diets cause excess calorie intake and weight gain",
+   "journal": "Cell Metabolism \u00b7 2019",
+   "citedFor": "UPF +500 kcal/day \u2014 Ch. 6"
+  },
+  {
+   "n": "13",
+   "study": "Bhatt DL, Steg PG, Miller M, et al. Cardiovascular risk reduction with icosapent ethyl (REDUCE-IT)",
+   "journal": "NEJM \u00b7 2019",
+   "citedFor": "Omega-3 EPA 4 g \u2014 Ch. 6"
+  },
+  {
+   "n": "14",
+   "study": "Leproult R, Van Cauter E. Effect of 1 week of sleep restriction on testosterone in young men",
+   "journal": "JAMA \u00b7 2011",
+   "citedFor": "5-h nights \u2192 T \u221210\u201315% \u2014 Ch. 7"
+  },
+  {
+   "n": "15",
+   "study": "Cappuccio FP, Cooper D, D'Elia L, et al. Sleep duration predicts cardiovascular outcomes: meta-analysis",
+   "journal": "Sleep \u00b7 2011",
+   "citedFor": "Short sleep \u2194 CVD risk \u2014 Ch. 7"
+  },
+  {
+   "n": "16",
+   "study": "Mandsager K, Harb S, Cremer P, et al. Cardiorespiratory fitness and long-term mortality (122,000 patients)",
+   "journal": "JAMA Netw Open \u00b7 2018",
+   "citedFor": "VO2max gradient, no upper limit \u2014 Ch. 8"
+  },
+  {
+   "n": "17",
+   "study": "Leong DP, Teo KK, Rangarajan S, et al. Prognostic value of grip strength (PURE study)",
+   "journal": "The Lancet \u00b7 2015",
+   "citedFor": "Grip \u2194 mortality, 17 countries \u2014 Ch. 1, 8"
+  },
+  {
+   "n": "18",
+   "study": "Mannick JB, Del Giudice G, Lattanzi M, et al. mTOR inhibition improves immune function in the elderly",
+   "journal": "Sci Transl Med \u00b7 2014",
+   "citedFor": "Rapamycin verdict \u2014 Ch. 8"
+  },
+  {
+   "n": "19",
+   "study": "Barzilai N, Crandall JP, Kritchevsky SB, Espeland MA. Metformin as a tool to target aging",
+   "journal": "Cell Metabolism \u00b7 2016",
+   "citedFor": "TAME trial \u2014 Ch. 8"
+  },
+  {
+   "n": "Source edition",
+   "study": "The Looksmaxxing & Longevity Protocol \u2014 Advanced Clinical Guide, Edition 02 (MMXXVI); 19 primary references on the REFERENCES sheet.",
+   "journal": "",
+   "citedFor": ""
+  }
+ ],
+ "medical": []
+}

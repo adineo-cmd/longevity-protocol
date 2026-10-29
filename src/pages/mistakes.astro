@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import Sections from '../components/Sections.astro';
+import mistakes from '../data/mistakes.json';
+
+const totalRows = mistakes.sections.reduce((m: number, x: any) => m + x.rows.length, 0);
+---
+
+<Base title="Common mistakes" description={mistakes.blurb}>
+  <div class="container">
+    <header class="pagehead">
+      <p class="kicker mono">The verdict sheet</p>
+      <h1>Common mistakes</h1>
+      <p class="pagehead__blurb">{mistakes.blurb}</p>
+      <p class="pagehead__meta mono">{mistakes.sections.length} domains · {totalRows} verdicts</p>
+    </header>
+
+    <Sections sections={mistakes.sections} idPrefix="m" />
+  </div>
+</Base>
+
+<style>
+  .pagehead {
+    padding-block: 3.5rem 0.5rem;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--alert);
+    margin-bottom: 0.9rem;
+  }
+  h1 {
+    font-size: clamp(2.6rem, 5.5vw, 4rem);
+    margin-bottom: 0.7rem;
+  }
+  .pagehead__blurb {
+    color: var(--ink-soft);
+    font-size: 1.08rem;
+    max-width: 60ch;
+  }
+  .pagehead__meta {
+    margin-top: 0.8rem;
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+</style>

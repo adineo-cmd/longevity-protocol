@@ -1,0 +1,292 @@
+---
+import Base from '../layouts/Base.astro';
+import Grade from '../components/Grade.astro';
+import { site, gradeLegend } from '../data/site';
+import metrics from '../data/metrics.json';
+import systems from '../data/systems.json';
+
+const totalRows = systems.reduce(
+  (n: number, s: any) => n + s.sections.reduce((m: number, x: any) => m + x.rows.length, 0),
+  0
+);
+---
+
+<Base>
+  <div class="container">
+    <section class="hero">
+      <p class="hero__eyebrow mono">An operating manual · evidence-graded · {site.lastReviewed}</p>
+      <h1 class="hero__title">One body,<br /> kept in working order.</h1>
+      <p class="hero__lede measure">
+        The full protocol, page by page: what to measure, what to target, what the evidence
+        actually says — and the grade behind every claim.
+      </p>
+      <div class="hero__stats mono" aria-label="Contents">
+        <span><strong>5</strong> systems</span>
+        <span><strong>{totalRows}</strong> graded rows</span>
+        <span><strong>{metrics.length}</strong> live metrics</span>
+        <span><strong>12</strong> weeks, planned</span>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="dash">
+      <div class="panel__head">
+        <h2 id="dash" class="panel__title">The dashboard</h2>
+        <p class="panel__note">Thirteen numbers that decide most of it. Targets first, justification second.</p>
+      </div>
+      <ul class="dash">
+        {metrics.map((m: any) => (
+          <li class="dash__row">
+            <div class="dash__metric">
+              <span class="dash__name">{m.metric}</span>
+              <span class="dash__target mono">{m.target}</span>
+            </div>
+            <p class="dash__why">{m.why}</p>
+            <Grade grade={m.grade} />
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="plates">
+      <div class="plates__head">
+        <h2 id="plates">The five systems</h2>
+        <p class="plates__note">
+          Every knowledge sheet, filtered to what applies and graded by how well it is proven.
+        </p>
+      </div>
+      <ol class="plates">
+        {systems.map((s: any, i: number) => (
+          <li class="plate">
+            <a href={`/systems/${s.slug}`} class="plate__link">
+              <span class="plate__num mono">{String(i + 1).padStart(2, '0')}</span>
+              <span class="plate__body">
+                <span class="plate__title">{s.slug.split('-').map((w: string) => w[0].toUpperCase() + w.slice(1)).join(' & ')}</span>
+                <span class="plate__blurb">{s.blurb}</span>
+              </span>
+              <span class="plate__meta mono">
+                {s.sections.length} sections · {s.sections.reduce((m: number, x: any) => m + x.rows.length, 0)} rows
+              </span>
+            </a>
+          </li>
+        ))}
+        <li class="plate plate--quiet">
+          <a href="/mistakes" class="plate__link">
+            <span class="plate__num mono">✕</span>
+            <span class="plate__body">
+              <span class="plate__title">Common mistakes</span>
+              <span class="plate__blurb">The habits that quietly undo everything else — with the mechanism and the fix.</span>
+            </span>
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="legend" aria-labelledby="legend">
+      <h2 id="legend">How the grades work</h2>
+      <dl class="legend__list">
+        {gradeLegend.map((g) => (
+          <div class="legend__item">
+            <dt><Grade grade={g.grade} /></dt>
+            <dd>{g.label}</dd>
+          </div>
+        ))}
+      </dl>
+      <p class="legend__note">
+        A row you disagree with is still labelled. Grades describe the evidence, not the importance.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    padding-block: 4.5rem 3rem;
+  }
+  .hero__eyebrow {
+    font-size: 0.74rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 1.2rem;
+  }
+  .hero__title {
+    font-size: clamp(2.9rem, 7vw, 5.2rem);
+    margin-bottom: 1.1rem;
+  }
+  .hero__lede {
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+    margin-bottom: 1.6rem;
+  }
+  .hero__stats {
+    display: flex;
+    gap: 2.2rem;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    border-block: 1px solid var(--line);
+    padding-block: 0.7rem;
+  }
+  .hero__stats strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--line-strong);
+    padding: clamp(1.2rem, 3vw, 2.2rem);
+    margin-bottom: 4rem;
+  }
+  .panel__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.4rem;
+  }
+  .panel__title {
+    font-size: 1.8rem;
+  }
+  .panel__note {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    max-width: 46ch;
+  }
+  .dash {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dash__row {
+    display: grid;
+    grid-template-columns: 1.1fr 2fr auto;
+    gap: 1rem;
+    align-items: start;
+    padding-block: 0.7rem;
+    border-top: 1px solid var(--line);
+  }
+  .dash__metric {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .dash__name {
+    font-weight: 600;
+  }
+  .dash__target {
+    font-size: 0.78rem;
+    color: var(--teal);
+  }
+  .dash__why {
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+    max-width: 58ch;
+  }
+  @media (max-width: 720px) {
+    .dash__row {
+      grid-template-columns: 1fr auto;
+    }
+    .dash__why {
+      grid-column: 1 / -1;
+    }
+  }
+
+  .plates__head {
+    margin-bottom: 1.4rem;
+  }
+  .plates__head h2 {
+    font-size: 1.8rem;
+  }
+  .plates__note {
+    color: var(--ink-soft);
+    margin-top: 0.3rem;
+  }
+  .plates {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  .plate {
+    border-bottom: 1px solid var(--line-strong);
+  }
+  .plate__link {
+    display: grid;
+    grid-template-columns: 3.2rem 1fr auto;
+    gap: 1.2rem;
+    align-items: baseline;
+    padding-block: 1.15rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .plate__link:hover .plate__title {
+    color: var(--teal);
+  }
+  .plate__num {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+  .plate__title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+  .plate__blurb {
+    display: block;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+    max-width: 60ch;
+  }
+  .plate__meta {
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+  .plate--quiet .plate__title {
+    color: var(--ink-soft);
+  }
+  @media (max-width: 640px) {
+    .plate__link {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+    .plate__meta {
+      order: -1;
+    }
+  }
+
+  .legend {
+    margin-top: 4rem;
+    background: var(--panel-dim);
+    border: 1px solid var(--line);
+    padding: clamp(1.2rem, 3vw, 2rem);
+  }
+  .legend h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .legend__list {
+    margin: 0 0 0.9rem;
+    display: grid;
+    gap: 0.55rem;
+  }
+  .legend__item {
+    display: flex;
+    gap: 0.9rem;
+    align-items: baseline;
+  }
+  .legend__item dd {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+  .legend__note {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+</style>
