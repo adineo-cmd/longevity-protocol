@@ -253,6 +253,12 @@ import { gradeLegend } from '../data/site';
     // protein
     add('Protein / day', weight ? `${fmt(weight * 1.6, 0)}–${fmt(weight * 2.2, 0)} g` : '—', weight ? '1.6–2.2 g/kg; the dose-response plateaus near the ceiling' : 'needs weight', 'A');
     add('Protein / meal', weight ? `${fmt(weight * 0.4, 0)} g` : '—', weight ? '0.4 g/kg per sitting, across 3–5 feedings' : 'needs weight', 'A');
+    add(
+      'Feedings to cover it',
+      weight ? `${Math.ceil((weight * 2.2) / (weight * 0.4))} feedings` : '—',
+      weight ? 'synthesis saturates per sitting: four to five protein feedings spread across the day cover the ceiling' : 'needs weight',
+      'A'
+    );
 
     // calories
     const kcalLow = weight ? weight * 31 : NaN;
@@ -310,13 +316,33 @@ import { gradeLegend } from '../data/site';
     }
     add('Resting HR', rhr ? `${fmt(rhr, 0)} bpm` : '—', rhrCat || 'take it on waking, before you sit up', 'B');
 
+    // cardio dose
+    const cardio = num('cardio');
+    let cardioCat = '';
+    if (Number.isFinite(cardio)) {
+      cardioCat = cardio === 0 ? 'no dose yet — the steepest gains sit between 0 and 150 minutes'
+        : cardio < 150 ? 'below the 150 min/week floor — the highest-value minutes you can add'
+        : cardio <= 300 ? 'inside the 150–300 zone-2 band — the sweet spot for dose versus recovery'
+        : 'above 300 — gains flatten while injury and recovery costs rise; quality over quantity';
+    }
+    add('Cardio dose', Number.isFinite(cardio) ? `${fmt(cardio, 0)} min/wk` : '—', cardioCat || 'zone-2 minutes, weekly', 'A');
+
+    // alcohol
+    const alcohol = num('alcohol');
+    let alcCat = '';
+    if (Number.isFinite(alcohol)) {
+      alcCat = alcohol === 0 ? 'zero — the only risk-free level'
+        : alcohol <= 4 ? 'at the edge of the low band; the risk curve is linear with no protective dip'
+        : alcohol <= 10 ? 'above the low band — each drink down the curve is risk, not benefit'
+        : 'well above the band — the single largest lever on this sheet you control';
+    }
+    add('Alcohol', Number.isFinite(alcohol) ? `${fmt(alcohol, 0)} drinks/wk` : '—', alcCat || 'least is best; the curve is linear', 'A');
+
     // grip + vo2max targets
     add('Grip target', sex === 'm' ? '≥ 40 kg' : '≥ 25 kg', 'each 5 kg lower grip is 16% higher all-cause mortality', 'A');
     add('VO2max target', '> 40 ml/kg/min', 'the steepest mortality gradient of any variable here; each 1 ml/kg/min is 9% lower all-cause mortality', 'A');
 
     // lifestyle score: 0-8 from 4 inputs
-    const cardio = num('cardio');
-    const alcohol = num('alcohol');
     const smoking = $('smoking').value;
     const sleepHfixed = sleepH || 0;
     let score = 0;
