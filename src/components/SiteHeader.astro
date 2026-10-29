@@ -5,6 +5,7 @@ const path = Astro.url.pathname;
 const isActive = (href: string) => path.startsWith(href);
 const nav = [
   { href: '/systems', label: 'Systems' },
+  { href: '/calculator', label: 'Calculator' },
   { href: '/mistakes', label: 'Mistakes' },
   { href: '/plan', label: 'Plan' },
   { href: '/tracking', label: 'Tracking' },
@@ -19,17 +20,22 @@ const nav = [
       <span class="mast__glyph mono" aria-hidden="true">████</span>
       <span class="mast__name">The Longevity Protocol</span>
     </a>
-    <nav aria-label="Primary">
-      <ul class="mast__nav">
-        {nav.map((item) => (
-          <li>
-            <a href={item.href} class:list={[{ active: isActive(item.href) }]} aria-current={isActive(item.href) ? 'page' : undefined}>
-              {item.label}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div class="mast__right">
+      <nav aria-label="Primary">
+        <ul class="mast__nav">
+          {nav.map((item) => (
+            <li>
+              <a href={item.href} class:list={[{ active: isActive(item.href) }]} aria-current={isActive(item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <button type="button" class="mast__search mono" data-search-open aria-label="Search the protocol (press /)">
+        search <kbd>/</kbd>
+      </button>
+    </div>
   </div>
   <p class="mast__band">
     <span class="container mono">Evidence-graded · one body · updated {site.lastReviewed}</span>
@@ -65,6 +71,28 @@ const nav = [
     font-family: var(--font-display);
     font-size: 1.55rem;
     line-height: 1;
+  }
+  .mast__right {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .mast__search {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    background: var(--paper);
+    border: 1px solid var(--line-strong);
+    padding: 0.32rem 0.6rem;
+    cursor: pointer;
+  }
+  .mast__search:hover {
+    color: var(--ink);
+    border-color: var(--ink);
+  }
+  .mast__search kbd {
+    font-family: inherit;
+    font-size: 0.66rem;
   }
   .mast__nav {
     display: flex;

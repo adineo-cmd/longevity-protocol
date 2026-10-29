@@ -1,0 +1,390 @@
+---
+import Base from '../layouts/Base.astro';
+import { gradeLegend } from '../data/site';
+---
+
+<Base title="The calculator" description="Enter your profile once; the protocol computes your waist-to-height, protein band, maintenance calories, caffeine cutoff and body-fat estimate live.">
+  <div class="container">
+    <header class="head">
+      <p class="kicker mono">PROFILE, computed</p>
+      <h1>The calculator</h1>
+      <p class="head__blurb measure">
+        Every formula below is the workbook's own. Nothing is stored, nothing leaves the page —
+        the numbers are computed in your browser as you type.
+      </p>
+    </header>
+
+    <div class="calc">
+      <form class="inputs" id="calc-form" autocomplete="off">
+        <fieldset>
+          <legend>Body</legend>
+          <label>Age <span class="unit">years</span><input type="number" id="age" min="10" max="100" value="27" /></label>
+          <label>Sex
+            <select id="sex">
+              <option value="m" selected>Male</option>
+              <option value="f">Female</option>
+            </select>
+          </label>
+          <label>Height <span class="unit">cm</span><input type="number" id="height" min="120" max="220" value="178" /></label>
+          <label>Weight <span class="unit">kg</span><input type="number" id="weight" min="30" max="200" step="0.1" value="78" /></label>
+          <label>Waist <span class="unit">cm</span><input type="number" id="waist" min="40" max="200" step="0.1" value="84" /></label>
+          <label>Neck <span class="unit">cm</span><input type="number" id="neck" min="20" max="80" step="0.1" value="38" /></label>
+          <label>Hip <span class="unit">cm</span><input type="number" id="hip" min="50" max="200" step="0.1" value="95" /></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Goal &amp; day</legend>
+          <label>Goal
+            <select id="goal">
+              <option value="cut" selected>Cut</option>
+              <option value="recomp">Recomp</option>
+              <option value="bulk">Bulk</option>
+              <option value="maintain">Maintain</option>
+            </select>
+          </label>
+          <label>Bedtime <span class="unit">hh:mm</span><input type="time" id="bedtime" value="23:00" /></label>
+          <label>Wake time <span class="unit">hh:mm</span><input type="time" id="waketime" value="07:00" /></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Vitals &amp; lifestyle</legend>
+          <label>Systolic BP <span class="unit">mmHg</span><input type="number" id="bpsys" min="70" max="250" value="118" /></label>
+          <label>Diastolic BP <span class="unit">mmHg</span><input type="number" id="bpdia" min="40" max="150" value="75" /></label>
+          <label>Resting HR <span class="unit">bpm</span><input type="number" id="rhr" min="30" max="150" value="58" /></label>
+          <label>Cardio <span class="unit">min/week</span><input type="number" id="cardio" min="0" max="1200" value="180" /></label>
+          <label>Alcohol <span class="unit">drinks/week</span><input type="number" id="alcohol" min="0" max="70" value="4" /></label>
+          <label>Smoking
+            <select id="smoking">
+              <option value="never" selected>Never</option>
+              <option value="former">Former</option>
+              <option value="current">Current</option>
+            </select>
+          </label>
+        </fieldset>
+      </form>
+
+      <section class="readout" aria-live="polite">
+        <h2>Your numbers</h2>
+        <div class="grid" id="readout-grid">
+          <!-- rows injected by script -->
+        </div>
+        <p class="readout__note">
+          Estimates are instruments, not verdicts: read trends against the target bands in the
+          <a href="/">dashboard</a>. Anything medical is a conversation for a clinician.
+        </p>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .head {
+    padding-block: 3.5rem 1.5rem;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.9rem;
+  }
+  h1 {
+    font-size: clamp(2.5rem, 5.5vw, 4rem);
+    margin-bottom: 0.7rem;
+  }
+  .head__blurb {
+    color: var(--ink-soft);
+    font-size: 1.06rem;
+  }
+  .calc {
+    display: grid;
+    grid-template-columns: minmax(19rem, 23rem) 1fr;
+    gap: 2.5rem;
+    align-items: start;
+    margin-top: 1rem;
+  }
+  @media (max-width: 900px) {
+    .calc {
+      grid-template-columns: 1fr;
+    }
+  }
+  .inputs {
+    display: grid;
+    gap: 1.3rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  fieldset {
+    margin: 0;
+    padding: 1.1rem 1.2rem 1.2rem;
+    border: 1px solid var(--line-strong);
+    background: var(--panel);
+  }
+  legend {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--teal);
+    padding-inline: 0.4rem;
+  }
+  label {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    font-size: 0.9rem;
+    padding-block: 0.28rem;
+  }
+  .unit {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    color: var(--ink-soft);
+    margin-right: 0.55rem;
+  }
+  input,
+  select {
+    grid-column: 1 / -1;
+    width: 100%;
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line-strong);
+    padding: 0.42rem 0.6rem;
+    border-radius: 0;
+  }
+  input:focus-visible,
+  select:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 1px;
+  }
+  .readout h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .grid {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  .readout__note {
+    margin-top: 1.1rem;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+</style>
+
+<script>
+  type Row = {
+    label: string;
+    value: string;
+    detail: string;
+    grade: string;
+  };
+
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+  const num = (id: string) => {
+    const v = parseFloat($(id).value);
+    return Number.isFinite(v) ? v : NaN;
+  };
+  const fmt = (v: number, digits = 1) => (Number.isFinite(v) ? v.toFixed(digits) : '—');
+  const timeToMin = (id: string) => {
+    const [h, m] = ($(id).value || '0:0').split(':').map(Number);
+    return (h || 0) * 60 + (m || 0);
+  };
+  const minToClock = (mins: number) => {
+    const wrapped = ((mins % 1440) + 1440) % 1440;
+    const h = Math.floor(wrapped / 60);
+    const m = wrapped % 60;
+    return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+  };
+
+  function rows(): Row[] {
+    const sex = $('sex').value as 'm' | 'f';
+    const height = num('height');
+    const weight = num('weight');
+    const waist = num('waist');
+    const neck = num('neck');
+    const hip = num('hip');
+    const goal = $('goal').value;
+
+    const out: Row[] = [];
+    const add = (label: string, value: string, detail: string, grade: string) =>
+      out.push({ label, value, detail, grade });
+
+    // waist-to-height
+    const whtr = height ? waist / height : NaN;
+    add(
+      'Waist-to-height',
+      fmt(whtr, 2),
+      whtr ? (whtr < 0.5 ? 'inside the < 0.50 band' : 'above the 0.50 band — the single most actionable number here') : 'needs waist and height',
+      'A'
+    );
+
+    // BMI
+    const bmr2 = height > 0 ? height / 100 : NaN;
+    const bmi = weight && bmr2 ? weight / (bmr2 * bmr2) : NaN;
+    let bmiCat = '';
+    if (bmi) {
+      bmiCat = bmi < 18.5 ? 'underweight' : bmi < 25 ? 'in band' : bmi < 30 ? 'overweight' : 'obese';
+    }
+    add('BMI', fmt(bmi, 1), bmiCat ? `${bmiCat} — screening only; it cannot tell muscle from fat` : 'needs height and weight', 'B');
+
+    // body fat, U.S. Navy estimate
+    let bf = NaN;
+    if (sex === 'm' && waist && neck && height && waist > neck) {
+      bf = 495 / (1.0324 - 0.19077 * Math.log10(waist - neck) + 0.15456 * Math.log10(height)) - 450;
+    } else if (sex === 'f' && waist && neck && hip && height && waist + hip > neck) {
+      bf = 495 / (1.29579 - 0.35004 * Math.log10(waist + hip - neck) + 0.221 * Math.log10(height)) - 450;
+    }
+    add(
+      'Body fat (Navy estimate)',
+      bf ? `${fmt(bf, 1)}%` : '—',
+      'estimate only; if you measured it with calipers or DEXA, yours wins',
+      'B'
+    );
+
+    // waist-to-hip
+    const whpr = hip ? waist / hip : NaN;
+    add('Waist-to-hip', fmt(whpr, 2), whpr ? (whpr < (sex === 'm' ? 0.9 : 0.85) ? 'lower central-fat band' : 'above the common risk cutpoint') : 'needs waist and hip', 'B');
+
+    // protein
+    add('Protein / day', weight ? `${fmt(weight * 1.6, 0)}–${fmt(weight * 2.2, 0)} g` : '—', weight ? '1.6–2.2 g/kg; the dose-response plateaus near the ceiling' : 'needs weight', 'A');
+    add('Protein / meal', weight ? `${fmt(weight * 0.4, 0)} g` : '—', weight ? '0.4 g/kg per sitting, across 3–5 feedings' : 'needs weight', 'A');
+
+    // calories
+    const kcalLow = weight ? weight * 31 : NaN;
+    const kcalHigh = weight ? weight * 34 : NaN;
+    let goalLine = 'hold the band, judged on the 2–3 week trend';
+    if (goal === 'cut') goalLine = 'eat 400–600 kcal below maintenance; faster than 1% of bodyweight per week costs muscle';
+    else if (goal === 'bulk') goalLine = 'add 150–250 kcal above maintenance; a larger surplus buys fat at a premium rate';
+    else if (goal === 'recomp') goalLine = 'hold maintenance and eat protein high; composition changes without an energy change';
+    add(
+      'Maintenance kcal',
+      weight ? `${fmt(kcalLow, 0)}–${fmt(kcalHigh, 0)}` : '—',
+      weight ? `${goalLine}` : 'needs weight',
+      'B'
+    );
+    if (goal === 'cut') {
+      add('Cut band', weight ? `${fmt(kcalLow - 600, 0)}–${fmt(kcalHigh - 400, 0)} kcal` : '—', weight ? `weekly fat-loss target: ${fmt(weight * 0.01, 2)} kg/week at most` : 'needs weight', 'B');
+    } else if (goal === 'bulk') {
+      add('Bulk band', weight ? `${fmt(kcalLow + 150, 0)}–${fmt(kcalHigh + 250, 0)} kcal` : '—', weight ? 'small surplus; adjust against the observed 2–3 week trend' : 'needs weight', 'B');
+    }
+
+    // caffeine cutoff: 10 h before bed
+    const bed = timeToMin('bedtime');
+    add('Caffeine cutoff', `${minToClock(bed - 600)}`, '10 hours before bedtime; 400 mg disrupts sleep even 6 h out', 'A');
+
+    // sleep window
+    const sleepMins = timeToMin('waketime') - bed;
+    const sleepH = ((sleepMins % 1440) + 1440) % 1440 / 60;
+    add(
+      'Sleep window',
+      `${minToClock(bed)} → ${minToClock(timeToMin('waketime'))}`,
+      `${fmt(sleepH, 1)} h — the target band is 7–9 h; the wake time is the anchor, not the bedtime`,
+      'A'
+    );
+
+    // blood pressure
+    const sys = num('bpsys');
+    const dia = num('bpdia');
+    let bpCat = '';
+    if (sys && dia) {
+      bpCat =
+        sys >= 180 || dia >= 120 ? 'crisis — urgent care now'
+        : sys >= 140 || dia >= 90 ? 'stage 2 hypertension — see a clinician'
+        : sys >= 130 || dia >= 80 ? 'stage 1 — repeat with correct cuff technique'
+        : sys >= 120 ? 'elevated — measure properly before concluding'
+        : 'normal band';
+    }
+    add('Blood pressure', sys && dia ? `${fmt(sys, 0)}/${fmt(dia, 0)}` : '—', bpCat || 'measure seated, 5 min rest, arm at heart level', 'A');
+
+    // resting HR
+    const rhr = num('rhr');
+    let rhrCat = '';
+    if (rhr) {
+      rhrCat = rhr < 40 ? 'very low — worth a clinician conversation if unexplained'
+        : rhr <= 65 ? 'inside the 50–65 band' : rhr <= 80 ? 'above the band — the trend beats any single reading' : 'high — repeat on waking, before you sit up';
+    }
+    add('Resting HR', rhr ? `${fmt(rhr, 0)} bpm` : '—', rhrCat || 'take it on waking, before you sit up', 'B');
+
+    // grip + vo2max targets
+    add('Grip target', sex === 'm' ? '≥ 40 kg' : '≥ 25 kg', 'each 5 kg lower grip is 16% higher all-cause mortality', 'A');
+    add('VO2max target', '> 40 ml/kg/min', 'the steepest mortality gradient of any variable here; each 1 ml/kg/min is 9% lower all-cause mortality', 'A');
+
+    // lifestyle score: 0-8 from 4 inputs
+    const cardio = num('cardio');
+    const alcohol = num('alcohol');
+    const smoking = $('smoking').value;
+    const sleepHfixed = sleepH || 0;
+    let score = 0;
+    const earned: string[] = [];
+    if (sleepHfixed >= 7 && sleepHfixed <= 9) { score += 2; earned.push('sleep 7–9 h'); }
+    if (cardio >= 150) { score += 2; earned.push('cardio ≥ 150 min/wk'); }
+    if (alcohol <= 4) { score += 2; earned.push('alcohol ≤ 4 drinks/wk'); }
+    if (smoking === 'never') { score += 2; earned.push('never smoker'); }
+    add('Lifestyle score', `${score} / 8`, earned.length ? `earned by: ${earned.join(' · ')}` : 'a rough self-tracking score, not a medical screen', 'C');
+
+    return out;
+  }
+
+  function render() {
+    const grid = document.getElementById('readout-grid');
+    if (!grid) return;
+    grid.innerHTML = rows()
+      .map(
+        (r) => `
+        <div class="out">
+          <div class="out__head">
+            <span class="out__label">${r.label}</span>
+            <span class="out__grade mono" title="Evidence grade ${r.grade}">${'█'.repeat(r.grade === 'A' ? 4 : r.grade === 'B' ? 3 : 2)} ${r.grade}</span>
+          </div>
+          <div class="out__value mono">${r.value}</div>
+          <div class="out__detail">${r.detail}</div>
+        </div>`
+      )
+      .join('');
+  }
+
+  const form = document.getElementById('calc-form');
+  form?.addEventListener('input', render);
+  form?.addEventListener('change', render);
+  render();
+</script>
+
+<style is:global>
+  .out {
+    padding-block: 0.75rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .out__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .out__label {
+    font-weight: 600;
+  }
+  .out__grade {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: var(--teal);
+    letter-spacing: -0.08em;
+    white-space: nowrap;
+  }
+  .out__value {
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    color: var(--teal);
+    margin-top: 0.15rem;
+  }
+  .out__detail {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    max-width: 58ch;
+    margin-top: 0.1rem;
+  }
+</style>
