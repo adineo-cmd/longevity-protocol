@@ -34,22 +34,21 @@ for (const s of systems) {
   const name = s.slug.split('-').map((w: string) => (w[0] ?? '').toUpperCase() + w.slice(1)).join(' & ');
   documents.push(page(name, s.blurb, `/systems/${s.slug}`, 'System'));
   for (const sec of s.sections) {
-    const anchor = `/systems/${s.slug}#s-${slug(sec.title)}`;
     documents.push({
       kind: 'Section',
       title: sec.title,
       description: sec.intro[0] ?? name,
-      url: anchor,
+      url: `/systems/${s.slug}#s-${slug(sec.title)}`,
       keywords: name,
     });
-    for (const row of sec.rows) {
+    for (const [ri, row] of sec.rows.entries()) {
       const text = row.filter(Boolean).join(' — ');
-      if (!text) continue;
+      if (!text || !row[0]) continue;
       documents.push({
         kind: 'Row',
-        title: row[0] ?? sec.title,
+        title: row[0],
         description: text.length > 180 ? text.slice(0, 177) + '…' : text,
-        url: anchor,
+        url: `/rows/${s.slug}--${slug(sec.title)}--${ri}`,
         keywords: sec.title,
       });
     }
@@ -63,14 +62,14 @@ for (const sec of mistakes.sections) {
     description: sec.intro[0] ?? 'Common mistakes',
     url: `/mistakes#m-${slug(sec.title)}`,
   });
-  for (const row of sec.rows) {
+  for (const [ri, row] of sec.rows.entries()) {
     const text = row.filter(Boolean).join(' — ');
-    if (!text) continue;
+    if (!text || !row[0]) continue;
     documents.push({
       kind: 'Verdict',
-      title: row[0] ?? sec.title,
+      title: row[0],
       description: text.length > 180 ? text.slice(0, 177) + '…' : text,
-      url: `/mistakes#m-${slug(sec.title)}`,
+      url: `/rows/mistakes--${slug(sec.title)}--${ri}`,
       keywords: sec.title,
     });
   }

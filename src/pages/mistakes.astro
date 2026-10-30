@@ -15,7 +15,7 @@ const totalRows = mistakes.sections.reduce((m: number, x: any) => m + x.rows.len
       <p class="pagehead__meta mono">{mistakes.sections.length} domains · {totalRows} verdicts</p>
     </header>
 
-    <Sections sections={mistakes.sections} idPrefix="m" />
+    <Sections sections={mistakes.sections} idPrefix="m" rowSystem="mistakes" />
   </div>
 </Base>
 

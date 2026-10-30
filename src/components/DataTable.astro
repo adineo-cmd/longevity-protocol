@@ -7,13 +7,15 @@ interface Props {
   gradeCol?: number;
   refCol?: number;
   compact?: boolean;
+  rowBase?: string;
 }
-const { header, rows, gradeCol = -1, refCol = -1, compact = false } = Astro.props;
+const { header, rows, gradeCol = -1, refCol = -1, compact = false, rowBase } = Astro.props;
 
 // find grade/ref columns automatically when not told
 const gCol = gradeCol >= 0 ? gradeCol : header.findIndex((h) => /^grade/i.test(h));
 const rCol = refCol >= 0 ? refCol : header.findIndex((h) => /^ref|source/i.test(h));
-const textCols = header.map((_, i) => i !== gCol && i !== rCol);
+// rowBase (e.g. "appearance--know-your-hair-walker-types--") turns each row's
+// first cell into a permalink to its /rows/ detail page
 ---
 
 <div class="tablewrap">
@@ -28,13 +30,15 @@ const textCols = header.map((_, i) => i !== gCol && i !== rCol);
       </tr>
     </thead>
     <tbody>
-      {rows.map((row) => (
+      {rows.map((row, ri) => (
         <tr>
           {row.map((cell, i) =>
             i === gCol ? (
               <td class="col-grade"><Grade grade={cell} /></td>
             ) : i === rCol ? (
               <td class="col-ref mono">{cell}</td>
+            ) : i === 0 && rowBase && cell ? (
+              <td class="col-lead"><a class="rowlink" href={`${rowBase}${ri}`}>{cell}</a></td>
             ) : (
               <td class:list={[{ 'col-lead': i === 0 }]}>{cell}</td>
             )
@@ -83,6 +87,14 @@ const textCols = header.map((_, i) => i !== gCol && i !== rCol);
   .col-lead {
     font-weight: 600;
     min-width: 12ch;
+  }
+  .rowlink {
+    color: inherit;
+    text-decoration-color: color-mix(in srgb, var(--teal) 45%, transparent);
+    text-underline-offset: 2px;
+  }
+  .rowlink:hover {
+    color: var(--teal);
   }
   .col-grade {
     white-space: nowrap;

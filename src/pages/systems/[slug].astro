@@ -42,7 +42,7 @@ const totalRows = system.sections.reduce((m: number, x: any) => m + x.rows.lengt
         <p class="pagehead__meta mono">{system.sections.length} sections · {totalRows} graded rows</p>
       </header>
 
-      <Sections sections={system.sections} />
+      <Sections sections={system.sections} rowSystem={system.slug} />
 
       <nav class="pager" aria-label="More sheets">
         {prev && <a href={prev.slug === 'mistakes' ? '/mistakes' : `/systems/${prev.slug}`} rel="prev">← {prev.slug.replace(/-/g, ' ')}</a>}

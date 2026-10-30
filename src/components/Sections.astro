@@ -10,8 +10,9 @@ interface Section {
 interface Props {
   sections: Section[];
   idPrefix?: string;
+  rowSystem?: string;
 }
-const { sections, idPrefix = 's' } = Astro.props;
+const { sections, idPrefix = 's', rowSystem } = Astro.props;
 const slug = (t: string) =>
   t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 ---
@@ -23,7 +24,7 @@ const slug = (t: string) =>
       <p class="sec__intro">{line}</p>
     ))}
     {sec.header && sec.rows.length > 0 && (
-      <DataTable header={sec.header} rows={sec.rows} />
+      <DataTable header={sec.header} rows={sec.rows} rowBase={rowSystem ? `${rowSystem}--${slug(sec.title)}--` : undefined} />
     )}
   </section>
 ))}

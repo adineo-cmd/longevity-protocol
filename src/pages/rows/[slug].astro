@@ -1,0 +1,204 @@
+---
+import Base from '../../layouts/Base.astro';
+import Grade from '../../components/Grade.astro';
+import systems from '../../data/systems.json';
+import mistakes from '../../data/mistakes.json';
+
+interface RowPage {
+  id: string;
+  system: string;
+  systemSlug: string;
+  sectionTitle: string;
+  header: string[];
+  row: string[];
+  siblings: { id: string; title: string }[];
+  backHref: string;
+  backLabel: string;
+}
+
+export function getStaticPaths() {
+  const slug = (t: string) =>
+    t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+  const pages: RowPage[] = [];
+  for (const s of [...systems, mistakes]) {
+    const isMistakes = s.slug === 'mistakes';
+    for (const [si, sec] of s.sections.entries()) {
+      if (!sec.header) continue;
+      for (const [ri, row] of sec.rows.entries()) {
+        if (!row[0]) continue;
+        const id = `${s.slug}--${slug(sec.title)}--${ri}`;
+        pages.push({
+          id,
+          system: s.slug.split('-').map((w: string) => (w[0] ?? '').toUpperCase() + w.slice(1)).join(' & '),
+          systemSlug: s.slug,
+          sectionTitle: sec.title,
+          header: sec.header,
+          row,
+          siblings: sec.rows
+            .map((r: string[], i: number) => ({ id: `${s.slug}--${slug(sec.title)}--${i}`, title: r[0] ?? '' }))
+            .filter((x: { id: string; title: string }) => x.title && x.id !== id),
+          backHref: isMistakes ? '/mistakes' : `/systems/${s.slug}`,
+          backLabel: isMistakes ? 'Common mistakes' : s.slug.split('-').map((w: string) => (w[0] ?? '').toUpperCase() + w.slice(1)).join(' & '),
+        });
+      }
+    }
+  }
+  return pages.map((p) => ({ params: { slug: p.id }, props: { page: p } }));
+}
+
+const { page } = Astro.props;
+const gradeCol = page.header.findIndex((h) => /^grade/i.test(h));
+const refCol = page.header.findIndex((h) => /^ref|source/i.test(h));
+const title = page.row[0] ?? 'Protocol row';
+const pairs = page.header
+  .map((h, i) => ({ label: h, value: page.row[i] ?? '' }))
+  .filter((p) => p.value && p.value.trim() && p.value.trim() !== title);
+const firstText = page.row[1] ?? '';
+const sectionSlug = page.sectionTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+const sectionAnchor = `${page.systemSlug === 'mistakes' ? 'm' : 's'}-${sectionSlug}`;
+---
+
+<Base title={title} description={`${title} — ${firstText.slice(0, 140)}${firstText.length > 140 ? '…' : ''}`}>
+  <div class="container rowpage">
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a href="/">Dashboard</a>
+      <span aria-hidden="true">/</span>
+      <a href={page.backHref}>{page.backLabel}</a>
+      <span aria-hidden="true">/</span>
+      <a href={`${page.backHref}#${sectionAnchor}`}>{page.sectionTitle}</a>
+    </nav>
+
+    <header class="rowhead">
+      <h1>{title}</h1>
+      {gradeCol >= 0 && page.row[gradeCol] && <Grade grade={page.row[gradeCol]} />}
+    </header>
+
+    <dl class="fields">
+      {pairs.filter((p) => p.label && !/^grade/i.test(p.label)).map((p) => (
+        <div class="field" class:list={{ 'field--ref': /^ref|source/i.test(p.label) }}>
+          <dt>{p.label}</dt>
+          <dd>{p.value}</dd>
+        </div>
+      ))}
+    </dl>
+
+    {page.siblings.length > 0 && (
+      <section class="siblings">
+        <h2>Rows in this section</h2>
+        <ul>
+          {page.siblings.map((sib) => (
+            <li><a href={`/rows/${sib.id}`}>{sib.title}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <p class="backlink"><a href={page.backHref}>← Back to {page.backLabel}</a></p>
+  </div>
+</Base>
+
+<style>
+  .rowpage {
+    padding-block: 2.5rem 1rem;
+    max-width: 60rem;
+  }
+  .crumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 1.6rem;
+  }
+  .crumb a {
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .crumb a:hover {
+    color: var(--teal);
+  }
+  .rowhead {
+    display: flex;
+    align-items: baseline;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.4rem;
+  }
+  h1 {
+    font-size: clamp(2rem, 4.5vw, 3.2rem);
+  }
+  .fields {
+    margin: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  .field {
+    display: grid;
+    grid-template-columns: 12rem 1fr;
+    gap: 1rem;
+    padding-block: 0.7rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .field dt {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding-top: 0.3rem;
+  }
+  .field dd {
+    margin: 0;
+  }
+  .field--ref dd {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--teal);
+  }
+  .siblings {
+    margin-top: 2.5rem;
+  }
+  .siblings h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  .siblings ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line);
+  }
+  .siblings li {
+    border-bottom: 1px solid var(--line);
+  }
+  .siblings a {
+    display: block;
+    padding-block: 0.5rem;
+    text-decoration: none;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+  .siblings a:hover {
+    color: var(--teal);
+  }
+  .backlink {
+    margin-top: 2rem;
+    font-size: 0.92rem;
+  }
+  .backlink a {
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .backlink a:hover {
+    color: var(--teal);
+  }
+  @media (max-width: 640px) {
+    .field {
+      grid-template-columns: 1fr;
+      gap: 0.1rem;
+    }
+  }
+</style>
