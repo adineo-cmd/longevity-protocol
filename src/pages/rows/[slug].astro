@@ -38,7 +38,7 @@ export function getStaticPaths() {
           siblings: sec.rows
             .map((r: string[], i: number) => ({ id: `${s.slug}--${slug(sec.title)}--${i}`, title: r[0] ?? '' }))
             .filter((x: { id: string; title: string }) => x.title && x.id !== id),
-          backHref: isMistakes ? '/mistakes' : `/systems/${s.slug}`,
+          backHref: isMistakes ? '/longevity-protocol/mistakes' : `/longevity-protocol/systems/${s.slug}`,
           backLabel: isMistakes ? 'Common mistakes' : s.slug.split('-').map((w: string) => (w[0] ?? '').toUpperCase() + w.slice(1)).join(' & '),
         });
       }
@@ -62,7 +62,7 @@ const sectionAnchor = `${page.systemSlug === 'mistakes' ? 'm' : 's'}-${sectionSl
 <Base title={title} description={`${title} — ${firstText.slice(0, 140)}${firstText.length > 140 ? '…' : ''}`}>
   <div class="container rowpage">
     <nav class="crumb" aria-label="Breadcrumb">
-      <a href="/">Dashboard</a>
+      <a href="/longevity-protocol/">Dashboard</a>
       <span aria-hidden="true">/</span>
       <a href={page.backHref}>{page.backLabel}</a>
       <span aria-hidden="true">/</span>
@@ -88,7 +88,7 @@ const sectionAnchor = `${page.systemSlug === 'mistakes' ? 'm' : 's'}-${sectionSl
         <h2>Rows in this section</h2>
         <ul>
           {page.siblings.map((sib) => (
-            <li><a href={`/rows/${sib.id}`}>{sib.title}</a></li>
+            <li><a href={`/longevity-protocol/rows/${sib.id}`}>{sib.title}</a></li>
           ))}
         </ul>
       </section>

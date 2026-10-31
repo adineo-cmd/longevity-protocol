@@ -50,8 +50,8 @@ const totalRows = system.sections.reduce((m: number, x: any) => m + x.rows.lengt
       <Sections sections={system.sections} rowSystem={system.slug} cases={sectionCases} />
 
       <nav class="pager" aria-label="More sheets">
-        {prev && <a href={prev.slug === 'mistakes' ? '/mistakes' : `/systems/${prev.slug}`} rel="prev">← {prev.slug.replace(/-/g, ' ')}</a>}
-        {next && <a href={next.slug === 'mistakes' ? '/mistakes' : `/systems/${next.slug}`} rel="next">{next.slug.replace(/-/g, ' ')} →</a>}
+        {prev && <a href={prev.slug === 'mistakes' ? '/longevity-protocol/mistakes' : `/longevity-protocol/systems/${prev.slug}`} rel="prev">← {prev.slug.replace(/-/g, ' ')}</a>}
+        {next && <a href={next.slug === 'mistakes' ? '/longevity-protocol/mistakes' : `/longevity-protocol/systems/${next.slug}`} rel="next">{next.slug.replace(/-/g, ' ')} →</a>}
       </nav>
     </article>
   </div>

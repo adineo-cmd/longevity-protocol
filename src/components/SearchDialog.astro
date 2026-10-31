@@ -22,7 +22,7 @@
       <div class="search-results" id="search-results" data-search-results role="listbox" aria-label="Search results"></div>
       <p class="search-empty" data-search-empty hidden>
         Nothing found for “<span data-search-query></span>”. Try a broader word — “protein”,
-        “sleep”, “ApoB” — or <a href="/">go back to the dashboard</a>.
+        “sleep”, “ApoB” — or <a href="/longevity-protocol/">go back to the dashboard</a>.
       </p>
     </div>
 
@@ -210,7 +210,7 @@
   async function loadDocs() {
     if (loaded) return;
     if (loading) return loading;
-    loading = fetch('/search.json')
+    loading = fetch('/longevity-protocol/search.json')
       .then((res) => res.json())
       .then((data: { documents: SearchDoc[] }) => {
         docs = data.documents;

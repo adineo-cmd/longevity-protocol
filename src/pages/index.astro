@@ -57,7 +57,7 @@ const totalRows = systems.reduce(
       <ol class="plates">
         {systems.map((s: any, i: number) => (
           <li class="plate">
-            <a href={`/systems/${s.slug}`} class="plate__link">
+            <a href={`/longevity-protocol/systems/${s.slug}`} class="plate__link">
               <span class="plate__num mono">{String(i + 1).padStart(2, '0')}</span>
               <span class="plate__body">
                 <span class="plate__title">{s.slug.split('-').map((w: string) => w[0].toUpperCase() + w.slice(1)).join(' & ')}</span>
@@ -70,7 +70,7 @@ const totalRows = systems.reduce(
           </li>
         ))}
         <li class="plate plate--quiet">
-          <a href="/mistakes" class="plate__link">
+          <a href="/longevity-protocol/mistakes" class="plate__link">
             <span class="plate__num mono">✕</span>
             <span class="plate__body">
               <span class="plate__title">Common mistakes</span>

@@ -4,19 +4,19 @@ import { site } from '../data/site';
 const path = Astro.url.pathname;
 const isActive = (href: string) => path.startsWith(href);
 const nav = [
-  { href: '/systems', label: 'Systems' },
-  { href: '/calculator', label: 'Calculator' },
-  { href: '/mistakes', label: 'Mistakes' },
-  { href: '/plan', label: 'Plan' },
-  { href: '/tracking', label: 'Tracking' },
-  { href: '/profile', label: 'Profile' },
-  { href: '/about', label: 'About' },
+  { href: '/longevity-protocol/systems', label: 'Systems' },
+  { href: '/longevity-protocol/calculator', label: 'Calculator' },
+  { href: '/longevity-protocol/mistakes', label: 'Mistakes' },
+  { href: '/longevity-protocol/plan', label: 'Plan' },
+  { href: '/longevity-protocol/tracking', label: 'Tracking' },
+  { href: '/longevity-protocol/profile', label: 'Profile' },
+  { href: '/longevity-protocol/about', label: 'About' },
 ];
 ---
 
 <header class="mast">
   <div class="container mast__inner">
-    <a href="/" class="mast__mark">
+    <a href="/longevity-protocol/" class="mast__mark">
       <span class="mast__glyph mono" aria-hidden="true">████</span>
       <span class="mast__name">The Longevity Protocol</span>
     </a>

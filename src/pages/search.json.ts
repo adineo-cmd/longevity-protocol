@@ -80,7 +80,7 @@ for (const m of metrics) {
     kind: 'Metric',
     title: m.metric,
     description: `${m.target} — ${m.why}`,
-    url: '/#',
+    url: '/longevity-protocol/#',
     keywords: 'dashboard',
   });
 }

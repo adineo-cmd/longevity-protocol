@@ -38,7 +38,7 @@ const rCol = refCol >= 0 ? refCol : header.findIndex((h) => /^ref|source/i.test(
             ) : i === rCol ? (
               <td class="col-ref mono">{cell}</td>
             ) : i === 0 && rowBase && cell ? (
-              <td class="col-lead"><a class="rowlink" href={`${rowBase}${ri}`}>{cell}</a></td>
+              <td class="col-lead"><a class="rowlink" href={`${import.meta.env.BASE_URL}rows/${rowBase}${ri}`}>{cell}</a></td>
             ) : (
               <td class:list={[{ 'col-lead': i === 0 }]}>{cell}</td>
             )
