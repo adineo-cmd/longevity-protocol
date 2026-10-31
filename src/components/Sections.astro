@@ -7,12 +7,17 @@ interface Section {
   header: string[] | null;
   rows: string[][];
 }
+interface CaseBlock {
+  case: string;
+  situations: { if: string; then: string }[];
+}
 interface Props {
   sections: Section[];
   idPrefix?: string;
   rowSystem?: string;
+  cases?: Record<string, CaseBlock>;
 }
-const { sections, idPrefix = 's', rowSystem } = Astro.props;
+const { sections, idPrefix = 's', rowSystem, cases } = Astro.props;
 const slug = (t: string) =>
   t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 ---
@@ -23,6 +28,19 @@ const slug = (t: string) =>
     {sec.intro.filter(Boolean).map((line) => (
       <p class="sec__intro">{line}</p>
     ))}
+    {cases?.[sec.title] && (
+      <div class="casebox">
+        <p class="casebox__label">A real case</p>
+        <p class="casebox__text">{cases[sec.title].case}</p>
+        <ul class="casebox__ifs">
+          {cases[sec.title].situations.map((situation: any) => (
+            <li>
+              <strong>If {situation.if}:</strong> {situation.then}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
     {sec.header && sec.rows.length > 0 && (
       <DataTable header={sec.header} rows={sec.rows} rowBase={rowSystem ? `${rowSystem}--${slug(sec.title)}--` : undefined} />
     )}
@@ -41,6 +59,43 @@ const slug = (t: string) =>
   .sec__title {
     font-size: clamp(1.5rem, 2.6vw, 2rem);
     margin-bottom: 0.55rem;
+  }
+  .casebox {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--teal);
+    padding: 0.9rem 1.1rem 1rem;
+    margin-bottom: 1.1rem;
+    max-width: 70rem;
+  }
+  .casebox__label {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 0.35rem;
+  }
+  .casebox__text {
+    font-size: 0.93rem;
+    max-width: 68ch;
+  }
+  .casebox__ifs {
+    list-style: none;
+    margin: 0.7rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.4rem;
+  }
+  .casebox__ifs li {
+    font-size: 0.88rem;
+    color: var(--ink-soft);
+    padding-left: 0.8rem;
+    border-left: 2px solid var(--line-strong);
+  }
+  .casebox__ifs li strong {
+    color: var(--teal);
+    font-weight: 600;
   }
   .sec__intro {
     color: var(--ink-soft);

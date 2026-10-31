@@ -1,0 +1,937 @@
+{
+  "appearance::Know Your Hair - Walker Types": {
+    "case": "Priya, 29, has type 3 curls and washed daily with a sulfate shampoo because her scalp itched by midweek. Her mid-lengths were dry and breaking while her scalp stayed flaky, the classic split of a curl pattern where sebum cannot travel the loop. She switched to a co-wash one to two times a week, styled soaking wet, and let the scalp decide the cadence rather than the lengths. Six weeks later the monthly photo showed fewer snapped strands and the pattern finally springing back. The lesson: type sets the wash cadence, and the scalp decides it, not the ends.",
+    "situations": [
+      {
+        "if": "your scalp is oily by day two but your ends stay dry and frizzy",
+        "then": "That mismatch is a type 2 or 3 shaft, so set the cadence by the scalp and protect the lengths. Co-wash one to two times a week and style soaking wet, since dry hair resists the curl you are trying to set."
+      },
+      {
+        "if": "your coils break at the bends and the pattern will not spring back after a wash",
+        "then": "Treat it as type 4 fragility: wash weekly at most, deep condition, keep protective styles loose, and put satin at the pillow. Tight styles on coily hair are the route to permanent traction loss, so looseness is part of the protocol, not an afterthought."
+      },
+      {
+        "if": "your straight hair goes flat and greasy a day after washing no matter what you use",
+        "then": "Type 1 hair spreads sebum down a straight shaft unaided, so a 2-3 wash per week cadence is normal and not a sign of damage. Use lightweight volumising formulas and skip heavy oils, which only flatten the roots further."
+      }
+    ]
+  },
+  "appearance::Porosity - the Float Test": {
+    "case": "Dev, 33, bleached his hair every ten weeks for two years and could not work out why products seemed to vanish and frizz exploded in any weather. He floated a few clean strands in a glass of water and they sank fast, the rough readout for high porosity with an open, over-processed cuticle. He graded the test honestly as a C-level heuristic, then changed what it pointed at: weekly deep conditioning, a protein treatment to rebuild the cortex, heat dropped to occasional and low, and no more bleach. Three months on, the snap-back breakage in his seven-day shed count had fallen and his hair finally stayed moisturised between washes. The lesson: porosity explains why a routine underperforms, and the fix is fewer insults, not more product.",
+    "situations": [
+      {
+        "if": "your hair soaks up water instantly, dries fast, and frizzes the moment humidity arrives",
+        "then": "Float a few clean strands: sinking points to high porosity from an open cuticle. Deep condition weekly, add protein treatments, cut the heat, and stop bleaching, since the cuticle only closes by not being processed again."
+      },
+      {
+        "if": "products sit on top of your hair and water beads off instead of soaking in",
+        "then": "Floating strands suggest low porosity, where a sealed cuticle blocks absorption. Apply products to damp rather than soaking hair, keep to lighter oils, and skip the butters that never melt at body temperature."
+      },
+      {
+        "if": "you cannot tell whether your hair is high or low porosity because results seem to change week to week",
+        "then": "The float test is a grade-C heuristic, so treat an ambiguous result as normal porosity and keep the routine stable. The honest rule is to resist adding a new step every time the hair feels flat, because normal porosity is the easiest state to maintain."
+      }
+    ]
+  },
+  "appearance::Androgenetic Alopecia - the Norwood Map": {
+    "case": "Rohan, 28, noticed about 1.5 cm of recession at each temple and a hairline that was still intact across the front, which put him around N2 on the map. He took standardised daylight photos the same week, then saw a clinician about a DHT blocker and started topical minoxidil 5% on the exposed scalp. He knew the N2 row by heart: miniaturised hairs still present at the margin means density is still recoverable. At the six-month mark he compared photos rather than the mirror, and the margin held with visible miniaturisation reversed at the temples. The lesson: every stage before N3 carries recoverable hair, so the calendar is the treatment.",
+    "situations": [
+      {
+        "if": "your hairline started receding at the temples this year",
+        "then": "Photograph the hairline standardised today and treat roughly 1-3 cm of temple recession as N2 territory, where DHT blockade plus minoxidil can still restore density. The prescription is a clinician conversation, but the photos and the start date are yours to take this week."
+      },
+      {
+        "if": "your frontal hairline has formed a shallow M with the temples joined across the front",
+        "then": "That is about N3, the last stage where minoxidil reliably regrows a visible frontal hairline. Start medical treatment now, judge at 6-12 months on same-light photos, and expect the vertex to be checked as well."
+      },
+      {
+        "if": "your hairline has not moved at all but your father and grandfather both receded early",
+        "then": "That is N1, and the protocol is a baseline rather than a drug: photograph the hairline and vertex now, standardised, same light and distance monthly. In five years you will compare images instead of a memory, which is the only control the map has."
+      }
+    ]
+  },
+  "appearance::Scalp Disorders - Do Not Confuse Them": {
+    "case": "Kabir, 31, had an itchy, flaking scalp and a diffuse thinning he treated with a year of hair-growth serums and dermarolling. The flaking was seborrhoeic dermatitis, cleared by zinc pyrithione shampoo twice weekly within a month, and the thinning was a telogen effluvium that had started eight to twelve weeks after a 1,100 kcal crash diet. Once he identified the lag, he slowed the deficit, fixed ferritin that turned out to be low, and the shedding resolved over the following four months without a single hair drug. The differential matters because an antifungal treats Malassezia and DHT drugs treat follicles, and each does nothing at all for the other. The lesson: diagnose the pattern first, or you spend years on the wrong product.",
+    "situations": [
+      {
+        "if": "your scalp itches and flakes but your hairline has not moved at all",
+        "then": "Flaking with an unchanged hairline points at dandruff or seborrhoeic dermatitis, not hair loss. Zinc pyrithione or ketoconazole 2% twice weekly clears it, and treating it as loss means years on the wrong shelf."
+      },
+      {
+        "if": "more than about 100 hairs come out per wash, spread across the whole head rather than at the temples",
+        "then": "A diffuse shed is a telogen effluvium question: count back 8-12 weeks for the trigger, such as a crash diet, illness or a brutal month, and run ferritin, B12 and TSH bloods before buying anything. Resolution takes 3-6 months after the trigger is removed, and no drug fixes a deficiency."
+      },
+      {
+        "if": "you have a smooth round bald patch, pitting in the nails, or broken exclamation-mark hairs at the patch edge",
+        "then": "That is the alopecia areata signature, an autoimmune process that needs dermatology and systemic consideration, not minoxidil monotherapy. Get the diagnosis before spending on topicals, because a vasodilator on an autoimmune patch wastes months."
+      }
+    ]
+  },
+  "appearance::The Hair Drug Stack": {
+    "case": "Nikhil, 26, made four mistakes in one bottle: he lathered minoxidil into the hair, doubled the dose, went to bed damp, and quit at week 3 when the shed arrived. The second run was different: 1 mL of 5% dripped onto parted, exposed scalp, two to four hours of dry time before the pillow, and the week-3 shed read as pharmacology because minoxidil shortens telogen and dumps hairs that would have shed later. He committed to a six-month trial and judged on 12-month standardised photos, not eight weeks of drain-watching. A ketoconazole wash stayed as a twice-weekly adjunct for the scalp condition, never as the therapy. The lesson: site, dose, timing and expectation decide whether the stack works at all.",
+    "situations": [
+      {
+        "if": "you are starting minoxidil and want to know how to apply and dose it",
+        "then": "Part the hair, drip 1 mL of 5% onto the thinning scalp, and do not lather or massage, because the follicle is the target and the shaft is inert. Expect a shed at 2-4 weeks lasting 3-6, allow 2-4 hours of dry time before bed, and set the verdict at six months."
+      },
+      {
+        "if": "a clinic or website is offering oral minoxidil or finasteride for your hair",
+        "then": "Both are prescription rows: oral minoxidil needs a baseline blood pressure including orthostatics, heart rate, and an echo or ECG if you are over 40 or have cardiac history. For finasteride, the studied dose is 1 mg prescribed and judged at 12 months, with the 1.55-1.66x sexual dysfunction figure from 4,495 men discussed openly first."
+      },
+      {
+        "if": "you are taking biotin gummies because they are sold for hair",
+        "then": "Stop them, ideally before your next blood panel. The best double-blind trial found no difference versus placebo, deficiency is rare, and biotin corrupts troponin and thyroid immunoassays badly enough to produce false cardiac and thyroid results."
+      }
+    ]
+  },
+  "appearance::Hair Hygiene": {
+    "case": "Aisha, 24, has type 4 hair and washed daily out of fear of odour, rubbed it dry with a terry towel, and wore tight cornrows most weeks. Her hairline margin crept back over a year, which the monthly photos caught clearly, and the textbook called it: sustained tension converts follicles to scar and is listed on the FDA label as a cause of hair loss in its own right. She moved to washing the scalp every two to three weeks with a co-wash, blotting with microfiber, heat at or below 200 degrees with a protectant, and loose styles only. The breakage stopped within two months, and the already-scarred margin did not return, exactly as the permanent-scarring row predicted. The lesson: the damage driver is mechanical, and prevention is the entire treatment for traction loss.",
+    "situations": [
+      {
+        "if": "you towel-rub your head dry and run a hot iron over it most mornings",
+        "then": "Friction plus compression slides the cuticle until the shaft snaps, and heat above 200 degrees disrupts keratin bonds cumulatively. Press and blot with a microfiber towel, air-dry when the style allows, and keep any tool at or below 200 with a protectant."
+      },
+      {
+        "if": "you wear tight ponytails, cornrows, or a headset pinned on one side all day",
+        "then": "Sustained tension is the one hair-loss cause where prevention is the whole treatment, because the scarring it produces does not respond to minoxidil or finasteride. Loosen the styles now and photograph the hairline monthly so any margin change is caught while it is still reversible."
+      },
+      {
+        "if": "you have coily hair and have been skipping washes for weeks because oils never seem to build up",
+        "then": "Sebum cannot travel a type 4 coil, so an unwrapped scalp accumulates oil and product film you cannot see. Wash the scalp at least every 2-3 weeks, co-wash rather than use detergent, and keep the lengths protected with satin at night."
+      }
+    ]
+  },
+  "appearance::The Workup Before Any Hair Drug": {
+    "case": "Sana, 34, noticed a diffuse shed and bought minoxidil the same week, which did nothing for three months. A proper workup found the real answer: ferritin of 14 with a low transferrin saturation, a normal TSH, and a timeline that put the insult at the start of a 900 kcal crash diet, eight to twelve weeks before the shed appeared. She treated the iron, slowed the cut to 0.5-1 percent of bodyweight a week with protein high, and the shedding resolved within four months without any hair drug. The wash test made the pattern question moot: over 100 hairs but under 10 percent vellus hairs is telogen effluvium, not androgenetic alopecia. The lesson: diffuse shedding is a laboratory question first and a prescription question second.",
+    "situations": [
+      {
+        "if": "your hair is shedding diffusely all over rather than receding at the temples",
+        "then": "Run a seven-day shed count and get ferritin with transferrin saturation, B12 with methylmalonic acid, and TSH before touching any drug. Then count back 8-12 weeks to find the trigger, because the intervention only works if you can name the date."
+      },
+      {
+        "if": "you started an aggressive cut and your hair began falling in month two",
+        "then": "The shed began at month zero and is arriving on schedule, so slow the deficit to 0.5-1 percent of bodyweight a week and keep protein high. Expect resolution three to six months after the trigger ends, and photograph monthly so the timeline is visible instead of remembered."
+      },
+      {
+        "if": "your scalp is painful or tender to touch alongside a sudden diffuse shed",
+        "then": "Trichodynia is reported in 29 percent of hair-loss patients against 3.3 percent of controls and tracks stress and psychopathology. Look for sleep debt and a hard few months before looking for a better shampoo, and screen the same bloods as any diffuse shed."
+      }
+    ]
+  },
+  "appearance::Jawline Reality": {
+    "case": "Tanvi, 27, spent eighteen months mewing and jutting her chin for a jawline until an orthodontist flagged a shifting bite, which is exactly the risk the AAO named in January 2024. She stopped, accepted the compartment reality, and ran a slow cut toward a waist-to-height ratio under 0.50 instead. The submental pad responded late in the deficit and did define the jaw angle, while the buccal cheeks stayed full, which is normal because that pad may not decline until 60-70. At the same weight she looked sharper than at any point during the jaw experiments. The lesson: fat is the mask, bone is the floor, and chasing the wrong compartment hollows your face before it sharpens it.",
+    "situations": [
+      {
+        "if": "you have been mewing for months hoping to reshape your jawline",
+        "then": "Stop, because the AAO explicitly warns against it: no credible remodelling evidence, with risks of tooth loosening, bite misalignment, wear and speech impairment. If function bothers you, get an orthodontic or orthognathic assessment instead."
+      },
+      {
+        "if": "your body fat is already low but your cheeks still look full",
+        "then": "The buccal pad keeps its volume on its own schedule and is not a deficit target, so cutting harder usually hollows the midface and eyes first. Judge the jaw by the submental pad and the waist, and only see a surgeon about the lower third if it is genuinely full."
+      },
+      {
+        "if": "your lower face has widened over years and you catch yourself clenching during the day",
+        "then": "Chronic clenching thickens the masseter, so run the conservative line first: awareness training, a splint and physiotherapy. Masseter Botox has decent evidence for hypertrophy and aesthetic narrowing, but it is a repeat-injection commitment a clinician sets."
+      }
+    ]
+  },
+  "appearance::The Face and Skin Stack - Four Products Do 95% of the Work": {
+    "case": "Meera, 41, a Fitzpatrick III who tans easily, had nine products on the shelf and a stinging face by Friday every week. She cut to the four that carry the result: one lukewarm cleanse, a retinoid at night, a moisturiser, and daily broad-spectrum SPF 30 plus. Within three months the stinging stopped, and the post-acne marks that bothered her most, which in her skin type are a colour problem before a texture problem, faded steadily over the months that followed. She set the texture verdict at 6-12 months because that is where every retinoid trial is won or lost. The lesson: four products do 95 percent of the work, and everything else on the shelf is supporting cast.",
+    "situations": [
+      {
+        "if": "you burn before you tan and skip sunscreen in winter",
+        "then": "In Fitzpatrick I and II, erythema is your cheapest damage readout, and cumulative UV reads as lines and dyschromia early. Daily SPF 30 plus from now, tinted if you pigment, and a retinoid from your late twenties as prevention rather than correction."
+      },
+      {
+        "if": "you tan easily and every spot leaves a mark that takes months to fade",
+        "then": "In Fitzpatrick III the pigment fades over months while the pits do not, so early control of acne prevents the permanent half of the problem. A retinoid at night plus daily SPF will do more for the colour than any brightening product."
+      },
+      {
+        "if": "your skin is deeply pigmented and you are choosing a sunscreen",
+        "then": "Visible light at 415-530 nm and heat at 33-34 degrees both drive pigment in Fitzpatrick V and VI, and plain zinc blocks UV but not visible light. Use a tinted iron-oxide SPF daily, ramp any retinoid slowly, and let no one peel, laser or deep-needle your skin who does not treat your type routinely."
+      }
+    ]
+  },
+  "appearance::Retinoids": {
+    "case": "Meera, 41, Fitzpatrick III, started tretinoin at 0.05 percent nightly on damp skin and had burning, peeling and a red face by week two, quitting at week four convinced the product failed her. The restart fixed the schedule rather than the molecule: a pea-sized amount on fully dry skin twenty minutes after cleansing, every third night for two weeks, then every other night, building to nightly over six to eight weeks. She used the moisturiser sandwich, which reduces irritation without reducing efficacy, and never skipped the morning SPF that the retinoid legally requires of her. At twelve weeks the irritation was gone and her skin tolerated the nightly dose, with the texture verdict scheduled for six to twelve months. The lesson: irritation is dose-dependent, so the ramp is the treatment.",
+    "situations": [
+      {
+        "if": "your face burns and peels on a retinoid and you are not sure whether it is purging",
+        "then": "Burning and stinging without comedones is irritation, not purging, so stop for 3-5 days. Restart every third night on fully dry skin with moisturiser, retinoid, moisturiser, and rebuild the frequency over six to eight weeks."
+      },
+      {
+        "if": "you are choosing between retinol, retinal and prescription tretinoin",
+        "then": "The potency ladder is stepwise, not exponential, so ignore the 100x marketing and judge on tolerance, adherence and 6-12 months of use. Route it by purpose: adapalene 0.1 percent for acne and oily skin, tretinoin or an OTC retinal for texture, with daily SPF non-negotiable either way."
+      },
+      {
+        "if": "you are pregnant or planning to be, and someone in the house uses a retinoid or finasteride",
+        "then": "Topical retinoids are contraindicated in pregnancy, tazarotene carries a boxed warning, and finasteride is contraindicated too. Stop and tell your prescriber rather than pausing for a month, and keep the household products off shared towels and pillows meanwhile."
+      }
+    ]
+  },
+  "appearance::Sunscreen": {
+    "case": "Chen, 35, bought SPF 50, applied a small dot once each morning, and sat beside an office window all day feeling protected. Measured against the 2 mg per square centimetre label dose, his application was maybe a third of it, which puts the effective protection near SPF 3, and UVA had been walking through the glass the entire time. He measured out two finger-lengths for the face once with the bottle, added an ounce for the body on outdoor days, kept a stick in his bag for the two-hour reapplication, and extended it to neck, ears and hands. At his annual skin check a year later there were no new sun-damage findings and the neck tan line that used to announce his age had faded. The lesson: the labelled number is a lab number, and the dose plus the reapplication is what actually lands on your face.",
+    "situations": [
+      {
+        "if": "you apply sunscreen once in the morning and nothing after lunch",
+        "then": "One application buys you the commute, because the film thins with sweat, touch and time. Two finger-lengths for the face, reapply every two hours, and keep a stick for the places a cream never gets reapplied."
+      },
+      {
+        "if": "you work beside a large window or drive in daylight most days",
+        "then": "Glass blocks UVB but UVA largely passes, so the indoor weekday is a real exposure. Daily broad-spectrum SPF even on office days, including the arm nearest the window and the driving side of the face."
+      },
+      {
+        "if": "you use tanning beds before holidays to build a base tan",
+        "then": "There is no version of this that is only the tan: deliberate UVA is photoageing by definition and the IARC classifies tanning beds as Group 1 carcinogens. Stop entirely, and do not let a base-tan claim sell you the exposure."
+      }
+    ]
+  },
+  "appearance::Skin Types and Conditions": {
+    "case": "Lena, 38, had persistent central-face redness with flushing and small papules and spent six months on a friend's hydrocortisone cream, which produced a worse rebound flare each time she stopped. A dermatologist diagnosed rosacea, delivered the one absolute rule, that no steroid ever touches it, and had her keep a trigger log instead. Two weeks of logging tied her flares to wine and hot kitchens, both of which act at any dose, and cutting them plus a gentle barrier routine calmed the central face within a month. The papules and flushing are now managed rather than inflamed, and the steroid creams are gone for good. The lesson: get the diagnosis before any topical steroid, because the wrong treatment is the disease.",
+    "situations": [
+      {
+        "if": "your central face is persistently red with flushing and small bumps, and something stings when you apply it",
+        "then": "That reads as rosacea, and the absolute rule is that no topical steroid ever touches it, since steroids produce steroid-induced rosacea, atrophy and a rebound flare. Keep a trigger log against alcohol, hot drinks, spice and heat, and see a dermatologist for the diagnosis."
+      },
+      {
+        "if": "you have fine burning papules clustered around your mouth and nose",
+        "then": "That is the perioral dermatitis pattern, almost always steroid-induced or driven by an over-active combination product. Stop every steroid and every active, accept that the flare runs for weeks after they are gone, and let a clinician direct the treatment."
+      },
+      {
+        "if": "you have monomorphic small bumps on chest and shoulders that never respond to antibiotics",
+        "then": "Malassezia folliculitis is fungal, so a month of the wrong antibiotic makes it worse rather than better. A ketoconazole 2 percent wash as a cleanser treats it, and the diagnosis is the point of the exercise."
+      }
+    ]
+  },
+  "appearance::Barrier Damage": {
+    "case": "Omar, 29, ran an AHA, a BHA, a scrub, a cleansing brush and a retinoid in one week and called the resulting stinging and rebound oil a bad skin month. It was over-exfoliation, the commonest self-inflicted wound on the sheet: surface lipids stripped, water loss up, and every new product sensitising the next. He simplified to cleanse, one active, moisturise for four weeks, then reintroduced one product every 6-8 weeks while watching for 72 hours, which is roughly when a type IV allergy shows itself. His niacinamide dropped from a 10 percent serum to a 2-5 percent formula, and the vitamin C bottle that was not pH-stable went in the bin. The lesson: a routine you cannot debug is not a routine, and three products you trust beat nine you have stopped using.",
+    "situations": [
+      {
+        "if": "everything stings on application, even products you used happily last month",
+        "then": "That is a stripped barrier, so stop all exfoliants and actives and run cleanse, moisturise only for a few weeks. Rebuild one product every 6-8 weeks with a 72-hour watch, one exfoliant at most, twice weekly, and stop the moment it stings again."
+      },
+      {
+        "if": "a new serum flared your skin this week but you added it last week",
+        "then": "Allergic contact dermatitis is a delayed type IV reaction at 48-72 hours, so the product you added recently is the prime suspect, not the last one you bought. Fragrance-free, simplify to three products, and patch test before anything goes back on the face."
+      },
+      {
+        "if": "your vitamin C serum has turned yellow and you cannot remember when you opened it",
+        "then": "L-ascorbic acid oxidises fast above pH 3.5 and in clear bottles, and the yellow is the dehydroascorbic acid you cannot use. Replace it only with an acidic, opaque, airless formula with vitamin E and ferulic alongside, or spend the money on the retinoid and SPF that actually carry the result."
+      }
+    ]
+  },
+  "appearance::Procedures": {
+    "case": "Ravi, 40, booked a hair transplant consult and a laser course in the same month, with no medical therapy started and Fitzpatrick V skin. The consult pushed back on both: stabilise on minoxidil and a prescribed DHT blocker first, take standardised photos, and reassess what the donor zone can carry before anyone moves follicles. The laser decision came down to the operator's experience with his skin type, because in darker skin the risk flips from too little effect to post-inflammatory pigment. He started the conservative line instead, sunscreen and a retinoid for texture and pigment, and photographed monthly to see whether an intervention could beat what he already had. The lesson: conservative first, then the least invasive thing that could work, then only what a clinician supervises.",
+    "situations": [
+      {
+        "if": "you want a peel, laser or microneedling course for texture or pigment",
+        "then": "Run sunscreen and a retinoid for months first and photograph the result, because every procedure has a cheaper reversible first line. If you proceed, judge the course at 3-6 months rather than after one session, and in darker skin choose an operator who treats your type routinely."
+      },
+      {
+        "if": "you are considering a hair transplant while your crown is still visibly thinning",
+        "then": "Stabilise first with medical therapy, because a transplant moves follicles and cannot create them, and surgery on a still-miniaturising crown is wasted donor. Expect nothing to look right at three months, judge at 18, and keep the drugs going for the surrounding hair afterwards."
+      },
+      {
+        "if": "a clinic is offering stem cells, exosomes or an unnamed acid blend",
+        "then": "Ask what the molecule is, at what concentration, and which regulator approved it, because undocumented products fail all three questions. No INCI list and no regulator means grade X, whatever the brochure says."
+      }
+    ]
+  },
+  "appearance::Teeth - Daily Hygiene": {
+    "case": "Daniel, 45, brushed hard right after his morning orange juice, rinsed thoroughly with water after brushing, and had gums that bled every single day for years. The corrected sequence was unglamorous: wait 30-60 minutes after acid, brush two minutes at feather pressure with bristles at 45 degrees into the gumline, use a 1,450 ppm fluoride paste and spit without rinsing, and clean between the teeth every evening with a properly sized interdental brush. At the next hygiene visit the bleeding on probing had stopped, which the rows said would happen within two weeks if the technique was right. His dentist also shortened nothing and deferred nothing: the recall went to six months on the calendar. The lesson: technique beats force, and the cheapest intervention in the workbook lives in the mouth.",
+    "situations": [
+      {
+        "if": "your gums bleed when you brush and you have been scrubbing harder to fix it",
+        "then": "Bleeding is inflammation, not hardness, and harder scrubbing adds cervical abrasion on top of gingivitis. Use the 45-degree Bass angle at feather pressure with daily interdental cleaning, and book the dentist if it persists past two weeks or there is any mobility or recession."
+      },
+      {
+        "if": "you brush your teeth straight after coffee, juice or an energy drink",
+        "then": "Acid softens enamel and abrasive brushing then removes it, with measured loss rising from 45 to 79 micrometres when brushing follows an acidic drink. Wait 30-60 minutes, rinse with water in the meantime, and keep the fluoride paste, which cut that loss back to 41-51 micrometres."
+      },
+      {
+        "if": "you smoke and are deciding between whitening, mouthwashes and a new electric brush",
+        "then": "Cessation is the highest-yield oral intervention on the sheet, ahead of every hygiene upgrade, because tobacco drives attachment loss and oral cancer more than plaque control does. Book cessation support first, then spend the toothbrush money."
+      }
+    ]
+  },
+  "appearance::Teeth - Whitening Ranked by Enamel Safety": {
+    "case": "Sofia, 31, used a generic tray with a strong gel overnight and got the two predictable outcomes: gel pooled on her gums and zinging sensitivity by day four. The proper route started at the dentist, where mild gingivitis was treated first because inflamed tissue bleeds through a tray and concentrates gel against it. She then got a custom tray with 10-16 percent carbamide peroxide, followed the label time rather than the tube's optimism, and used a potassium-nitrate paste through the course. The shade moved several steps over two weeks with sensitivity she could manage, and she skipped the charcoal kit entirely after reading that abrasion buys stain removal and enamel together. The lesson: dental clearance, custom tray, controlled concentration, and no whiter-than-white, only a dissolved one.",
+    "situations": [
+      {
+        "if": "you want whiter teeth and have never had a dental check this year",
+        "then": "Get the clearance first: inflamed or bleeding gums bleed through the tray and active caries progresses under the gel. Then use a dentist-issued custom tray with 10-16 percent carbamide peroxide, label contact times only."
+      },
+      {
+        "if": "sensitivity hits during a whitening course and you are pushing through it",
+        "then": "Transient sensitivity affects up to two-thirds of home users and rises with peroxide concentration, from 44 percent at 6 percent hydrogen peroxide to 74 percent at 35 percent in office. Stop, ask exactly what concentration you were offered, and run a potassium-nitrate or high-fluoride desensitising paste through the remainder."
+      },
+      {
+        "if": "you are deciding between a charcoal toothpaste and a peroxide tray",
+        "then": "Charcoal is a high-abrasivity dentifrice that scrapes stain and enamel together, and acid kits take the erosion route instead. Whitening changes colour, not mineral status, so the tray route with a custom fit is the one that ranks on enamel safety."
+      }
+    ]
+  },
+  "appearance::Teeth - Alignment and Function": {
+    "case": "Marco, 29, started clear aligners for crowding and wore them about 14 hours a day for four months with almost nothing happening, because the appliance needs 20-22 hours daily or the attachment is lost by breakfast. He recommitted to 22 hours, tracked wear against his calendar, and finished a mild-to-moderate case in about eleven months. Then came the row nobody under-discusses: retention is forever, because teeth move for the rest of your life and a lost retainer means a returning tooth within months. His separate night-grinding problem got a guard for the teeth and an honest look at sleep and stress for the drive, since the guard protects but does not treat the clenching. The lesson: compliance is daily and retention has no finish line.",
+    "situations": [
+      {
+        "if": "you are starting clear aligners and planning to take them out for long stretches",
+        "then": "Aligners move teeth predictably for mild to moderate crowding, but only at 20-22 hours a day, and the attachment is lost daily otherwise. Fixed braces remain the tool for root rotation, vertical control and extraction cases, so let the tooth movement decide the appliance rather than the marketing."
+      },
+      {
+        "if": "you wake with a sore jaw and flattened teeth and already own a night guard",
+        "then": "The guard is protecting the teeth from bruxism, whose adult prevalence runs 8-31 percent, but it does nothing about the drive behind the clenching. If you snore or wake unrefreshed, get the airway assessed too, because arousal-driven jaw activity tracks sleep-disordered breathing."
+      },
+      {
+        "if": "you are a chronic mouth breather with dry mornings and recurring gingivitis",
+        "then": "Chronic mouth breathing dries the mouth, worsens gingivitis and snoring, and self-applied jaw-forward posture adds joint risk without treating anything. Get an ENT and sleep assessment for the obstruction, and treat the cause rather than the posture."
+      }
+    ]
+  },
+  "appearance::Grooming Cadence": {
+    "case": "Yusuf, 33, decided haircuts in the barber's chair and had not seen a dentist in four years, and his beard itch was being treated with oil bought on impulse. He put three recurring events in the calendar with real times: a haircut on a 10-12 week cycle to match roughly 1 cm of monthly growth, a nail-and-brow slot, and a six-month dental exam with cleaning. The beard itch turned out to be seborrhoeic dermatitis of the skin underneath, cleared by the same antifungal the scalp uses, and the beard oil went in the bin. At his first hygiene visit in years the hygienist caught early gingivitis while it was still fully reversible. The lesson: a fixed date beats motivation, and maintenance is the whole game.",
+    "situations": [
+      {
+        "if": "your grooming depends on noticing that you look overdue",
+        "then": "Book haircuts, beard trims and nail clips as recurring calendar events with real times, because the marginal daily decision is what kills the habit. Agree the length when you are thinking clearly, at roughly the 10-12 week mark the growth rate gives you."
+      },
+      {
+        "if": "your beard itches and flakes and you keep buying oils and balms",
+        "then": "A beard sits on skin that traps moisture and harbours Malassezia, so itch and flake are usually seborrhoeic dermatitis. Use the same antifungal shampoo or cream the scalp gets, and treat the oil as marketing rather than medicine."
+      },
+      {
+        "if": "it has been more than six months since your last dental visit",
+        "then": "Book a cleaning and exam with periodontal charting now, because bone loss is visible long before it hurts and the mouth cannot be managed from the kitchen. Put it in the recurring events next to the haircut so it never depends on remembering."
+      }
+    ]
+  },
+  "body-nutrition::Energy Balance - Nobody Gets This Exactly Right on the First Try": {
+    "case": "Arjun, 27, 88 kg, started cutting on 2,400 kcal, which sat 400-600 kcal below his estimated maintenance band of 2,730-2,990, the kg times 31 to kg times 34 interval. After three weeks the trend was only 0.15 kg a week, so he adjusted once, to 2,200, instead of panicking daily. He held the loss to the 0.4-0.6 kg a week ceiling, kept protein high, and noticed that the weeks he slept under six hours the next-day intake quietly overwrote the deficit. When the cut ended he reverse-dieted 100-200 kcal at a time rather than jumping straight to maintenance, and the regain that followed was measured in tenths. The lesson: maintenance is an interval judged on the 2-3 week trend, and you correct once, not constantly.",
+    "situations": [
+      {
+        "if": "your weight has not moved in three weeks on a cut",
+        "then": "Estimate maintenance as kg times 31 to kg times 34, then judge against the 2-3 week trend and adjust once, aiming 400-600 kcal below it for a 0.4-0.6 kg weekly loss. If hunger is the problem, check sleep first, because short sleep raises ghrelin and next-day intake before it touches your discipline."
+      },
+      {
+        "if": "you are bulking and the scale has hidden the gain for weeks while your waist grows",
+        "then": "A large surplus buys fat at a premium rate, so pull back to 150-250 kcal above the maintenance band. Track the waist weekly, because it reads the surplus the scale is smoothing over."
+      },
+      {
+        "if": "you just finished a diet and are terrified of eating normally again",
+        "then": "Walk intake back up 100-200 kcal a day to maintenance instead of one rebound weekend, because post-diet hunger is hormonal, not a broken metabolism. A single cheat day is not a reset of anything, and the useful version is a planned break at maintenance."
+      }
+    ]
+  },
+  "body-nutrition::Protein Architecture": {
+    "case": "Dev, 27, 80 kg, ran a 500 kcal deficit on 0.8 g/kg protein, 64 grams a day, and watched his strength fall while the scale dropped nicely. He rebuilt the architecture to the studied range: 2.2 g/kg while cutting, 176 grams split across four sittings of roughly 0.4 g/kg about four hours apart, with a fat floor of 0.6-1.0 g/kg and fibre at 30 g. Over the next twelve weeks the waist dropped 4 cm while his bench and squat held, which is the outcome the 2.4 versus 1.2 g/kg trial predicted when it added lean mass inside a 40 percent deficit. He also learned the deficit rate mattered as much as the dose, slowing to the point where a fifth to a third of the loss stopped being lean. The lesson: feed the target first, then make the deficit smaller and longer.",
+    "situations": [
+      {
+        "if": "you are cutting on the RDA of 0.8 g/kg protein",
+        "then": "Raise to 2.0-2.7 g/kg, because the RDA is a floor for someone neither dieting nor training. In the head-to-head trial at a 40 percent deficit, 2.4 g/kg gained 1.2 kg of lean mass against 0.1 kg on 1.2 g/kg, and took more fat off with it."
+      },
+      {
+        "if": "you eat all your protein in one enormous dinner",
+        "then": "Muscle protein synthesis saturates near 20-40 g per meal, so the fifth hundred grams of the day adds stimulus to nothing. Split it: 3-4 servings of about 0.4 g/kg, roughly four hours apart, with the bad-day floor set at 1.6 g/kg."
+      },
+      {
+        "if": "you are already lean and training hard in a deficit and bodyweight understates the muscle you carry",
+        "then": "Switch the calculation to lean mass: 2.3-3.1 g/kg of fat-free mass is the range that holds in that state. Keep the fat floor at 0.6-1.0 g/kg and fibre at 30 g so the deficit stays livable."
+      }
+    ]
+  },
+  "body-nutrition::Micronutrients That Actually Matter": {
+    "case": "Preeti, 36, felt chronically tired and bought iron tablets and a multivitamin on the same afternoon. Her GP ordered the tests first: ferritin of 12 with a transferrin saturation of 14 percent confirmed genuine depletion, treated under supervision, while a 25(OH)D of 14 ng/mL sat in the treat-below-12-20 zone the IOM defines. She audited her existing stack with a calculator and found 40 mg of B6 spread across two products, more than three times the EFSA 12 mg tolerable upper limit, plus a zinc capsule that ignored the copper question past 30 mg. The tiredness did not need a shelf of bottles; it needed two measured deficiencies corrected and one stack subtracted. The lesson: test before you dose, and add up every label.",
+    "situations": [
+      {
+        "if": "you are tired and considering starting iron on your own",
+        "then": "Get ferritin and transferrin saturation first, read with CRP because ferritin is an acute-phase reactant, and never supplement blind. Overload is oxidative damage that is not reversible by stopping, and in a man a ferritin above 300 is a workup trigger, not a supplement decision."
+      },
+      {
+        "if": "you take vitamin D every day and have never had a level",
+        "then": "Run 1,000-2,000 IU as a maintenance dose and test 25(OH)D rather than dosing blind, because the 2024 Endocrine Society retracted the 30 ng/mL sufficiency line and the assay spread is wider than most interventions. Stay under the 4,000 IU upper limit; megadosing is the X-graded row."
+      },
+      {
+        "if": "your stack includes a multivitamin plus extra B6 or zinc",
+        "then": "Add every label together, including the multi-ingredient ones: chronic B6 above the 12 mg EFSA limit causes sensory neuropathy, and long-term zinc past 30 mg blocks copper into its own deficiency. Correct a measured deficiency instead of buying the bucket."
+      }
+    ]
+  },
+  "body-nutrition::The Graded Supplement Stack": {
+    "case": "Jonas, 31, took ten supplements and could not have said what any of them were for. He audited them against the grades and kept a short list: creatine monohydrate 5 g daily, the best-evidenced supplement there is, with the 19-RCT data showing the creatinine rise is an assay artefact and the 12-week hair RCT showing no DHT or density change. He kept whey for days food missed the protein ceiling, vitamin D 2,000 IU after a test, and moved his caffeine cutoff to eight hours before bed, the one item in the stack with an unambiguous rule. Everything else went, including the ashwagandha, after he read the regulator warnings about severe liver injury. Three months later his training loads were identical and his sleep was better. The lesson: grade the use, not the molecule.",
+    "situations": [
+      {
+        "if": "you are deciding whether creatine is worth taking",
+        "then": "Take 3-5 g of monohydrate daily: it is grade A across the board, safe, and neither dehydrating nor hair-losing in the trials. If you have kidney disease, ask for cystatin C monitoring rather than reacting to the creatinine artefact."
+      },
+      {
+        "if": "you take 5-10 mg melatonin every night",
+        "then": "The physiological dose is 0.3-1 mg, timed one to three hours before sleep relative to your melatonin onset, and the common high doses are wildly out of proportion to the evidence. Fix light, caffeine and wake time first, because a supplement does not repair a circadian problem."
+      },
+      {
+        "if": "ashwagandha is in your stack for stress or sleep",
+        "then": "Multiple regulators now warn of rare severe liver injury, and it is contraindicated in known liver disorders. Avoid it entirely if any liver risk is on your profile, and monitor liver function rather than assuming tolerance if you continue."
+      }
+    ]
+  },
+  "body-nutrition::Not Worth It": {
+    "case": "Sam, 29, spent about 90 a month on a testosterone booster, BCAAs and a fat burner from the same brand. Nothing moved in four months that he could measure: not the weight trend, not the session loads, not the waist. He dropped all three, kept creatine and whey, and spent the difference on food, and when the fatigue question would not go away he did it properly instead: two morning total testosterone samples with SHBG, read by a clinician. The boosters had been 90 a month for a number that was never measured. The lesson: grade X means no benefit worth the mechanism, the cost or the interference, and the real version of the promise is a diagnosis, not a bottle.",
+    "situations": [
+      {
+        "if": "a supplement promises to raise your testosterone",
+        "then": "That row is grade X: tribulus, fenugreek and proprietary blends move nothing measurable. The interventions that do change a low level are diagnostic and supervised, starting with two morning total testosterone samples plus SHBG for a calculated free T."
+      },
+      {
+        "if": "you drink BCAAs around training while already hitting your protein target",
+        "then": "Complete protein already supplies branched-chain amino acids in the right ratio, so the product is money spent while missing the ingredient that does the work. Spend it on the protein floor instead."
+      },
+      {
+        "if": "you take green tea extract capsules for fat loss",
+        "then": "EFSA found no safe dose identified at or above 800 mg of EGCG a day from supplements, with transaminase elevation the flagged outcome. Brewed tea is a different and safe product; the capsule is a liver question, not a fat-loss one."
+      }
+    ]
+  },
+  "body-nutrition::Body Composition": {
+    "case": "Elena, 34, got 28 percent body fat from a smart scale on Monday and 22 percent from calipers on Thursday and nearly rebuilt her diet around a difference that did not exist. She fixed the measurement first: three-day average weight, waist at the navel at the end of a normal exhale, one body-fat method only, never switched. Her waist-to-height ratio came out at 0.54, above the 0.50 line, so she ran a cut capped at 0.5 kg a week with protein high, tracking the weekly average rather than any single morning. Five months later she was at 0.49 with her lifts intact, and the body-fat estimate had drifted down as a side effect rather than as a target. The lesson: the number is a measurement, one method and one protocol, and the trend is the only verdict.",
+    "situations": [
+      {
+        "if": "your body-fat percentage swings wildly between your smart scale and the gym calipers",
+        "then": "Pick one method and keep it forever, because switching manufactures differences that do not exist while the fat stays put. Track the three-day average weight and the waist at the navel, and treat any body-fat figure as the estimate it is."
+      },
+      {
+        "if": "you are losing more than 1 percent of bodyweight a week and calling it discipline",
+        "then": "Past the 0.4-0.6 kg weekly ceiling, a fifth to a third of what you lose is lean mass rather than fat. Slow to the ceiling, keep protein at 2.0-2.7 g/kg, and take the slow route that leaves you intact."
+      },
+      {
+        "if": "your waist is 92 cm and your height 170",
+        "then": "That is a waist-to-height ratio of 0.54, above the 0.50 screening line for central adiposity. Measure the waist the same way weekly, at the navel on a normal exhale, and run a 400-600 kcal deficit rather than a crash."
+      }
+    ]
+  },
+  "body-nutrition::Physique Aesthetics": {
+    "case": "Marco, 30, two weeks before a beach trip, cut 800 kcal harder because his face refused to lean out, and succeeded mainly in hollowing his eyes. The compartments explained it: the buccal pad grows from childhood into adulthood and may not decline until 60-70, while the submental pad that actually defines the jaw empties late in a deficit. A salty dinner and one beer had also been writing his morning mirror reviews, since sodium shifts water into the intravascular space with a bloating relative risk of 1.27 and alcohol rebounds with retention the next day. He pushed sodium earlier, alternated drinks with water, and judged his face from the monthly photo instead of the morning mirror. The lesson: the face is the last place a cut shows and the first place a bad night shows.",
+    "situations": [
+      {
+        "if": "your cheeks stay full no matter how long you diet",
+        "then": "The buccal pad is not a fat store a deficit reaches into, so a full lower cheek is not a nutrition failure. Aim at the waist and the monthly photograph, and treat the submental pad as the compartment the cut can actually define."
+      },
+      {
+        "if": "your face looks puffy some mornings and sharp others at the same weight",
+        "then": "Check last night's sodium and alcohol before checking your body fat, because both independently produce morning oedema and alcohol also degrades the sleep that would clear it. Change one input at a time and judge after two weeks, never on a single morning."
+      },
+      {
+        "if": "you are doing hundreds of crunches to pull fat off your stomach",
+        "then": "Spot reduction does not exist: fat is released systemically and the local change after a session is a transient measurement artefact. The only lever is the total deficit, and where it leaves from is genetics."
+      }
+    ]
+  },
+  "body-nutrition::Where Training Lives": {
+    "case": "Ravi, 31, kept a random influencer split in his notes and guessed his calories weekly, then wondered why the two documents contradicted each other. The workbook draws the boundary explicitly: it owns the targets GZCL Program.xlsx executes against, meaning the calorie band, the protein floor and ceiling, the per-meal protein, the weekly loss ceiling, the body-fat band, the caffeine cutoff and the sleep window. The programme file owns sets, reps, load progression, exercise selection and the weekly split, and nothing in this module prescribes a workout. When his bench stalled mid-cut, he checked the targets first and found a deficit run too fast and two nights of five-hour sleep, then adjusted the programme against corrected numbers. The lesson: two documents, two jobs, and the stalls usually live in the targets.",
+    "situations": [
+      {
+        "if": "you are writing sets and reps into your health workbook",
+        "then": "Stop, because programming lives in GZCL Program.xlsx and nowhere else, and a row here that looks like a workout is wrong by definition. Put the workout in the programme file and keep this sheet for the numbers it runs against."
+      },
+      {
+        "if": "your lifts are stalling while you cut",
+        "then": "Audit the workbook targets before touching the programme: protein at 1.6-2.2 g/kg, weekly loss inside the 0.4-0.6 kg ceiling, sleep seven to nine hours. A deficit stacked on high cardio volume and short sleep is the combination with the worst lean-mass retention."
+      },
+      {
+        "if": "you are starting training with no numbers set",
+        "then": "Set the calorie band, protein target, caffeine cutoff and sleep window here first, then execute the programme against them. Invented targets in the gym and guessed numbers in the kitchen are how two good documents produce one bad result."
+      }
+    ]
+  },
+  "sleep-recovery::The Protocol - in This Order": {
+    "case": "Chris, 35, called himself a bad sleeper and had tried 5 mg melatonin, magnesium, and a warmer duvet, in that order. The protocol put the anchor first instead: wake time fixed at 6:45 within 30 minutes every day, weekends included, ten to twenty minutes of outdoor light soon after, and a caffeine cutoff at noon for his 400 mg habit, five to six half-lives out. The last drink moved to at least four hours before bed, the bedroom dropped to 18 degrees with blackout, and screens left the room. Two weeks later he fell asleep faster and his seven-day waking resting-heart-rate mean had fallen by four beats. The lesson: wake time first, because everything else in the sheet is downstream of it.",
+    "situations": [
+      {
+        "if": "you cannot fall asleep at night but sleep fine once you are out",
+        "then": "Check the caffeine cutoff before anything else: take the last dose five to six half-lives out, about 6 hours for 100 mg and about 12 for 400 mg, because 400 mg at even 6 hours before bed costs more than an hour of sleep. Then look at evening light, which shifts melatonin onset by around 40 minutes after a single late espresso."
+      },
+      {
+        "if": "you sleep two hours later every weekend",
+        "then": "Cap the weekend shift under an hour and hold the wake time within 30 minutes all seven days. Social jetlag over two hours was associated with 2.29 kg per square metre more BMI and 129 percent higher odds of a chronic condition, and catch-up sleep does not repair the metabolic damage."
+      },
+      {
+        "if": "you have a nightcap because alcohol makes you sleepy",
+        "then": "Alcohol shortens sleep onset, which is the only number it improves, then suppresses REM and fragments the second half of the night. Keep the last drink four to six hours before bed, and treat an eight-hour night that leaves you unrefreshed as a reason to look at alcohol before anything else."
+      }
+    ]
+  },
+  "sleep-recovery::Recovery Metrics - What Is Worth Measuring": {
+    "case": "Dan, 42, checked a readiness score every morning and slept worse about the number, which is orthosomnia, a pattern about 30.9 percent of adults who track their sleep screen positive for. He switched what he measured: a seven-day mean of morning resting heart rate instead of single mornings, bed and wake consistency reviewed monthly, and no attention at all to sleep-stage percentages, where consumer devices run mean absolute errors above 20 percent for deep and REM. When loud snoring and morning headaches that cleared by midday appeared, he took those to a clinician for a sleep study rather than to the app, because sensitivity 0.93 and specificity 0.18-0.54 is not a diagnostic instrument. His resting-heart-rate trend became the honest readout of sleep and illness load he could act on. The lesson: trend and consistency, not stage detail, and a wearable is never a sleep study.",
+    "situations": [
+      {
+        "if": "a bad sleep score is making you anxious at bedtime",
+        "then": "That loop is orthosomnia, so cap the review window at monthly and track consistency, how regularly you slept and woke, rather than stages. Waking at 87 percent every morning is data about the tracker, not about you."
+      },
+      {
+        "if": "your morning heart rate has been creeping up over two to three weeks",
+        "then": "That drift is the signal worth acting on, so use the seven-day mean rather than any single morning. Look at sleep debt and illness load first, because resting heart rate is a decent proxy for both."
+      },
+      {
+        "if": "you snore loudly, have been told you pause breathing, or wake with a headache that clears by midday",
+        "then": "Take those questions to a clinician and run STOP-Bang, because no wearable substitutes for a sleep study. Untreated obstruction is a cardiovascular and dental problem long before it is a tiredness problem."
+      }
+    ]
+  },
+  "sleep-recovery::When Sleep Reaches Hair and Skin": {
+    "case": "Leo, 28, ran a brutal project month on five-hour nights, felt wrecked, then half-recovered, and three months later his hair started shedding in what looked like a sudden event. The timeline said otherwise: telogen effluvium lags the insult by 8-12 weeks, so the shed was the project arriving on schedule. His skin had told people sooner than he felt it, since acute sleep loss measurably drops hydration and raises water loss, and observers rate sleep-deprived faces as less healthy and more tired before the person notices. He restored seven to nine hours and the skin measures reversed within days, while the shed resolved over the following months without a single hair product. The lesson: hair is the lagging readout of the sleep ledger, so read it monthly from a photo, never from the drain.",
+    "situations": [
+      {
+        "if": "your hair started shedding suddenly and you cannot think of anything that changed",
+        "then": "Count back 8-12 weeks and name the insult, whether it was a bad fortnight of sleep, a crash diet or an illness, because the shed is the old event arriving on schedule. Sleep is a plausible trigger in its own right, and the readout is the photo, not the mirror."
+      },
+      {
+        "if": "your face looks worse than your training and diet can explain",
+        "then": "Acute sleep loss objectively produces swollen eyes, paler skin, more visible lines and dark circles, and raters score it before you notice it. One night of recovery sleep reverses most of the acute part, which is why the morning-after judgement is a bad one."
+      },
+      {
+        "if": "your scalp has become tender during a stressful, sleep-short stretch",
+        "then": "Substance P is the peptide that ties insomnia and stress to scalp tenderness, so a run of short nights is a plausible cause rather than a coincidence. Treat the sleep debt, and read the hair as a dashboard monthly at most, never as a diagnosis."
+      }
+    ]
+  },
+  "sleep-recovery::Evening Wind-Down - 60 Minutes": {
+    "case": "Ana, 39, doom-scrolled in bed until her eyes closed, had one wine most evenings, and woke to three alarms. She ran the same 60-minute sequence nightly for three weeks: minutes 0-15 lights down amber, 15-25 writing down what was still open from the day, 25-35 the phone charging across the hall, 35-45 alcohol finished, 45-55 the room cooled to 18 degrees with blackout drawn and one alarm set, 55-60 tomorrow's caffeine check against the cutoff. Her own bedtime note moved sleep onset from roughly 50 minutes to about 20, and the wake time never moved for a bad night. The one alarm also stopped the snooze cycle that had been fragmenting her deepest sleep. The lesson: the same sequence every night, because the repetition is the mechanism.",
+    "situations": [
+      {
+        "if": "your mind races the moment the light goes off",
+        "then": "Spend minutes 15-25 writing down what is still open so it is not in your head, then close the work for the day. If you are still awake after about twenty minutes in bed, get up, sit somewhere dim, do something boring, and return when sleep comes back."
+      },
+      {
+        "if": "you fall asleep holding your phone",
+        "then": "Charge it across the room and out of reach during the 25-35 minute slot, because light, arousal and the displaced wind-down stack three costs on one habit. Keep the last hour screen-free and the last fifteen minutes of brightness brief."
+      },
+      {
+        "if": "you slept badly and tomorrow looks unmissable",
+        "then": "The wake time does not move for a bad night, so set one alarm tonight and get up when it goes. In the morning take the light first and the tracker score later, in the monthly review window, never in the first minute of the day."
+      }
+    ]
+  },
+  "longevity-health::Biomarker Table - Enter Your Values": {
+    "case": "Vikram, 55, had tracked LDL-C of 110 for years and assumed the picture was settled. His apoB came back 128, above the 80 mg/dL line for moderate primary risk and near the 130 where risk reaches that of a smoker, which is the discordance the table warns about: LDL-C measures the cholesterol mass inside the particles, apoB counts the particles. He also did the two one-time rows, Lp(a) at 32 mg/dL, tested once and kept in that unit forever, and HbA1c at 5.4 percent with fasting glucose 96. He typed every value into the table, read each against its band, and took the apoB to his clinician for the risk-ladder conversation rather than self-treating. The lesson: enter the values, respect the bands, and let the clinician own the treatment line.",
+    "situations": [
+      {
+        "if": "you have only ever been shown your LDL-C",
+        "then": "Ask for apoB, because it stratifies risk better and the two are often discordant; an apoB running 5 mg/dL above LDL-C is the trigger to intensify rather than accept. While you are at it, request Lp(a) once, since five separate bodies now say test at least once in life."
+      },
+      {
+        "if": "you have retested Lp(a) annually hoping lifestyle moved it",
+        "then": "It is more than 90 percent genetically determined, so the repeat implies an intervention that does not exist. Test once, keep the number in whatever unit the assay reported without converting, and cascade-screen first-degree relatives."
+      },
+      {
+        "if": "your ferritin came back 340 and nobody said anything about it",
+        "then": "In a man that is above the 300 trigger for an iron-overload workup with transferrin saturation, not a shrug. Read it against CRP as well, because ferritin is an inflammatory marker as much as an iron store, and a result of 400 with a high CRP is an inflammation result until proven otherwise."
+      }
+    ]
+  },
+  "longevity-health::Functional Vitals": {
+    "case": "David, 52, took a pharmacy-kiosk reading of 138/86 as his blood pressure and a wearable guess of 31 as his VO2max. He measured both properly instead: right cuff, five minutes seated, two readings averaged gave 132/84, and a repeatable six-minute field test put VO2max around 33 against the 43-46 good band for men aged 40-60. A dynamometer grip of 38 kg, best of three with the elbow supported, sat below his 40 kg target, and each 5 kg below best is 16 percent higher all-cause mortality. He added zone-2 volume and weekly grip work, then retrended all three quarterly rather than chasing single readings. The lesson: the vitals you can take yourself outrank most of the panel, and the trend beats the number.",
+    "situations": [
+      {
+        "if": "your blood pressure read high once and you are ready to panic",
+        "then": "Confirm it properly before believing it: correct cuff size, five minutes seated with back supported, arm at heart level, no caffeine or exercise for 30 minutes, and average two readings a minute apart. The bands are below 120 normal, 130-139 stage 1, 140 and above stage 2, and the average, not the worst reading, is what gets treated."
+      },
+      {
+        "if": "you have never measured VO2max and assume your age explains everything",
+        "then": "Get a field estimate you can repeat for years and compare it against the band, above 40 for men and 33 for women, with 43-46 the good band in men 40-60 and above 50 superior. Each 1 ml/kg/min is worth 9 percent lower all-cause mortality, and the decline of 0.5-1 per decade is documented in people who stopped training, not in everyone."
+      },
+      {
+        "if": "you have never squeezed a dynamometer in your life",
+        "then": "Take the best of 2-3 attempts with the dominant hand and elbow supported, at the same time of day monthly. Below 27 kg in men is the sarcopenia risk line, the female threshold is set separately, and either way every 5 kg below your own best is 16 percent more all-cause mortality, so train it weekly."
+      }
+    ]
+  },
+  "longevity-health::Home Measurement Protocol": {
+    "case": "Nina, 47, spent a year thinking her blood pressure was borderline, chased by readings taken standing up with a cuff too small for her arm. The protocol changed the number and the number changed the story: bladder covering about 80 percent of the arm circumference, five minutes seated with no caffeine or talking beforehand, two readings one minute apart averaged, and the result came down 8 mmHg from her usual. She started a dated phone note for every measurement, because an unrecorded reading is a snapshot and the second measurement is worth more than the first. The same discipline produced her seven-day shed count, her monthly same-light hair photo, and one orthostatic test, five minutes supine then standing readings at one and three minutes. The lesson: a number measured badly is a number you will chase for a year.",
+    "situations": [
+      {
+        "if": "your home blood pressure readings swing from normal to high and back",
+        "then": "Fix the method before treating the number: correct cuff size, seated five minutes, no caffeine, exercise or full bladder, two readings averaged. Use the same cuff, same scale, same time thereafter, because measurement error explains most week-to-week noise."
+      },
+      {
+        "if": "you are worried about hair shedding and keep checking after every shower",
+        "then": "Run a seven-day shed count written down, because a single shower is noise and a week tells you whether the rate is climbing. Add a monthly daylight photo, same light, same distance, same time of day, dry hair, no product."
+      },
+      {
+        "if": "you have a pile of numbers with no dates attached to any of them",
+        "then": "Write it down with the date, because screening is only useful when there is something to trend. A phone note is enough, and the fasting bloods belong at the same hour each time, morning, 8-12 hours fasted, water allowed."
+      }
+    ]
+  },
+  "longevity-health::Screening Schedule": {
+    "case": "Helen, 46, had nothing on file since a college physical, so her slope was unmeasurable. She started at 45 with the colorectal change most people have not heard, an annual faecal immunochemical test or a ten-year colonoscopy instead of waiting for 50, and built the rest of the schedule around it: blood pressure yearly, a baseline panel with apoB and a one-time Lp(a), lipids on a risk-based interval rather than an age-based one, and the hepatitis C and HIV one-offs. Her father's coronary disease before 55 made the family-history row live rather than theoretical. She booked the dental and skin checks on the same recurring calendar as the haircut, because the attendance is the part that fails. The lesson: ages are the entry points, the intervals change with risk, and a shorter list you attend beats a complete one you skip.",
+    "situations": [
+      {
+        "if": "you are turning 45 and have never thought about colorectal screening",
+        "then": "Start now: an annual faecal immunochemical test or a colonoscopy every ten years runs from 45 to 75, and starting at 45 rather than 50 is the single largest change in the schedule over the last decade. It found lesions in a cohort that had been told it was too early."
+      },
+      {
+        "if": "a parent or sibling had heart disease early",
+        "then": "Coronary disease in a father or brother before 55, or a mother or sister before 65, is the family history that makes an Lp(a) test urgent rather than routine. Take it to your clinician alongside the apoB row rather than waiting for your next milestone birthday."
+      },
+      {
+        "if": "you keep booking full check-ups and then cancelling them",
+        "then": "Shrink to the annual floor you will actually attend: blood pressure, weight, waist, a look at your teeth, and whatever marker interval your risk allows. Five things, most of them free, every single year, is the defensible version of screening."
+      }
+    ]
+  },
+  "longevity-health::Red Flags - Go Now": {
+    "case": "Rob, 51, had a mouth ulcer for five weeks he called stubborn, a hard non-healing patch on his scalp he kept meaning to show someone, and new breathlessness on a single flight of stairs he blamed on fitness. The breathlessness is what got him seen, because new exertional breathlessness is a cardiac or circulatory question rather than a training problem, and neither is something you train through. The ulcer passed the two-week rule and the scalp lesion passed the three-week rule, so both went to their own referrals the same week rather than onto a watch-and-wait list. Nothing turned out to be the worst case, but every row he had been sitting on was an instruction, not an observation. The lesson: red flags are gated to be routed, not to be monitored.",
+    "situations": [
+      {
+        "if": "you or someone near you develops crushing chest pressure or sudden one-sided weakness with slurred speech",
+        "then": "That is an ambulance, not a clinic, and for the stroke signs you note the exact time it started because the treatment window is hours. Atypical presentation is the norm in diabetes, in women and in people with existing disease, so do not wait for the textbook version."
+      },
+      {
+        "if": "a sore or patch on sun-exposed skin has not healed in three weeks, or a mouth ulcer has passed two",
+        "then": "Book the appointment for this week, not next month, because a non-healing lesion on face or scalp and an ulcer past a fortnight are referral questions. The same week applies if there is a white or red patch in the mouth that will not wipe off."
+      },
+      {
+        "if": "you are losing weight without trying, more than 5 percent in six months, or soaking the bedding at night",
+        "then": "Unexplained weight loss with fatigue, and drenching night sweats together, are a diagnostic workup, not a good month. If you are on a supplement stack and develop jaundice or dark urine, stop the stack and get liver bloods the same week."
+      }
+    ]
+  },
+  "longevity-health::Symptom Index": {
+    "case": "Sam, 44, ran a daily 3pm crash, afternoon brain fog and constant cravings, and assumed he needed more willpower. The index ordered the questions instead: a carbohydrate-heavy lunch and insufficient deep sleep explain the crash, the postprandial dip explains the fog, and the cravings list runs sleep debt, an over-aggressive deficit, low protein and a conditioning loop, in that order. He moved protein forward in the lunch, walked ten minutes after eating, and stopped the 3pm caffeine top-up that was hiding the crash and taking the evening with it. Within two weeks the pattern was gone, and he had a rule ready for the next symptom: fatigue that sleep does not fix goes ferritin and TSAT, then TSH, then a sleep question. The lesson: a symptom index only works if it names where to go.",
+    "situations": [
+      {
+        "if": "you crash at 3pm every day and fix it with more coffee",
+        "then": "Look at the carbohydrate load at lunch and last night's sleep before the caffeine, because the top-up hides it for two hours and takes the evening. Protein and a slower eating rate change it, and a walk after the meal is the cheapest intervention."
+      },
+      {
+        "if": "you are tired no matter how much you sleep",
+        "then": "Work the index in order: ferritin and transferrin saturation, then TSH, then a sleep question including STOP-Bang. Iron deficiency, thyroid and apnoea are the three reversible causes that hide behind a generic fatigue story."
+      },
+      {
+        "if": "your hair is coming out in clumps rather than thinning gradually at the temples",
+        "then": "Write down what happened about three months ago, because a clumping shed is the telogen effluvium question and the trigger lags 8-12 weeks behind it. The shed count and the bloods live in the appearance workup, not in a hair product."
+      }
+    ]
+  },
+  "longevity-health::Disease Index": {
+    "case": "George, 58, arrived with three years of being just tired and a new hypertension diagnosis nobody had explained. The index read the middle column for him: a STOP-Bang of 4, with snoring, witnessed pauses, male sex and hypertension, pointed at obstructive sleep apnoea, which 34 percent of newly diagnosed hypertensives also carry, and the sleep study confirmed moderate disease. The kidney panel behind the blood pressure came back clean, ferritin and TSAT ruled the iron half of fatigue out, and the TSH was normal. With the airway treated and the sleep protocol running, the morning headaches cleared and the blood pressure became a trend instead of a mystery. The lesson: read which marker moves first for each condition, and screen there before the symptom arrives.",
+    "situations": [
+      {
+        "if": "you snore and were just diagnosed with high blood pressure",
+        "then": "Run STOP-Bang, because at 3 or more it is 93 percent sensitive for moderate-to-severe apnoea and 100 percent for severe, and male sex is itself a criterion. At 3 or more, get a sleep study, since no wearable substitutes for one."
+      },
+      {
+        "if": "your haemoglobin is low-normal but you are exhausted and everyone blames your age",
+        "then": "Ask for ferritin and transferrin saturation instead of the haemoglobin, because haemoglobin is the last thing to move and the deficiency is usually years old by the time the blood count reports it. Below 20 percent TSAT is deficiency even with a normal count."
+      },
+      {
+        "if": "your waist is creeping but your fasting glucose is still normal",
+        "then": "Fasting insulin and HOMA-IR move before glucose and HbA1c do, and the waist carries the signal earlier still, so get the panel read in that order. A normal glucose with a high HOMA is the early shape of insulin resistance."
+      }
+    ]
+  },
+  "longevity-health::The Experimental Shelf - Honest Verdicts": {
+    "case": "Peter, 49, was taking self-sourced rapamycin, NMN, and a longevity multivitamin that contained iron he had never tested for. The shelf's verdicts were blunt: rapamycin has strong mouse lifespan data and documented human harms including glucose intolerance and hyperlipidaemia, with no approved longevity indication, so he stopped and told his clinician. NMN raises NAD in humans, but the lifespan effect is unproven and NAD supplementation raises a metabolite flagged as a potential tumour promoter, so that went too. The multivitamin failed the only question that matters, whether the endpoint is a real human event or a marker that moved, so he replaced it with a baseline panel. What stayed was the boring part with outcome data: zone-2 volume, resistance training, and the protein floor. The lesson: dose-as-outcome and honest noes, and the boring levers are the ones with human events behind them.",
+    "situations": [
+      {
+        "if": "you are considering rapamycin or metformin purely for longevity",
+        "then": "The lifespan evidence is vertebrate and the harms are human: glucose intolerance, hyperlipidaemia and mucositis for rapamycin, and no clear longevity benefit for metformin in a 167-study meta-analysis. No regulator approves a longevity indication, so this is a clinician conversation, never a self-prescription."
+      },
+      {
+        "if": "you are starting a GLP-1 for weight loss without changing your training",
+        "then": "Lean mass is 25-30 percent of total loss on GLP-1 receptor agonists, which is how weight loss becomes sarcopenic obesity. Start the protein floor and resistance training on day one, not after the first month."
+      },
+      {
+        "if": "you take a daily ibuprofen or have been on a proton-pump inhibitor for months",
+        "then": "NSAIDs other than naproxen run cardiovascular events at a relative risk of 1.37 with dose-dependent blood pressure and kidney costs, so rub it in first and keep the shortest course at the lowest dose. Chronic PPI use carries a rising chronic kidney disease hazard, so treat it as its own review and re-evaluate at four to eight weeks."
+      }
+    ]
+  },
+  "longevity-health::Lifestyle Levers, Ranked by Effect": {
+    "case": "Alan, 56, rebuilt his routine in effect-size order rather than effort order. First came 90 minutes a week of resistance training, the row that sits at the top because the maximum benefit arrives by about 60 minutes and the effect is 15 percent lower all-cause mortality, more when combined with aerobic work. Then 60-75 minutes a day of moderate movement to cancel a nine-hour desk, smoking stopped outright, blood pressure tracked properly at 128/80, and apoB added to the panel he had never had. Sleep held at seven to eight hours, not because it outranks the rows above but because every one of them is harder without it. A year later his field VO2max was up 4 ml/kg/min and his grip had gained 6 kg. The lesson: ranked by effect, not by effort, and the cheap moment is before the trend line exists.",
+    "situations": [
+      {
+        "if": "you currently do no resistance training at all",
+        "then": "Start with about 60 minutes a week, where most of the 15 percent all-cause mortality reduction is already captured, plateauing near 120. Add aerobic volume and the combined effect reaches roughly 40 percent lower."
+      },
+      {
+        "if": "you exercise an hour a day but sit for nine",
+        "then": "Activity and sitting are two separate thresholds, and clearing one does not clear the other. Break the sitting itself every 30-60 minutes and build toward the 60-75 daily minutes of moderate movement that cancels the mortality cost of long sitting."
+      },
+      {
+        "if": "you still smoke or have switched to nicotine pouches",
+        "then": "Cessation is immediate and measured in years, the largest single lever on the list. Pouches keep the haemodynamic half of the problem with no outcome benefit anywhere in the data, so any nicotine replacement is a bridge to quitting, not a destination."
+      }
+    ]
+  },
+  "presence-style::Posture": {
+    "case": "Nils, 34, wore a headset pinned to one ear, texted at chest height, and tried to fix the resulting forward head by marching around with his chin jutted. The honest version of the sheet named the pattern instead: tight pecs and upper traps with weak deep neck flexors, plus short hip flexors and switched-off upper back. He loaded the deep neck flexors, thoracic extensors and glutes, raised the phone to eye level with elbows supported, and changed position every 30-45 minutes instead of holding one perfect posture. A monthly side-on photo showed the position he held, not the one he could produce on request, changing over months. The lesson: posture is a comfort and impression question, and the injury narrative is weaker than the product aisle says.",
+    "situations": [
+      {
+        "if": "you text for hours with your chin dropped to your chest",
+        "then": "The radiographic change in cervical alignment is real, so fix it ergonomically: phone at eye level, both hands, elbows supported. What the evidence does not show is text neck causing pain, so treat this as comfort and impression, not spinal protection."
+      },
+      {
+        "if": "you bought a posture brace to hold yourself straight",
+        "then": "A brace de-loads the muscles without strengthening them, which is how the prop becomes permanent. The intervention is loading the deep neck flexors, upper back and hips, with the brace at most a temporary prop while that builds."
+      },
+      {
+        "if": "you have been holding one ideal posture all day and feel stiff anyway",
+        "then": "Any position held long enough fatigues its tissue, the ideal one included, so duration is the variable rather than the shape. Change position every 30-45 minutes, which is a smaller ask and a better outcome than perfection."
+      }
+    ]
+  },
+  "presence-style::Jaw and Clenching": {
+    "case": "Tom, 38, woke with an aching jaw and temple headaches and bought a night guard, which protected his teeth while the masseter kept widening and the headaches stayed. The sheet separated the two problems for him: the guard is a dental appliance, and the drive is a screen-and-stress behaviour that keeps the muscle active. He ran the conservative list in order, awareness training with the lips-together-teeth-apart cue, a look at evening screens and late caffeine, physiotherapy, and a stabilisation splint. The temple headaches eased within weeks and the guard became the backup for the teeth rather than the whole treatment. The lesson: the consequences are cumulative, the treatment order matters, and the guard is not the treatment.",
+    "situations": [
+      {
+        "if": "you wake with a sore jaw and a headache that starts at the temples",
+        "then": "That pattern is night bruxism referred from the masseter, and the distinguishing detail is the jaw, not the head. Fit the guard for the teeth, then address the drive: awareness training, evening screens, caffeine and stress, because the muscle keeps adapting to the load otherwise."
+      },
+      {
+        "if": "you are booking masseter Botox without having tried anything else",
+        "then": "Finish the conservative list first, awareness training, physiotherapy and a stabilisation splint, because arriving at the injection before that is the ordering error the evidence sequence flags. Botox itself is a repeat-injection commitment measured in months, titrated in units by a clinician."
+      },
+      {
+        "if": "your teeth are visibly flattening in your thirties",
+        "then": "Attrition from grinding is cumulative and does not enamel back, which is why the deal-by date is now. The repair options in your fifties are crowns, so protect the teeth and treat the clenching while the stakes are still reversible."
+      }
+    ]
+  },
+  "presence-style::Voice": {
+    "case": "Ben, 26, hosted back-to-back calls, pushed volume from his throat, and was hoarse by every evening. He relearned projection as a breath-support skill rather than a loudness one, drank water before speaking rather than during, and warmed up five minutes before long days. He counted his fillers in two recorded minutes, found 23, and started substituting silent beats, and he learned that fry belongs at the ends of sentences rather than as a working register. When a hoarseness lasted seventeen days he followed the two-week rule properly and got an ENT laryngoscopy, which came back benign. The lesson: the mechanics are learnable, and two weeks of hoarseness is a rule rather than a suggestion.",
+    "situations": [
+      {
+        "if": "you go hoarse after every long speaking day",
+        "then": "Throat-pushed volume raises vocal fold collision force, which is the route to fatigue and nodules, so project from the diaphragm instead. Water before you speak rather than during, and five minutes of gentle warm-up before the first meeting."
+      },
+      {
+        "if": "your speech is full of um and uh and you cannot hear it yourself",
+        "then": "Record two minutes and count the fillers, because listeners rate competence and credibility lower independently of the content. Substitute a comfortable silence for each one; a pause reads as thinking while an um reads as searching."
+      },
+      {
+        "if": "you have been hoarse for more than two weeks",
+        "then": "That is the ENT threshold for laryngoscopy, not a reason for more steaming. Go the same week if there is a neck lump, pain on swallowing, blood or weight loss alongside it."
+      }
+    ]
+  },
+  "presence-style::Speech and Presence": {
+    "case": "Cara, 31, ended statements on a rising pitch, closed meetings on open questions, and filled every gap with sound. She rebuilt four behaviours, each cheap and learnable: the silent beat instead of the filler, falling intonation on the last word so statements sound like decisions, closing on what was decided and then stopping, and two genuine questions a day, which is enough to be real and few enough to stay that way. Before one high-stakes review she did the two-minute rehearsal, the two sentences that mattered, out loud, standing, twice. Her weekly recordings showed the filler count halved in two months, and the posture row got its share of the credit, since upright versus slouched changes how observers rate competence. The lesson: presence is a handful of behaviours, not a personality trait.",
+    "situations": [
+      {
+        "if": "your statements keep sounding like questions",
+        "then": "Let the last word fall instead of rising, because the room reads the pitch before the content. A falling terminal intonation is what makes the same sentence land as a decision."
+      },
+      {
+        "if": "you lose the room right at the end of a good meeting",
+        "then": "Close on the decision and stop, rather than reopening with an open question after the substance is over. The most common way to lose a room is the ending, not the middle."
+      },
+      {
+        "if": "you have a high-stakes meeting tomorrow and no time to prepare",
+        "then": "Do the two-minute rehearsal: the two sentences that matter, out loud, standing, twice. Record a dry run to catch the stress-driven speed-up, which is invisible from inside your own head."
+      }
+    ]
+  },
+  "presence-style::Fragrance and Scent": {
+    "case": "Marc, 30, wore six sprays of one signature scent on pulse points, applied immediately after shaving, and developed red stinging patches at the jawline. He cut to two or three sprays from about fifteen centimetres, on neck, chest and wrists, split the collection into a daily, an evening and an occasion scent, and moved application to twenty minutes after shaving. The dermatitis cleared, and the scent stopped arriving in the room before he did. He also learned his dry skin held a fragrance all day while his colleague's oily skin burned through the same bottle, which is why blotter testing had never told him anything. The lesson: the whole category is dose, where you put it, and what it does to the skin.",
+    "situations": [
+      {
+        "if": "your fragrance fills the lift before people notice you",
+        "then": "Cut to two or three sprays on points, sprayed from about fifteen centimetres, rather than a cloud. Allergen load rises with dose and total exposure, and a single dominant note reads as generic rather than chosen."
+      },
+      {
+        "if": "you spray right after shaving and the skin stings",
+        "then": "Wait twenty minutes, because alcohol bases on freshly shaved or broken skin are a direct route to contact dermatitis. The rule is the whole fix, and it costs nothing."
+      },
+      {
+        "if": "you wear the same scent every day for every occasion",
+        "then": "Split it into three roles, a daily scent, an evening scent and an occasion scent, and rotate heavier and lighter families across the year. One signature worn everywhere is the same as wearing none, since variety over time is what makes a scent memorable."
+      }
+    ]
+  },
+  "presence-style::Wardrobe, Fit and Style": {
+    "case": "Jonas, 29, bought a good suit a size up for room to grow and wore it with the shoulder seam halfway down his arm and trousers pooling over the shoe. A booked thirty-minute fit appointment with alterations fixed the landmarks: shoulder seam at the deltoid, sleeve ending at the wrist bone, a half break on the trousers. The tailoring cost a fraction of a second suit, and the same logic reorganised the rest of his wardrobe into twenty to thirty coordinated pieces around three neutrals. He pressed the shirts he already owned and found that a pressed mid-range shirt outperforms an expensive creased one every time. The lesson: fit is measurement against landmarks, and it is the highest perceived-quality return per pound on this entire sheet.",
+    "situations": [
+      {
+        "if": "your clothes fit okay but never quite look right",
+        "then": "Book the fit appointment: thirty minutes in a shop that can alter, wearing the shoes you actually wear. Check the three landmarks first, shoulder seam at the deltoid, sleeve at the wrist bone, a single half break on the trousers."
+      },
+      {
+        "if": "you are about to spend real money on a new coat or suit",
+        "then": "Budget fit before fabric and before labels, because an alteration costs a fraction of the garment and is the only part of the outfit nobody can measure. Money spent on fit beats money spent on the same garment in a better cloth."
+      },
+      {
+        "if": "your wardrobe feels random no matter what you buy",
+        "then": "Decide a system once: twenty to thirty coordinated pieces, three neutrals, colours that repeat rather than accumulate. Then press what you own, because most of the impression of a good wardrobe is creasing, not cost."
+      }
+    ]
+  },
+  "presence-style::Myths": {
+    "case": "Ion, 25, spent a year mewing, chewing tough gum for the jawline, and taking cold showers for testosterone, and judged the experiment only by how much it hurt. The index gave him three verdicts instead of three opinions: mewing is grade X with a named AAO warning about tooth loosening, bite misalignment, wear and speech; gum chewing has no evidence of changing facial bone, which is set genetically and by growth; and cold showers have no credible testosterone data at all. He stopped the jaw experiments, kept the cold shower for the reason that survives, that it feels fine, and moved the effort to resistance training and sleep, which do move things. The X rows cost him a year and a dental scare for nothing. The lesson: X means the evidence says no, and that is different from merely unproven.",
+    "situations": [
+      {
+        "if": "someone tells you mewing will reshape your jaw if you persist",
+        "then": "That is grade X, with the AAO explicitly warning against it and listing tooth loosening, bite misalignment, wear and speech impairment among the risks. If function genuinely bothers you, the route is an orthodontic assessment, not tongue posture."
+      },
+      {
+        "if": "you are clenching on purpose to build a wider jaw",
+        "then": "The tissue that grows is the masseter, and involuntary clenching that widens the lower face is the problem people pay clinicians to manage. You are training the habit, not the bone, and the tooth wear it buys is irreversible."
+      },
+      {
+        "if": "you believe standing taller all day will change your skeleton or cure your back pain",
+        "then": "Standing taller changes muscle length and how you are perceived, not bone, and posture alone neither causes nor cures back pain in the general population. Change position every 30-45 minutes and treat an actual pain presentation as a presentation."
+      }
+    ]
+  },
+  "mistakes::Hair & Scalp Mistakes": {
+    "case": "Rehan, 30, made four textbook mistakes in one bottle: he lathered minoxidil into his hair, doubled the dose for speed, went to bed with it wet, and quit at week 3 when the shed arrived. Each mistake had its own mechanism, from the shaft being pharmacologically inert to wet product halving his own absorbed dose. The second run worked because he learned the timeline first: 1 mL on the parted scalp, two to four hours of dry time, the week-3 shed understood as telogen being flushed, and a verdict reserved for 12-month photos. He also stopped the daily ketoconazole wash that had been drying out his type 2 hair for no antifungal gain. The lesson: almost every error here is site, dose, timing or expectation, and the clock is months, not weeks.",
+    "situations": [
+      {
+        "if": "you are about to quit minoxidil at week 3 because hair is falling out fast",
+        "then": "The shed starting at 2-4 weeks and ending by 3-6 is the drug shortening telogen, pharmacology rather than progression. Persist past six months and compare standardised photos at twelve, because quitting inside the shed window discards the whole investment."
+      },
+      {
+        "if": "you ordered 5 mg finasteride online because it is cheaper than 1 mg",
+        "then": "The 5 mg tablet is the prostate dose at roughly five times the systemic exposure, and the 1 mg label reports impotence in 12.2 percent at year one. Take 1 mg prescribed, expect 2-6 months, judge at 12, and judge the vertex rather than the temples, since the label says bitemporal efficacy is not established."
+      },
+      {
+        "if": "you are washing with ketoconazole every day to clear your scalp faster",
+        "then": "Twice weekly for four weeks, then weekly to fortnightly, is the studied frequency, and daily buys no faster clearance. What daily does buy is dryness, abnormal texture and curl loss, hitting types 3 and 4 hardest."
+      }
+    ]
+  },
+  "mistakes::Skin & Face Mistakes": {
+    "case": "Ana, 27, started tretinoin 0.1 percent nightly on damp skin, added an acid, a vitamin C and benzoyl peroxide in the same fortnight, and judged the whole experiment a failure at four weeks. Every one of those was a named mistake with a mechanism: damp skin raises the irritant flux, four actives land additively on a compromised barrier, and week four is inside the part of the timeline that only looks like failure. The restart ran the fix in order: pea-sized on fully dry skin twenty minutes after cleansing, every third night building over 6-8 weeks, one new active at a time, the moisturiser sandwich, and daily SPF. At twelve weeks her skin was tolerating the nightly dose and the texture verdict was scheduled for six to twelve months. The lesson: the barrier is the asset, and the schedule was the mistake, not the molecule.",
+    "situations": [
+      {
+        "if": "you are starting a retinoid and want it to work fast",
+        "then": "Use a pea-sized amount on fully dry skin, every third night for two weeks, building to nightly over 6-8 weeks, and buffer with moisturiser, which does not reduce efficacy. Commit to twelve weeks before you judge and 6-12 months before you conclude anything."
+      },
+      {
+        "if": "your skin is burning and stinging and you have been calling it purging",
+        "then": "Purging pushes comedones ahead of the treated area and settles in 4-6 weeks without burning, so burning with no comedones is irritation. Take five days off the active, then restart at half the frequency with barrier support."
+      },
+      {
+        "if": "you are buying an eye cream for persistent dark circles",
+        "then": "The usual causes are pigment, vessels, dermal thinning, allergic rhinitis, short sleep, iron deficiency and smoking, and a cream treats none of them. Work the cause first, and keep any retinoid on the orbital bone, never the lid margin."
+      }
+    ]
+  },
+  "mistakes::Teeth & Oral Mistakes": {
+    "case": "Karim, 41, brushed straight after his morning lemon water, used a daily alcohol mouthwash, ignored bleeding gums for years, and booked whitening over a mouth nobody had examined. The corrected order ran the other way: thirty to sixty minutes after acid before brushing, an interdental brush sized to the gaps every evening, gingivitis treated and cleared before any whitening tray, and a fluoride paste spat out rather than rinsed off. The bleeding stopped within two weeks of the technique change, which is what the sheet predicted for reversible gingivitis. The daily chlorhexidine habit went with it, since long-term use stains teeth and dysbioses the microbiome it was meant to help. The lesson: enamel does not grow back, and the mouth is where the cheapest intervention in the workbook lives.",
+    "situations": [
+      {
+        "if": "you brush your teeth immediately after something acidic",
+        "then": "Wait 30-60 minutes and rinse with water in the meantime, because brushing softened enamel raised measured loss from 45 to 79 micrometres. Fluoride paste brought the same figure back to 41-51, so keep the 1,350-1,500 ppm paste and spit rather than rinse."
+      },
+      {
+        "if": "your gums bleed and you respond by brushing harder or adding mouthwash",
+        "then": "Bleeding is inflammation, and daily interdental cleaning is the intervention, with a dentist appointment if it persists past two weeks or there is any mobility or recession. Gingivitis reverses completely; periodontitis is attachment and bone loss, and that tooth does not come back."
+      },
+      {
+        "if": "you are whitening with a generic tray and strong gel overnight",
+        "then": "A tray that does not fit concentrates the gel on the gums, and overnight high-strength peroxide penetrates the pulp. Use a custom tray from a dentist at 10-16 percent carbamide peroxide, label contact time only, with a desensitising paste alongside."
+      }
+    ]
+  },
+  "mistakes::Nutrition & Body Composition Mistakes": {
+    "case": "Tom, 33, ran a 40 percent deficit at the RDA of 0.8 g/kg protein with daily cardio added to speed things up, and lost the wrong tissue at the wrong speed. The arithmetic was done in the wrong order: protein too late, deficit too fast, cardio stacked on top of the worst combination for lean retention. He rebuilt it at 2.2 g/kg split across four sittings, a deficit slowed to about 0.5 percent of bodyweight a week with planned diet breaks, and two to three low-intensity cardio sessions instead of daily volume. Over the next twelve weeks his waist moved and his lifts held, which is the outcome the 2.4 versus 1.2 g/kg trial and the deficit-size data both predict. The lesson: the deficit rate costs more muscle than anything else, and the protein is what keeps the rest.",
+    "situations": [
+      {
+        "if": "you are cutting while eating the RDA of 0.8 g/kg protein",
+        "then": "Raise it to 2.0-2.7 g/kg, because the RDA is a floor for someone neither dieting nor training. In the 40 percent deficit trial, 2.4 g/kg added 1.2 kg of lean mass against 0.1 kg on 1.2 g/kg, and took more fat off with it."
+      },
+      {
+        "if": "you are losing more than 1 percent of bodyweight a week and proud of the speed",
+        "then": "Hypocaloric diets lose 20-30 percent of the weight as lean mass, and the size of the deficit drives that more than the protein dose does. Slow to 0.5-1.0 percent a week with diet breaks and take the slow route on purpose."
+      },
+      {
+        "if": "you started iron pills because you are tired and you menstruate",
+        "then": "Iron is a treatment for a measured deficiency, so get ferritin and transferrin saturation first and find the blood loss rather than only replacing it. Ferritin is also an acute-phase reactant, so inflammation can hide the very deficiency you are treating."
+      }
+    ]
+  },
+  "mistakes::Sleep & Recovery Mistakes": {
+    "case": "Chris, 40, tried to fix his sleep with 5 mg melatonin, a magnesium stack, and a nightcap, while the anchors stayed broken: a drifting wake time, coffee at 5pm, and his phone in bed. The corrected version started at the top of the sheet, fixing the wake time to 6:30 within thirty minutes every day including weekends, then the caffeine cutoff twelve hours before bed, no alcohol in the four to six hours before it, and the phone charging outside the bedroom. Sleep onset shortened within a fortnight and the seven-day resting-heart-rate mean drifted down. The magnesium stayed only after a measured deficiency, since evidence for it as a hypnotic in the non-deficient is weak. The lesson: the clock is set by wake time and light, and supplements are rounding errors.",
+    "situations": [
+      {
+        "if": "you take high-dose melatonin every night and sleep has not improved",
+        "then": "Fix light, caffeine, alcohol and wake time first, because none of those are repaired by a supplement. If you still need it, 0.3-1 mg reproduces physiological levels, timed one to three hours before sleep relative to your melatonin onset."
+      },
+      {
+        "if": "you sleep five to six hours and say you are just built that way",
+        "then": "Seven to nine hours is the band, defended as a schedule rather than a wish, because chronic restriction independently raises insulin resistance, appetite hormones, blood pressure and cortisol. The genetics claim is the part to drop, not the bedtime."
+      },
+      {
+        "if": "you nap for ninety minutes after 4pm and then cannot fall asleep",
+        "then": "A late or long nap burns the homeostatic pressure you need that night, so the cost moves onto sleep onset. Keep naps under thirty minutes and before 15:00, and treat the post-lunch dip as the legitimate window."
+      }
+    ]
+  },
+  "mistakes::Longevity & Prevention Mistakes": {
+    "case": "Vikram, 55, had a decade of LDL-C results, a daily ibuprofen for tension headaches, a blood pressure of 138/88, and an hs-CRP retested in the middle of a cold. The omissions were the story: apoB and a one-time Lp(a) had never been requested, the headache had never been diagnosed, and the inflammatory marker had been read when the answer was guaranteed to be the cold. He put apoB in the baseline panel request, tested Lp(a) once, and found the headache trigger instead of medicating it daily, since chronic NSAIDs run cardiovascular events at a relative risk of 1.37 and blunt antihypertensives. He repeated hs-CRP only when well, and added an orthostatic blood pressure check to every visit after reading the falls data. The lesson: most prevention mistakes are omissions, the panel you never requested, the test you never repeated, the drug taken for the wrong reason.",
+    "situations": [
+      {
+        "if": "you have only ever been shown LDL-C and it looks fine",
+        "then": "Ask for apoB, because it counts the atherogenic particles and the two are often discordant, with an apoB five points above LDL-C the trigger to intensify. Test Lp(a) once in your life and screen first-degree relatives, since more than 90 percent of it is genetic."
+      },
+      {
+        "if": "you take a daily ibuprofen on top of raised blood pressure",
+        "then": "NSAIDs raise blood pressure dose-dependently and blunt most antihypertensives, so the daily headache pill is a cardiovascular drug nobody mentioned. Find the headache cause, rub it in topically first, and keep the lowest dose for the shortest time."
+      },
+      {
+        "if": "someone sent you a homocysteine result and an MTHFR genotype report",
+        "then": "B vitamins lower homocysteine without reducing events, and ACMG says explicitly not to test MTHFR polymorphisms at all. Correct B12, folate, B6 and renal function if they are off, and spend the attention on blood pressure, fitness and apoB instead."
+      }
+    ]
+  },
+  "mistakes::Posture, Voice & Presence Mistakes": {
+    "case": "Alex, 35, wore a headset pinned to one ear all day, jutted his chin as posture training, and spoke fast to sound confident. The corrected version changed the inputs: phone at eye level with both hands and supported elbows, the headset alternated between ears with breaks, and deep neck flexor work replacing the chin jut that reinforced the forward head it claimed to fix. He recorded himself for two minutes and counted the fillers, slowed down, and let statements end with a falling pitch. He also stopped selling posture to himself as injury prevention and used it for what the evidence supports, which is how observers judge competence and confidence. The lesson: presence is a behaviour, not a bone, and the underlying habits are worth changing without the mythology.",
+    "situations": [
+      {
+        "if": "you jut your chin forward to force yourself upright",
+        "then": "The jut is a compensation that reinforces the anterior translation it is meant to remove, so it trains the problem. Load the deep neck flexors and the hips instead, and hold the position with tissue rather than effort."
+      },
+      {
+        "if": "you speak quickly and never pause because speed feels like confidence",
+        "then": "Above a comfortable rate, intelligibility falls and filler words rise, and urgency reads as nerves after about two seconds. Record yourself, slow down, and use a silent beat where the um used to go."
+      },
+      {
+        "if": "you spray fragrance six times and over-wash your hair to look polished",
+        "then": "Both are dose mistakes: allergen load rises with fragrance dose, and over-washing strips the lipids the shaft needs while product buildup inflames the scalp. Two or three sprays on points, wash to your hair type, and keep styling minimal."
+      }
+    ]
+  },
+  "mistakes::Body & Physique-Aesthetic Mistakes": {
+    "case": "Dan, 31, cut hard for jawline definition, did hundreds of crunches for belly fat, and blamed his puffy face on the deficit when it was a salty dinner, one beer, and a five-hour night. The compartment read explained all three: the face is the last place a cut shows and the first place a bad night shows, the buccal pad is not a diet target, and spot reduction does not exist at all. He aimed instead at the scale, the waist and a monthly standardised photograph, changed one input at a time for the morning face, and judged after two weeks rather than the next morning. The cut slowed to a rate his skin and lifts could follow. The lesson: read the compartment before you read the mirror, and never judge a three-variable system day to day.",
+    "situations": [
+      {
+        "if": "you are lean and considering buccal fat removal for cheek definition",
+        "then": "The buccal pad holds roughly the same volume through life, so removing it from a thin or gaunt face removes something that was never excess and buys premature ageing. Work on body fat and weight first, and see a surgeon only for a lower third that is genuinely full."
+      },
+      {
+        "if": "your face looks puffy and you are blaming your diet",
+        "then": "Check last night's sodium, alcohol and sleep before the deficit, because all three independently produce oedema and alcohol also degrades the sleep that would clear it. A short night shows on the face before the scale moves, so sleep is the fastest visible intervention on this sheet."
+      },
+      {
+        "if": "you are on your third round of cutting hard, regaining, and cutting again",
+        "then": "Each cycle adds adaptive thermogenesis, widens the overshoot and leaves net fat gain, with skin and ligaments stretching a little further each time. Run one slow deficit you will actually keep, with resistance training holding the lean mass between rounds."
+      }
+    ]
+  },
+  "mistakes::Myth & Contested Index": {
+    "case": "Mia, 29, took biotin for hair, skipped creatine over kidney and hair-loss fears, and chased a 25(OH)D above 30 ng/mL with escalating doses. The index sorted her three beliefs into two honest categories: biotin and the creatine fears are grade X, refuted as stated, since biotin shows no effect over placebo when you are not deficient and corrupts troponin and thyroid assays, while nineteen RCTs show creatine raising creatinine 0.13 mg/dL with eGFR unchanged and a 12-week RCT finding no hair effect. The vitamin D threshold is genuinely grade C, contested, with the 2024 Endocrine Society retracting the sufficiency band and Holick arguing the other way. She stopped the biotin before her next blood panel, started creatine 5 g, and held vitamin D at 2,000 IU with a test rather than a chase. The lesson: X is refuted, C is open, and the honest reference keeps the two apart.",
+    "situations": [
+      {
+        "if": "you take biotin for hair and have a blood panel booked",
+        "then": "Stop it now, because the best controlled trial found no difference versus placebo in the non-deficient and biotin interferes with troponin and thyroid immunoassays. Test for deficiency only if there is a real risk such as bariatric surgery or anticonvulsant use."
+      },
+      {
+        "if": "you avoid creatine because of kidney or hair-loss claims",
+        "then": "Both fears are grade X: nineteen RCTs show the creatinine rise is an assay artefact with eGFR unchanged, and a 12-week RCT found no difference in DHT, density or thickness. Take the 3-5 g, and monitor with cystatin C if you have kidney disease."
+      },
+      {
+        "if": "someone insists your vitamin D must be above 30 ng/mL",
+        "then": "That threshold is genuinely contested rather than settled, with the 2024 Endocrine Society retracting the sufficiency bands and the VITAL trials null for the outcomes that matter. The honest middle is the RDA-level 1,000-2,000 IU, a test when there is risk, and no megadosing."
+      }
+    ]
+  }
+}

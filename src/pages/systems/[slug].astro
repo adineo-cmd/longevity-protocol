@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Sections from '../../components/Sections.astro';
 import systems from '../../data/systems.json';
+import allCases from '../../data/cases.json';
 import mistakes from '../../data/mistakes.json';
 
 export function getStaticPaths() {
@@ -12,6 +13,10 @@ export function getStaticPaths() {
 }
 
 const { system } = Astro.props;
+const sectionCases = Object.fromEntries(
+  Object.entries(allCases).filter(([key]) => key.startsWith(`${system.slug}::`))
+    .map(([key, value]) => [key.split('::').slice(1).join('::'), value])
+);
 const all = [...systems, mistakes];
 const idx = all.findIndex((s: any) => s.slug === system.slug);
 const prev = all[idx - 1];
@@ -42,7 +47,7 @@ const totalRows = system.sections.reduce((m: number, x: any) => m + x.rows.lengt
         <p class="pagehead__meta mono">{system.sections.length} sections · {totalRows} graded rows</p>
       </header>
 
-      <Sections sections={system.sections} rowSystem={system.slug} />
+      <Sections sections={system.sections} rowSystem={system.slug} cases={sectionCases} />
 
       <nav class="pager" aria-label="More sheets">
         {prev && <a href={prev.slug === 'mistakes' ? '/mistakes' : `/systems/${prev.slug}`} rel="prev">← {prev.slug.replace(/-/g, ' ')}</a>}

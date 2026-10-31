@@ -2,8 +2,13 @@
 import Base from '../layouts/Base.astro';
 import Sections from '../components/Sections.astro';
 import mistakes from '../data/mistakes.json';
+import allCases from '../data/cases.json';
 
 const totalRows = mistakes.sections.reduce((m: number, x: any) => m + x.rows.length, 0);
+const mistakeCases = Object.fromEntries(
+  Object.entries(allCases).filter(([key]) => key.startsWith('mistakes::'))
+    .map(([key, value]) => [key.split('::').slice(1).join('::'), value])
+);
 ---
 
 <Base title="Common mistakes" description={mistakes.blurb}>
@@ -15,7 +20,7 @@ const totalRows = mistakes.sections.reduce((m: number, x: any) => m + x.rows.len
       <p class="pagehead__meta mono">{mistakes.sections.length} domains · {totalRows} verdicts</p>
     </header>
 
-    <Sections sections={mistakes.sections} idPrefix="m" rowSystem="mistakes" />
+    <Sections sections={mistakes.sections} idPrefix="m" rowSystem="mistakes" cases={mistakeCases} />
   </div>
 </Base>
 
