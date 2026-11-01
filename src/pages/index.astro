@@ -14,17 +14,37 @@ const totalRows = systems.reduce(
 <Base>
   <div class="container">
     <section class="hero">
-      <p class="hero__eyebrow mono">An operating manual · evidence-graded · {site.lastReviewed}</p>
-      <h1 class="hero__title">One body,<br /> kept in working order.</h1>
-      <p class="hero__lede measure">
-        The full protocol, page by page: what to measure, what to target, what the evidence
-        actually says — and the grade behind every claim.
-      </p>
-      <div class="hero__stats mono" aria-label="Contents">
-        <span><strong>5</strong> systems</span>
-        <span><strong>{totalRows}</strong> graded rows</span>
-        <span><strong>{metrics.length}</strong> live metrics</span>
-        <span><strong>12</strong> weeks, planned</span>
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="hero__eyebrow mono">An operating manual · evidence-graded · {site.lastReviewed}</p>
+          <h1 class="hero__title">One body,<br /> kept in working order.</h1>
+          <p class="hero__lede measure">
+            The full protocol, page by page: what to measure, what to target, what the evidence
+            actually says — and the grade behind every claim.
+          </p>
+          <div class="hero__stats mono" aria-label="Contents">
+            <span><strong>5</strong> systems</span>
+            <span><strong>{totalRows}</strong> graded rows</span>
+            <span><strong>{metrics.length}</strong> live metrics</span>
+            <span><strong>12</strong> weeks, planned</span>
+          </div>
+        </div>
+        <aside class="hero__instrument" aria-label="Key target bands">
+          <p class="hero__instrument-label mono">TARGET BANDS · AT A GLANCE</p>
+          <ul class="gauges">
+            {metrics.slice(0, 5).map((m: any) => (
+              <li class="gauge">
+                <span class="gauge__name">{m.metric}</span>
+                <span class="gauge__target mono">{m.target}</span>
+                <span class="gauge__grade mono">{m.grade}</span>
+                <span class="gauge__bar" aria-hidden="true">
+                  <i style={`width: ${m.grade === 'A' ? 92 : m.grade === 'B' ? 70 : 48}%`}></i>
+                </span>
+              </li>
+            ))}
+          </ul>
+          <a class="hero__instrument-link mono" href="/longevity-protocol/calculator">COMPUTE YOURS →</a>
+        </aside>
       </div>
     </section>
 
@@ -100,7 +120,91 @@ const totalRows = systems.reduce(
 
 <style>
   .hero {
-    padding-block: 4.5rem 3rem;
+    padding-block: 3.5rem 3rem;
+  }
+  .hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(17rem, 1fr);
+    gap: clamp(1.5rem, 4vw, 3.5rem);
+    align-items: end;
+  }
+  @media (max-width: 880px) {
+    .hero__grid {
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+  }
+  .hero__instrument {
+    background: var(--panel);
+    border: 1px solid var(--line-strong);
+    box-shadow: 0 18px 44px -30px var(--shadow);
+    padding: 1.1rem 1.2rem 0.9rem;
+    position: relative;
+  }
+  .hero__instrument::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px dashed var(--line);
+    pointer-events: none;
+  }
+  .hero__instrument-label {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    color: var(--teal);
+    margin-bottom: 0.7rem;
+  }
+  .gauges {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.55rem;
+  }
+  .gauge {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 0.3rem 0.7rem;
+    align-items: baseline;
+  }
+  .gauge__name {
+    font-size: 0.86rem;
+    font-weight: 600;
+  }
+  .gauge__target {
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    color: var(--teal);
+  }
+  .gauge__bar {
+    grid-column: 1 / -1;
+    height: 4px;
+    background: var(--panel-dim);
+    position: relative;
+    overflow: hidden;
+  }
+  .gauge__bar i {
+    position: absolute;
+    inset: 0 auto 0 0;
+    background: linear-gradient(90deg, var(--teal-deep), var(--teal));
+  }
+  .gauge__grade {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: var(--ink-soft);
+  }
+  .hero__instrument-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    color: var(--teal);
+    text-decoration: none;
+  }
+  .hero__instrument-link:hover {
+    text-decoration: underline;
   }
   .hero__eyebrow {
     font-size: 0.74rem;

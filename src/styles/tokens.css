@@ -1,21 +1,49 @@
 :root {
-  --paper: #e7ebe6;
-  --panel: #f7f8f5;
-  --panel-dim: #dfe4dd;
-  --ink: #18211c;
-  --ink-soft: #556058;
+  /* ---- light: daylight laboratory ---- */
+  --paper: #e6eae3;
+  --panel: #f8f9f6;
+  --panel-dim: #dce1d9;
+  --ink: #16201b;
+  --ink-soft: #4f5c54;
   --teal: #0d6a5a;
   --teal-deep: #094a3f;
+  --teal-bright: #10a67f;
   --grade-a: #0d6a5a;
   --grade-b: #8a6c00;
   --grade-c: #9c3a1c;
   --alert: #9c3a1c;
-  --line: rgba(24, 33, 28, 0.16);
-  --line-strong: rgba(24, 33, 28, 0.42);
+  --line: rgba(22, 32, 27, 0.16);
+  --line-strong: rgba(22, 32, 27, 0.42);
   --focus: #0d6a5a;
+  --grid: rgba(22, 32, 27, 0.05);
+  --wash: rgba(13, 106, 90, 0.07);
+  --shadow: rgba(22, 32, 27, 0.14);
+
   --font-display: 'Instrument Serif', Georgia, serif;
   --font-body: 'DM Sans Variable', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', monospace;
   --container: 1200px;
   --measure: 66ch;
+}
+
+[data-theme='dark'] {
+  /* ---- dark: night laboratory ---- */
+  --paper: #0d1411;
+  --panel: #131b17;
+  --panel-dim: #0a100d;
+  --ink: #dbe4dc;
+  --ink-soft: #8ba092;
+  --teal: #3ecfae;
+  --teal-deep: #7ce3c6;
+  --teal-bright: #3ecfae;
+  --grade-a: #3ecfae;
+  --grade-b: #d4a72c;
+  --grade-c: #e0764f;
+  --alert: #e0764f;
+  --line: rgba(219, 228, 220, 0.13);
+  --line-strong: rgba(219, 228, 220, 0.34);
+  --focus: #3ecfae;
+  --grid: rgba(219, 228, 220, 0.045);
+  --wash: rgba(62, 207, 174, 0.08);
+  --shadow: rgba(0, 0, 0, 0.55);
 }

@@ -15,6 +15,14 @@ const nav = [
 ---
 
 <header class="mast">
+  <div class="container mast__top">
+    <span class="mast__status mono"><span class="mast__pulse" aria-hidden="true"></span>SYSTEM: NOMINAL</span>
+    <span class="mast__status mono">EVIDENCE-GRADED</span>
+    <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+      <svg class="ico-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+      <svg class="ico-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+    </button>
+  </div>
   <div class="container mast__inner">
     <a href="/longevity-protocol/" class="mast__mark">
       <span class="mast__glyph mono" aria-hidden="true">████</span>
@@ -46,6 +54,60 @@ const nav = [
   .mast {
     background: var(--panel);
     border-bottom: 1px solid var(--line-strong);
+    box-shadow: 0 8px 24px -18px var(--shadow);
+  }
+  .mast__top {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    padding-block: 0.45rem;
+    border-bottom: 1px dashed var(--line);
+  }
+  .mast__status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    color: var(--ink-soft);
+  }
+  .mast__pulse {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--teal);
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 2px color-mix(in srgb, var(--teal) 26%, transparent); }
+    50% { box-shadow: 0 0 0 5px color-mix(in srgb, var(--teal) 8%, transparent); }
+  }
+  .mast__top .theme-toggle {
+    margin-left: auto;
+  }
+  .theme-toggle {
+    display: grid;
+    place-items: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    color: var(--ink-soft);
+    background: var(--paper);
+    border: 1px solid var(--line-strong);
+    cursor: pointer;
+    padding: 0;
+  }
+  .theme-toggle:hover {
+    color: var(--teal);
+    border-color: var(--teal);
+  }
+  .theme-toggle .ico-sun {
+    display: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .mast__pulse {
+      animation: none;
+    }
   }
   .mast__inner {
     display: flex;
@@ -66,6 +128,7 @@ const nav = [
     font-size: 0.7rem;
     letter-spacing: -0.14em;
     color: var(--teal);
+    text-shadow: 0 0 12px color-mix(in srgb, var(--teal) 55%, transparent);
   }
   .mast__name {
     font-family: var(--font-display);
@@ -127,5 +190,10 @@ const nav = [
     letter-spacing: 0.07em;
     text-transform: uppercase;
     color: var(--ink-soft);
+  }
+  @media (max-width: 720px) {
+    .mast__top .mast__status:first-child {
+      display: none;
+    }
   }
 </style>

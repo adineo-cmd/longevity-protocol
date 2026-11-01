@@ -24,8 +24,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? site.url);
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta name="theme-color" content="#e7ebe6" />
-    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" id="meta-theme" content="#e6eae3" />
+    <meta name="color-scheme" content="light dark" />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <meta property="og:type" content="website" />
@@ -35,6 +35,13 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? site.url);
     <meta property="og:url" content={canonical} />
     <meta name="twitter:card" content="summary" />
 
+    <script is:inline>
+      (() => {
+        const stored = localStorage.getItem('lp-theme');
+        const theme = stored || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
     <link rel="icon" href="/longevity-protocol/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/longevity-protocol/sitemap-index.xml" />
     <slot name="head" />
@@ -47,6 +54,26 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? site.url);
     </main>
     <SiteFooter />
     <SearchDialog />
+    <script is:inline>
+      (() => {
+        const meta = document.getElementById('meta-theme');
+        const sync = () => {
+          const dark = document.documentElement.dataset.theme === 'dark';
+          meta && meta.setAttribute('content', dark ? '#0d1411' : '#e6eae3');
+          document.querySelectorAll('[data-theme-toggle] .ico-sun').forEach((el) => (el.style.display = dark ? 'block' : 'none'));
+          document.querySelectorAll('[data-theme-toggle] .ico-moon').forEach((el) => (el.style.display = dark ? 'none' : 'block'));
+        };
+        sync();
+        document.addEventListener('click', (e) => {
+          const btn = e.target.closest('[data-theme-toggle]');
+          if (!btn) return;
+          const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+          document.documentElement.dataset.theme = next;
+          localStorage.setItem('lp-theme', next);
+          sync();
+        });
+      })();
+    </script>
   </body>
 </html>
 
